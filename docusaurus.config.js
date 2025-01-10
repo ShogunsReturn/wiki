@@ -25,7 +25,6 @@ const config = {
   organizationName: 'joserey7', // Usually your GitHub org/user name.
   projectName: 'Wiki-ShogunsReturn', // Usually your repo name.
   trailingSlash: false,
-  deploymentBranch: 'gh-pages',
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
