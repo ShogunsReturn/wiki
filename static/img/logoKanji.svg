@@ -1,0 +1,8 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+    <!-- Yellow Circle Border -->
+    <circle cx="100" cy="100" r="90" fill="none" stroke="#FFD700" stroke-width="6"></circle>
+    <!-- Bold Red Kanji -->
+    <text x="100" y="140" font-size="120" font-family="sans-serif" font-weight="bold" text-anchor="middle" fill="#c42021">帰</text>
+    <!-- Yellow Path (Unchanged) -->
+    <path d="M160 100 L180 100" stroke="#FFD700" stroke-width="4" stroke-linecap="round"></path>
+</svg>
