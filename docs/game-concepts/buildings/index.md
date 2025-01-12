@@ -24,6 +24,6 @@ To build each building or level it up we must be able to pay its cost and have b
 | [Farms](resources/farms.md)                    | [Magistrates Council*](commercial-political/magistrates-council.md) | [Stable](military/stable.md)                  | [Assassins Room*](ninjutsu/assassins-room.md) |
 | [Mines](resources/mines.md)                    | [Circle of Sages](commercial-political/circle-of-sages.md)          | [Temple*](military/temple.md)                 |                                               |
 | [Warehouse](resources/warehouse.md)            |                                                                     | [Dark Sanctuary*](military/dark-sanctuary.md) |                                               |
-| [Gambling House*](resources/gambling-house.md) |                                                                     |                                               |                                               |
+| [Gambling House*](resources/gambling-house.md) |                                                                     | [Academy](military/academy.md)                |                                               |
 
 > *Buildings marked with **\*** are in development*
