@@ -5,7 +5,7 @@ sidebar_position: 3
 
 ## Overview
 
-Ronin Generals are battlefield leaders and masters of strategy and tactics. They are a symbol of inspiration for their troops, boosting their morale during battle. However, the loss of a general can lead to a collapse in the army’s resolve.
+The Ronin Generals are renowned battlefield leaders, highly skilled in strategy and tactics. Their commanding presence inspires troops under their command, raising their morale. However, their death in battle can lead to a complete collapse of their forces.
 
 ---
 
@@ -35,30 +35,22 @@ Ronin Generals are battlefield leaders and masters of strategy and tactics. They
 - Special Effect
 
 :::tip Special Effect
-**Damage Bonus**
-Each general increases the damage of all units in the army by:
-+0.5 + 0.05 × (level - 1).
+**Strategic Leadership**
 
-**Maximum Bonus**:
-Bonus caps at +5 + (level - 1).
+- Each General increases the damage of all friendly units by:
+  - +0.5 + 0.05(level-1) per unit.*
+- Each General affects up to 100 units (including himself).
+- Maximum bonus is capped at 5 + (level-1).
+- If a General is present in an allied army, their bonus applies to associated armies as well, provided there is at least one General per army.
+- Does not affect summoned animals.
 
-**Affected Units**
-- Each general affects 100 units, including themselves.
-- The maximum number of effective generals is limited to the total number of units divided by 100.
-- Generals also affect units in allied armies that are associated with your army, provided those armies include at least one general.
-
-**Limitations**
-<!-- - Generals do not affect summoned animals. -->
-- If the number of units exceeds the coverage of generals (e.g., more than 100 units per general), the bonus is proportionally reduced.
-- Maintaining a ratio of 1 general per 100 units is crucial for maximizing the bonus.
-- **Example**: If there are twice as many units as the generals can cover, the bonus is halved.
-
-**Level Ponderation**
-- If generals, leaders, or strategists of varying levels are present in the same army or side, their effective level is averaged and rounded down.
-- **Example**: 10 level 1 generals and 10 level 3 generals are treated as 20 level 2 generals.
-
-**Maximum Effect**
-- A fully optimized group of 10 generals can provide a +5 damage bonus for an army of 1000 units.
+**Scaling Considerations:**
+- If the total units exceed the number covered by Generals (Generals * 100), the bonus is divided accordingly.
+- Example:
+  - 990 units and 10 Generals = +2.5 bonus.
+  - 1000 units and 20 Generals = Full +5 bonus.
+  - If an army has twice the number of units needed, the bonus is halved.
+- If Generals, Ashigaru Leaders, or Strategists of different levels are present in the same army, their average level is used, rounded down.
 :::
 
 :::info Example
@@ -71,6 +63,9 @@ Bonus caps at +5 + (level - 1).
 - **495 Units and 5 Generals**: Bonus is +2.5, as the ratio of 1 general per 100 units is maintained, but the general count limits the bonus.
 - **490 Units and 10 Generals**: Bonus remains +2.5, as only 5 generals are effectively needed to cover the units. Additional generals beyond the ratio do not increase the bonus.
 :::
+
+### Samurai Skills
+They can be affected by the Samurai abilities [Special Knowledge](../../../samurais/knowledge-skills.md) and [Exemplary Soldier](../../../samurais/charisma-skills.md).
 
 ### Stats by level
 

@@ -1,11 +1,11 @@
 ---
 sidebar_label: Magistrates' Council
 ---
-# Magistrates' Council *(in development)*
+# Magistrates' Council
 
 - The Magistrates' Council is a [Level building](../index.md#types-of-buildings), so we can only increase it by one level at a time and its construction has a maximum limit.
 - Each additional level of Magistrates' Council unlocks and increases the training slots for the different attributes and skills. 1st Knowledge > Cunning > Charisma > 4th Reasoning.
-- The Magistrates' Council unlocks the Samurai Menu, where you can activate to create and train samurai to be assigned as magistrates or army generals.
+- The Magistrates' Council unlocks the [Samurai Menu](../../../game-menu/advanced-menu/samurais.md), where you can activate to create and train samurai to be assigned as magistrates or army generals.
 - Each additional level of Magistrates' Council allows you to create samurai with a higher number of initial attribute points. At level n, you can create samurai with 14+4n initial attribute points.
 - Each additional level of Library increases the limit to which samurai attributes can be created and trained by 2.5 points.
 

@@ -3,9 +3,7 @@ sidebar_position: 1
 ---
 # Raider
 
-## Overview
-
-Ronin Raiders are stealthy warriors who infiltrate enemy camps under the cover of night before a major battle. Their surprise attacks sow chaos among enemy ranks, aiming to eliminate as many troops as possible during their raids.
+The Ronin Raiders are stealthy warriors who hide in the shadows the night before a battle. As dawn approaches, they strike the enemy camp, spreading chaos and eliminating as many troops as possible before the main battle begins.
 
 ---
 
@@ -37,18 +35,17 @@ Ronin Raiders are stealthy warriors who infiltrate enemy camps under the cover o
 :::tip Special Effect
 **Pre-Battle Raid**
 - Raiders attack the enemy before the main battle begins (turns 1 to 3), catching them by surprise.
-
-**During these turns, they inflict damage while receiving**
-- 1/9 of total enemy damage on turn 1.
-- 2/9 of total enemy damage on turn 2.
-- 3/9 of total enemy damage on turn 3.
-
-**Post-Raid Recovery** 
-- After their raids, Ronin Raiders retreat temporarily and rejoin the main battle one turn after the infantry engages.
-
-**Damage Distribution**
-- Both during raids and when rejoining the main battle, their damage is spread evenly across all enemy units.
+- For three turns, the Raider attacks enemy units while absorbing the following fractions of total enemy army damage:
+  - Turn 1: Receives 1/9 of the total enemy damage.
+  - Turn 2: Receives 2/9 of the total enemy damage.
+  - Turn 3: Receives 3/9 of the total enemy damage.
+- After the raid, Raiders temporarily withdraw, returning one turn after infantry engages.
+- Damage dealt by the Raiders is distributed across all enemy units, ensuring widespread disruption.
+- Receives bonuses from Ashigaru Leaders, further enhancing their battlefield efficiency.
 :::
+
+### Samurai Skills
+They can be affected by the Samurai abilities [Special Knowledge](../../../samurais/knowledge-skills.md) and [Exemplary Soldier](../../../samurais/charisma-skills.md).
 
 ### Stats by level
 

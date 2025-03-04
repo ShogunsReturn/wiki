@@ -27,9 +27,9 @@ When you upgrade buildings, the units you have already recruited will not automa
 - [Naginata](basic/naginata.md)
 - [Archer](basic/archer.md)
 - [Bushi](basic/bushi.md)
-- [Nodashi](basic/nodachi.md)
+- [Nodachi](basic/nodachi.md)
 - [Light Cavarly](basic/light-cavalry.md)
-- [Archer Cavarly](basic/archer-cavalry.md)
+- [Bow Cavarly](basic/bow-cavalry.md)
 - [Heavy Cavarly](basic/heavy-cavalry.md)
 
 ### Magic Units
@@ -115,10 +115,10 @@ Ranged units are the first to attack enemy units and can attack while enemies ad
 - They are vulnerable to melee units if left unprotected.  
 - Maintaining sufficient melee infantry to shield your archers is crucial for protecting them during a battle.  
 
-### Magical Units *(in development)*  
+### Magical Units 
 Typically weak rear-line units with powerful abilities. Check each unit’s description for its magical effects.  
 
-### Dark Units *(in development)* 
+### Dark Units
 Dark units do not require villagers for recruitment but suffer higher maintenance costs.  
 - **Torment**: Dark units instill fear in other warriors, potentially causing some or all of them to avoid combat depending on the number and power of the dark units.  
     - If the tormented army survives, the cowards return to their positions after battle. If the army is destroyed, they are not recovered.  

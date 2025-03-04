@@ -2,6 +2,7 @@
 
 - The Blacksmith is a [Level building](../index.md#types-of-buildings), so we can only increase one level at a time and its construction has a maximum limit.
 - By building more levels of the Blacksmith you will be able to recruit certain military units that are also of a higher level, although some have another building as an additional requirement. These are: **Naginata, Nodachi, Heavy Rider, Tengu, Crane Kenshinzen, Tiger Master, Leopard Berserker and Jigoku War Tower.**
+- Similarly, the Blacksmith unlocks the Time of War Policy (4) and the Great Resistance (8) and Faithful Warriors (10) skills for your samurai.
 
 **Cost Table by Level:**
 
@@ -37,8 +38,3 @@
 |  28   |   -   | 10029 | 8245  | 20464 |   2   |   55412   |   Dojo(1)   |     30     |
 |  29   |   -   | 10417 | 8563  | 21307 |   2   |   58026   |   Dojo(1)   |     30     |
 |  30   |   -   | 10807 | 8885  | 22159 |   2   |   60680   |   Dojo(1)   |     30     |
-
----
-
-### *In Development*
-- Similarly, the Blacksmith unlocks the Wartime Policy (4) and the Great Resistance (8) and Faithful Warriors (10) skills for your samurai.

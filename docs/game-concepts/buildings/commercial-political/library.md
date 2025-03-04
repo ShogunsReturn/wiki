@@ -1,6 +1,9 @@
 # Library
 
 - The Library is a [Level building](../index.md#types-of-buildings), so we can only increase it one level at a time and its construction has a maximum limit.
+- The Library unlocks the Politics Menu, where Political Actions can be activated.
+- Each Library level unlocks different Political Actions and skills for Samurai.
+- Each additional Library level increases the limit at which Samurai attributes can be created and trained by 2.5 points.
 
 **Cost Table by Level:**
 
@@ -41,7 +44,4 @@
 
 ### *In Development*
 
-- The Library unlocks the Politics Menu, where Political Actions can be activated.
-- Each Library level unlocks different Political Actions and skills for Samurai.
-- Each additional Library level increases the limit at which Samurai attributes can be created and trained by 2.5 points.
 - Each additional Market level increases the level of the following Crafting Items: Logging Saws, Mining Tools, Ikebana Ornaments, and Fireworks.

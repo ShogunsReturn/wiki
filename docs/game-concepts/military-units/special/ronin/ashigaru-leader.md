@@ -5,7 +5,7 @@ sidebar_position: 2
 
 ## Overview
 
-Ashigaru Leaders are peasant warriors who are promoted for their bravery and dedication in battle. Their role is to organize and lead the often undisciplined Ashigaru troops, significantly enhancing their combat effectiveness.
+The Ronin Ashigaru Leaders are battle-hardened peasant warriors, promoted for their bravery and dedication on the battlefield. Their role is to organize and lead the otherwise undisciplined Ashigaru troops, maximizing their combat effectiveness.
 
 ---
 
@@ -35,18 +35,19 @@ Ashigaru Leaders are peasant warriors who are promoted for their bravery and ded
 - Special Effect
 
 :::tip Special Effect
-**Bonuses Provided**
-- Each Ashigaru Leader increases the damage of Ashigaru units by +0.2 and their health by +2.
-- The bonus is capped at +2 damage and +20 health.
+**Ashigaru Commanders**
+- Each Ashigaru Leader boosts Ashigaru (and Raider) units by:
+  - +0.2 + 0.05(level-1) damage* per unit.
+  - +2 + 0.5(level-1) health* per unit.
+- One leader affects up to 50 Ashigaru troops.
+- The number of effective leaders is capped at the total number of Ashigaru divided by 50.
+- Maximum bonus:
+  - +2 + 0.5(level-1) damage*
+  - +20 + 5(level-1) health*
 
-**Affected Units**
-- Each Ashigaru Leader affects up to 49 Ashigaru units.
-- The number of effective leaders is limited to 1 leader for every 50 Ashigaru units.
-- The bonus also applies to Ashigaru units in allied armies fighting alongside yours.
-
-**Maximum Bonus**
-- Damage Cap: +2
-- Health Cap: +20
+**Additional Effects:**
+- Applies to allied Ashigaru units in shared battles.
+- If multiple leaders, generals, or strategists of different levels are present, their effective level is averaged and rounded down.
 :::
 
 :::info Example
@@ -58,6 +59,9 @@ Ashigaru Leaders are peasant warriors who are promoted for their bravery and ded
 - **245 Ashigaru and 5 Leaders**: Bonus is +1 damage and +10 health.
 - **240 Ashigaru and 10 Leaders**: Bonus is still +1/+10, as only 5 leaders can be effective.
 :::
+
+### Samurai Skills
+They can be affected by the Samurai abilities [Special Knowledge](../../../samurais/knowledge-skills.md) and [Exemplary Soldier](../../../samurais/charisma-skills.md).
 
 ### Stats by level
 

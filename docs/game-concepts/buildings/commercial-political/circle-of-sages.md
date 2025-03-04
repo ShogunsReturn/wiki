@@ -2,6 +2,7 @@
 
 - The Circle of Sages is a [Level building](../index.md#types-of-buildings), so we can only increase one level at a time and its construction has a maximum limit.
 - It limits the maximum number of Armies. Every two levels of the Circle of Sages will allow you to control 1 additional army at the same time. The first at level 1.
+- The Circle of Sages unlocks different Political Actions and skills for the Samurai.
 
 **Cost Table by Level:**
 
@@ -43,4 +44,3 @@
 ### *In Development*
 
 - It limits the maximum number of associated armies. Every three levels of the Circle of Sages your allies will be able to associate an additional army to yours. The first at level 2.
-- The Circle of Sages unlocks different Political Actions and skills for the Samurai.
