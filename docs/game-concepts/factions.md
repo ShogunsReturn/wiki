@@ -4,7 +4,7 @@ To the start a game, the player chooses a faction to play. Factions represent di
 
 In the game there is a classification by the leadership of each of the factions. Become faction leader provides important benefits.
 
-## Crane *(in development)*
+## Crane
 > The Honorable Crane.
 
 They are mostly courtiers, artisans, and artists. They are subtle and elegant, they seek perfection in everything they do. They lack much military power, but they supply it with their social gifts.
@@ -25,7 +25,7 @@ In battle they trust the honor and precision of their troops, they depend excess
 - Kenshinzen
 - Yojimbo
 
-## Tiger *(in development)*
+## Tiger
 > The disciplined Tiger.
 
 Dedicated to following the path of bushido with devotion. They are serious, quiet and thoughtful. They know how to stay calm in all kinds of situations. They have enormous military potential and a special dedication to the art of war and strategy.
@@ -45,7 +45,7 @@ In battle discipline and order are the key to victory. If everyone does what the
 - Master
 - Strategist
 
-## Leopard *(in development)*
+## Leopard
 > The fierce Leopard.
 
 Proud to be branded as warlike, fierce, and aggressive. Leopards process blind obedience to their leaders, and they know that their destiny is death in combat. To be respected among the leopards, it is necessary to have gained glory in battle, which is achieved through boldness and bravery.
@@ -64,7 +64,7 @@ In battle they trust their brute strength and aggressiveness. They charge the en
 - Vanguard
 - Berserker
 
-## Snake *(in development)*
+## Snake
 > The Snake manipulators.
 
 Known for their dark tricks, they will use any dirty tricks to achieve their goals. Any rogue, thief or murderer finds a place in their ranks. They are masters of subterfuge and concealment.
@@ -85,7 +85,7 @@ In battle, despite not being very numerous, they use sabotage and murder tricks 
 - Assassin
 - Tormentor
 
-## Dragon *(in development)*
+## Dragon
 > The Dragon mystics.
 
 They are mostly mystical monks who spend hours and hours studying in their enormous libraries. Their shugenja control the art of magic like no other and dominate the force of the elements and nature. They do not usually interfere in the affairs of others if it does not directly affect them.
@@ -147,5 +147,5 @@ The fallen of Jigoku were brilliant samurai who fell to the temptation of the po
 
 ---
 
-## Change Faction *(in development)*
+## Change Faction
 Throughout the game the player can change his faction through political action **Oath** (permanent change). By changing the faction, the player loses the advantages of his previous faction and wins those of the faction he acquires. You don't have to lose a faction's own units if you maintain honor requirements on the exchange. Its cost is 30 imperial favors except for the jigoku faction that requires 50.

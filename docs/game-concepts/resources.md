@@ -8,31 +8,30 @@ The Basic resources are: **Food**, **Wood**, **Iron** and **Gold**. In addition 
 
 Food is a resource used to cover the maintenance costs of villagers and troops, as well as to pay for the construction of certain [buildings](../game-concepts/buildings/index.md) and [military units](./military-units/index.md). There are two ways to produce food: **rice harvesting** and **meat gathering**.
 
-1. ### Rice
+### Rice
 
-- The number of effective workers in rice harvesting is limited by the number of **fields**.  
-- Rice production is lower than meat production but has the advantage of being storable in the **warehouse**.  
-- Since rice production is lower, it is better to build **farms** to feed your population and **fields** to store food and cover building and unit costs.  
+- The number of effective workers in rice harvesting is limited by the number of [fields](./buildings/resources/fields.md).  
+- Rice production is lower than meat production but has the advantage of being storable in the [warehouse](./buildings/resources/warehouse.md).  
+- Since rice production is lower, it is better to build [farms](./buildings/resources/farms.md) to feed your population and [fields](./buildings/resources/fields.md) to store food and cover building and unit costs.  
 
 However, if there are not enough farms, the harvested rice will be used to cover maintenance expenses.
 
-1. ### Meat
+### Meat
 
-- The number of effective workers in meat gathering is limited by the number of **farms**.  
+- The number of effective workers in meat gathering is limited by the number of [farms](./buildings/resources/farms.md).  
 - Unlike rice, **meat cannot be stored**, so its production only serves to cover maintenance costs.  
 - Meat production is higher than rice production, making it an efficient way to meet immediate food requirements.  
 
+:::tip
 To properly balance meat production:  
 - Aim to use meat to fully cover all maintenance costs, so that harvested rice can be stored.  
 - Avoid assigning more workers than necessary to meat gathering, as excess meat cannot be saved.
-
+:::
 :::tip Other Sources of Food
 - Another way to obtain **Food** is by upgrading the **[Port](./buildings/commercial-political/port.md) levels**.
 :::
 
 ---
-
-
 
 ## Wood
 
@@ -56,9 +55,9 @@ To properly balance meat production:
 
 The total number of workers that can gather wood depends on the forest's size. A larger forest allows more workers to gather wood simultaneously.  
 
-<!-- ### Boosting Forest Regeneration
+### Boosting Forest Regeneration
 
-- Certain **political actions** and **Economy Minister abilities** can increase the forest's regeneration rate. -->
+- Certain [political actions](./politics/politics.md) and [Economy Minister abilities](./samurais/samurais.md#samurai-skills) can increase the forest's regeneration rate.
 
 :::tip Other Sources of Wood
 - Another way to obtain **Wood** is by upgrading the **[Port](./buildings/commercial-political/port.md) levels**.
@@ -83,10 +82,10 @@ To gather iron, you must construct mines. Iron is a vital resource required to c
 
 ### Usage
 
-- All [military units](./military-units/index.md), <!-- samurai, ninjas on espionage missions,  -->[watchtower guards](./buildings/ninjutsu/watchtower.md), [armies](./armies.md), and other elements require hourly gold maintenance.  
+- All [military units](./military-units/index.md), [samurai](./samurais/samurais.md), ninjas on espionage missions, [watchtower guards](./buildings/ninjutsu/watchtower.md), [armies](./armies.md), and other elements require hourly gold maintenance.  
 - Recruiting units will convert tax-paying villagers into soldiers who draw salaries, so managing the gold balance carefully is crucial.
 
-<!-- ### Corruption
+### Corruption
 
 Storing large amounts of gold leads to losses due to corruption.  
 - **Honor** directly impacts corruption:  
@@ -95,7 +94,7 @@ Storing large amounts of gold leads to losses due to corruption.
 
 With neutral honor, every **200 gold coins above 7,500** results in a **5 gold/hour penalty**.
 
-The **Imperial State** political action reduces corruption by **50%**.
+The [Imperial State](./politics/special-policies.md#imperial-state) political action reduces corruption by **50%**.
 
 ### Popular Revolts
 
@@ -112,11 +111,10 @@ Revolts occur when your peasants demand an appropriate use of gold.
 2. **Revolt Cost**:  
    If net gold exceeds the threshold, the cost of the revolt is calculated as:  
    (Net Gold - Threshold) *  (Net Gold / (Net Gold + Threshold))
- -->
 
-## Imperial Favors *(in development)*
+## Imperial Favors
 
-**Imperial Favors** are the most coveted resource in the game.  
+[Imperial Favors](./imperial-favors.md) are the most coveted resource in the game.  
 
 - They are exclusively required for the **most powerful political actions** and **military units**.  
 - These actions and units can significantly influence the outcome of a game, making Imperial Favors a crucial strategic asset.  

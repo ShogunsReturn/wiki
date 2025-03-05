@@ -22,7 +22,7 @@ At the top is the Task Distribution. It consists of five action areas that repre
 - Meat harvesting
 - Wood harvesting
 - Iron harvesting
-- Construction and *(crafts in development)*
+- Construction *(and crafts - in development)*
 
 #### How to assign the population to the different tasks?
 By clicking in the icon of each resource inside the task distribution section, then the villagers' assignment modal will appear. This window contains 2 fields; the first one is where you assign the villagers' quantity to be added to the selected task, and the second one is used to select the task from which you want to reduce the villagers' quantity to be moved to the desired task. Also, you will find the "max" button to type the maximum villagers that can be assigned to the selected task, but if the villagers' quantity to remove from the other task is less than the maximum, it will type this quantity instead.

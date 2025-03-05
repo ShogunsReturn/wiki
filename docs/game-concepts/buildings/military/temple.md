@@ -1,7 +1,7 @@
 ---
 sidebar_label: Temple
 ---
-# Temple *(in development)*
+# Temple
 
 - The Temple is a Level building, so we can only increase one level at a time and its construction has a maximum limit.
 - The Temple unlocks the creation of magic units and certain dark units.

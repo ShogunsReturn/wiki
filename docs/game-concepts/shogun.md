@@ -8,17 +8,17 @@ The **Shogun** is the player ranked #1 on the general player leaderboard.
 
 The ranking system depends on the [type of game](./games.md) being played, but generally, it is based on the amount of **glory** players have accumulated. To reach the top, you must:  
 1. Achieve more **glory** than any other player.  
-2. Organize an **assembly** <!-- (a political action) --> to update the rankings.
+2. Organize an **assembly** (a political action) to update the rankings.
 
-<!-- ---
+---
 
 ### How to Organize an Assembly?
 
-- Unlock the **politics menu** and navigate to the **Specials** subcategory.  
-- The player who organizes any assembly will be recognized by the Emperor and awarded **Imperial Favors**. However, the earlier an assembly is organized, the more expensive it will be.  
+- Unlock the [politics menu](../game-menu/advanced-menu/politics.md) and navigate to the **Specials** subcategory.  
+- The player who organizes any assembly will be recognized by the Emperor and awarded [Imperial Favors](./imperial-favors.md). However, the earlier an assembly is organized, the more expensive it will be.  
 - Only one player can activate this action at a time, so be the first to claim the **Imperial reward**.
- -->
-<!-- ---
+
+---
 
 ### Benefits of Being Shogun
 
@@ -27,8 +27,8 @@ Upon achieving the Shogunate, you gain:
 - **Extra gold production**: +500 gold/hour.  
 - **Extra population growth**: +50 villagers/hour.  
 
-You can see who holds the Shogun title in the **Dynasty panel** and view the Shogun history for the game in the **Shoguns** submenu within the **Rankings Menu**.
- -->
+You can see who holds the Shogun title in the **Dynasty panel** and view the Shogun history for the game in the **Shoguns** submenu within the [Rankings Menu](../game-menu/general-menu/rankings.md).
+
 <!-- ---
 
 ### Imperial Respect

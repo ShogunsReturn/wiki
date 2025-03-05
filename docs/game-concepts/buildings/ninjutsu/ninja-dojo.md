@@ -1,12 +1,9 @@
 ---
 sidebar_label: Ninja Dojo
 ---
-# Ninja Dojo *(in development)*
+# Ninja Dojo
 
 - The Ninja Dojo is a Level building, so we can only increase it one level at a time, but in this case its construction has no maximum limit.
-- The Ninja Dojo unlocks the Ninjutsu Menu, where Ninja Missions can be ordered.
-- Each additional Ninja Dojo level allows you to attract a greater number of ninjas to your province.
-- Each additional Ninja Dojo level increases the range of the spy attributes of the ninjas who are attracted to your ninja dojo by 2 points. (The initial range being 30-60)
 
 **Cost Table by Level:**
 
@@ -42,3 +39,8 @@ sidebar_label: Ninja Dojo
 |  28   | 1568  | 10029 |   -   | 27772 |   2   |   56716   | Houses(50)  |     -      |
 |  29   | 1623  | 10417 |   -   | 28983 |   2   |   59400   | Houses(50)  |     -      |
 |  30   | 1680  | 10807 |   -   | 30136 |   2   |   62125   | Houses(50)  |     -      |
+
+### *In Development*
+- The Ninja Dojo unlocks the Ninjutsu Menu, where Ninja Missions can be ordered.
+- Each additional Ninja Dojo level allows you to attract a greater number of ninjas to your province.
+- Each additional Ninja Dojo level increases the range of the spy attributes of the ninjas who are attracted to your ninja dojo by 2 points. (The initial range being 30-60)

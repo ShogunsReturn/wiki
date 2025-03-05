@@ -66,7 +66,7 @@
 > **Requirement:** Dojo(2), Temple(7)
 
 
-### Imperial Aid  
+### Imperial Help  
 - The **Emperor will send resources** to your province.  
   - **6,000 gold coins**  
   - **12,000 food units**  

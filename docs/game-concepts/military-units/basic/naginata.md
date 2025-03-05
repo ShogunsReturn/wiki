@@ -34,19 +34,19 @@ Naginata units are trained in the use of the naginata, a highly versatile weapon
 ### Trait
 - [Spear Unit](../index.md#spear-units)
 
-### Stats by level PENDING
+### Stats by level
 
-| Level | Attack | Defense | Armor | Health | Counter Attack | Requirement |
-| :---: | :----: | :-----: | :---: | :----: | :------------: | :---------: |
-|   1   |   2    |    2    |   0   |   14   |       0        | Archery(1)  |
-|   2   |   2    |    2    |   0   |   15   |       0        | Archery(2)  |
-|   3   |   2    |    2    |   0   |   16   |       0        | Archery(3)  |
-|   4   |   2    |    3    |   0   |   17   |       0        | Archery(5)  |
-|   5   |   3    |    3    |   0   |   18   |       0        | Archery(7)  |
-|   6   |   3    |    3    |   0   |   19   |       0        | Archery(9)  |
-|   7   |   3    |    4    |   0   |   20   |       0        | Archery(11) |
-|   8   |   3    |    4    |   0   |   21   |       0        | Archery(14) |
-|   9   |   4    |    4    |   0   |   22   |       0        | Archery(18) |
-|  10   |   4    |    5    |   0   |   23   |       0        | Archery(24) |
+| Level | Attack | Defense | Armor | Health | Counter Attack |       Requirement        |
+| :---: | :----: | :-----: | :---: | :----: | :------------: | :----------------------: |
+|   1   |   3    |    4    |  20   |   60   |       0        |  Dojo(5), Blacksmith(1)  |
+|   2   |   4    |    5    |  21   |   61   |       0        |  Dojo(6), Blacksmith(2)  |
+|   3   |   5    |    6    |  22   |   62   |       0        |  Dojo(7), Blacksmith(3)  |
+|   4   |   6    |    7    |  23   |   63   |       0        |  Dojo(9), Blacksmith(5)  |
+|   5   |   7    |    8    |  24   |   64   |       0        | Dojo(11), Blacksmith(7)  |
+|   6   |   8    |    9    |  25   |   65   |       0        | Dojo(13), Blacksmith(9)  |
+|   7   |   9    |   10    |  26   |   66   |       0        | Dojo(15), Blacksmith(11) |
+|   8   |   10   |   11    |  27   |   67   |       0        | Dojo(18), Blacksmith(14) |
+|   9   |   11   |   12    |  28   |   68   |       0        | Dojo(22), Blacksmith(18) |
+|  10   |   12   |   13    |  29   |   69   |       0        | Dojo(25), Blacksmith(24) |
 
 > [More information about unit attributes](../index.md#attributes)

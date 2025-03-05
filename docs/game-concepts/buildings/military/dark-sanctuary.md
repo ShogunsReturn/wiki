@@ -1,7 +1,7 @@
 ---
 sidebar_label: Dark Sanctuary
 ---
-# Dark Sanctuary *(in development)*
+# Dark Sanctuary
 
 - The Dark Sanctuary is a Level building, so we can only increase one level at a time and its construction has a maximum limit.
 - The Dark Sanctuary unlocks the creation of dark units.

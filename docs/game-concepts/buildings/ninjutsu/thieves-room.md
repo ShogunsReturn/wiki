@@ -1,11 +1,9 @@
 ---
 sidebar_label: Thieves Room
 ---
-# Thieves Room *(in development)*
+# Thieves Room
 
 - The Thief Room is a Level building, so we can only increase it by one level at a time, but in this case its construction has no maximum limit.
-- The Thief Room unlocks the Steal Submenu, where you can order Steal missions.
-- Each additional Thief Room level increases the stealing attribute range of the ninjas attracted to your Ninja Dojo by 3 points. (The initial range is 20-50)
 
 **Cost Table by Level:**
 
@@ -41,3 +39,7 @@ sidebar_label: Thieves Room
 |  28   |   -   | 10029 | 1568  | 29984 |   2   |   77500   | Ninja Dojo(1) |     -      |
 |  29   |   -   | 10417 | 1623  | 31213 |   2   |   81316   | Ninja Dojo(1) |     -      |
 |  30   |   -   | 10807 | 1680  | 32531 |   2   |   85200   | Ninja Dojo(1) |     -      |
+
+### *In Development*
+- The Thief Room unlocks the Steal Submenu, where you can order Steal missions.
+- Each additional Thief Room level increases the stealing attribute range of the ninjas attracted to your Ninja Dojo by 3 points. (The initial range is 20-50)

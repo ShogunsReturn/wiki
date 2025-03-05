@@ -6,11 +6,12 @@ The Army menu is the first option we find when displaying the Advanced Menus. <!
 The Army menu is locked at the start of the game, to unlock it we must build the [dojo](../../game-concepts/buildings/military/dojo.md).
 :::
 
-From the Army menu we can view and manage all aspects related to military units and armies. The Army menu has **4 submenus**: 
-- Recruit
-- Armies
-- Strategy
-- Effects *(in development)*
+From the Armies Menu, you can view and manage all aspects related to military units and armies. 
+The Army menu has **4 submenus**: 
+1. **Recruit**
+2. **Armies**
+3. **Strategy**
+4. **Effects** *(in development)*
 
 ## Recruit Submenu
 This is the first submenu of the armies menu. <!-- You can access it by clicking on the icon or by pressing the “1” hotkey. -->
@@ -21,46 +22,57 @@ From this submenu you can recruit military units to join your troop reserve.
 
 <!-- 1. At the top there are four tabs that allow you to select unit classes: basic, magic, dark and special. -->
 
-1. By clicking on the icons at the top you select the desired unit.
-
-2. When you select a unit you see its image, description, attributes, cost, maintenance and the requirements necessary for it to level up.
-
-3. Finally, at the bottom you must enter the number of units you want to recruit in the text field and press the “recruit” button.
+1. Click on the unit icons to select the unit you want to recruit.
+2. Once selected, you will see the unit's image, description, attributes, cost, maintenance, and requirements to level up.
+3. At the bottom, enter the number of units you wish to recruit and click "Recruit".
 
 :::tip
-You must keep in mind that in order to recruit units you need to have enough resources to pay their cost, and later, you must have enough income to be able to pay for their maintenance. We will also need to have recruiting positions. There are units that are recruited through the dojo and others through the temple. We will need to level up these buildings to increase the recruitment slots.
+- You must have enough resources to pay for recruitment costs and sufficient income to cover maintenance costs.
+- Recruitment slots are required, which depend on the Dojo and Temple levels.
+- Increasing the level of these buildings allows you to recruit more units.
 :::
 
 :::info
-We can recruit all the units of the same type that we want at once. The recruitment time remains the same, whether you are recruiting 10 units or 1000 units.
+You can recruit any number of units at once, and the recruitment time remains the same whether recruiting 10 or 1,000 units.
 :::
 
-### How to level up our units?
+### How to level up your units?
 
-Each unit depends on one or more buildings to be able to be recruited. As we increase the level of these buildings, the units that we can recruit will have a higher level each time. The higher the level, the better the attributes of our units, but their cost and maintenance remains the same.
+- Each unit requires one or more buildings for recruitment.
+- By upgrading these buildings, you can recruit higher-level units.
+- Higher-level units have better attributes while maintaining the same cost and upkeep.
 
 ## Armies submenu
 This is the second submenu of the armies menu. <!-- It can be accessed by clicking on the icon or by pressing the “2” hotkey. -->
 
-From this submenu we can create armies and manage armies that we have already created. At the top of the menu we find the **Units in Reserve** section and the **rescind unit** button. Below we find another area: **create a new army**<!-- , which is made up of a box where we can include a samurai to lead the army and another 6 boxes where we can include military units. --> where you can assign the army name, the initial unit with its respective quantity to have a new army. Also you will see the cost and maintenance of each army.
+Here, you can create, manage, and organize your armies. At the top of the menu, you will see:
+- Reserve Units (your available units).
+- Rescind Area (where you can remove units).
+
+Below, you will find "New Army" section, where you can:
+- Assign a Samurai General (optional).
+- Add up to 6 unit types.
 
 ### How to create an army?
 
-All the units that we have recruited from the recruit submenu appear in our unit reserve.
-To create an army we just need to fill the army name, select a unit and the quantity and click in create new army button
-<!-- From the reserve we must drag the icons that represent the units to one of the six unit boxes. -->
-<!-- An army must have at least one of the six unit boxes full. -->
-Each box can hold an unlimited number of units but always of the same type.
+1. **Drag units from the Reserve** into one of the **six unit slots**.
+2. An army **must contain at least one unit**.
+3. **Each slot can only hold one type of unit** (but in unlimited quantity).
+4. You can optionally assign a Samurai as a General:
+    - The Samurai **grants powerful bonuses**.
+    - The Samurai must be in the ["Hidden" state](../../game-concepts/samurais/samurais.md#samurai-states) to be assigned.
+    - Click the button next to the portrait area to assign the Samurai.
+5. Give the army a name and click **"Create"**.
 
-<!-- Optionally, we can add a samurai as a general of the army. Generals can be decisive by giving many advantages to our armies, as well as being a very powerful unit in themselves. To add a general we must have a samurai in “hidden” state and click on the button to the left of the portrait. -->
+At the bottom of the menu, you will see a list of all armies in the same province.
 
-<!-- Finally we must give a name to our army and press the “create” button.
-At the bottom of the menu we find a list of the armies we have in the same province. In the same way that we drag units between the “reserve” and “new army” slots, we can also move units between armies that are in the same place. At the top we have a drop-down menu that shows us the different places where we have our armies. -->
+<!-- 💡 Unit Management Tips:
+Move units between armies by dragging unit icons.
+Use the drop-down menu to select different provinces where you have armies. -->
 
 ### How to delete units?
 
-<!-- To delete units we must drag the unit icons to the rescind area. -->
-To delete units you must have them in reserve, then click in rescind unit button where you will need to select the unit and the quantity to be deleted.
+Drag unit icons to the "Rescind" area.
 
 ### How to delete an army?
 

@@ -30,7 +30,7 @@ Promote **one out of every 20** reserve units into a stronger unit:
 - [Ashigaru with Spears](../military-units/basic/ashigaru-yari.md) → [Naginata](../military-units/basic/naginata.md)  
 - [Ashigaru with Honda](../military-units/basic/ashigaru-honda.md) → [Archers](../military-units/basic/archer.md)  
 - [Light Cavalry](../military-units/basic/light-cavalry.md) → [Heavy Cavalry](../military-units/basic/heavy-cavalry.md)  
-- [Archers](../military-units/basic/archer.md) → [Bow Cavarly](../military-units/basic/) PENDING  
+- [Archers](../military-units/basic/archer.md) → [Bow Cavarly](../military-units/basic/bow-cavalry.md)  
 
 The promoted units retain **the same level** as the original ones.  
 - Example: **20 level 4 Ashigaru** → **1 level 4 Bushi**.  

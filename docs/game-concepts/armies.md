@@ -2,24 +2,21 @@
 
 ## What Are Armies?
 
-<!-- Armies are groups of military units that can be commanded by a samurai. Armies can receive orders to move, attack, defend, or join other armies. They are created and managed through the **Armies** submenu, found within the **Armies Menu**. -->
-Armies are groups of military units that can receive orders to **move, attack or defend**. They are created and managed through the Armies submenu, found within the [Armies Menu](../game-menu/advanced-menu/armies.md).
+Armies are groups of military units that can be commanded by a samurai. Armies receive orders to **move, attack or defend**. They are created and managed through the Armies submenu, found within the [Armies Menu](../game-menu/advanced-menu/armies.md).
 
 :::info
-Each army can consist of up to six different types of military units, but there is no limit to the number of units of each type that an army can carry. <!-- Each army can have only one samurai assigned as its general. This samurai, in addition to being a formidable warrior, can grant powerful advantages to the other units in the army. -->
+Each army can consist of up to six different types of military units, but there is no limit to the number of units of each type that an army can carry. Each army can have only one samurai assigned as its general. This samurai, in addition to being a formidable warrior, can grant powerful advantages to the other units in the army.
 ::: 
 
 ---
 
 ### How Do I Move Units Between Armies? 
 
-<!-- When you have two or more armies in the same province, you can transfer any number of units between them by dragging the unit icons. -->
-At the moment, the only way to transfer units from one army to another is to unassign them and then assign them to the other army.
+When you have two or more armies in the same province, you can transfer any number of units between them by dragging the unit icons.
 
 ### How Do I Remove Units From an Army?
 
-<!-- You can also remove units —or even disband the entire army— by dragging the icons into the "Disband" area. Refer to the **Armies** submenu for more details. -->
-To unassign units from an army, you need to click the "Unassign Units" button within the target army.
+You can also remove units<!--  —or even disband the entire army— --> by dragging the icons into the "Rescind" area. Refer to the [Armies submenu](../game-menu/advanced-menu/armies.md#armies-submenu) for more details.
 
 ### Army Creation and Maintenance
 
@@ -52,14 +49,14 @@ When under the control of a lord and being attacked by another player, the armie
 
 1. **Do Not Defend**:  
    Your army will **not** engage in combat against the attacker. When another player is attacking you and your army's priority is set to "Do Not Defend", the attacking army will only need to breach the castle gates.
-   <!-- - If there are allied armies in your province, each player must individually set their army's priority. -->
+   - If there are allied armies in your province, each player must individually set their army's priority. *(in development)*
    - If you are under conquest, both your lord's army and the castle gates will defend the city.
-   <!-- - This option is used when you are not allied with your lord or when the attackers are friendly forces intending to defeat your lord and leave you free afterward.   -->
+   - This option is used when you are not allied with your lord or when the attackers are friendly forces intending to defeat your lord and leave you free afterward. *(in development)*
 
 2. **Priority to Defend**:  
    Your army will engage in combat against the attacker. 
    - If you are under conquest your army will join your lord's army to fight off the player attempting to become your new lord. This option is used when you are allied with your lord, for example, because they impose a low tax rate.
-   <!-- - When you are being attacked by an ally to free you from your lord, your army will not participate in the battle regardless of its priority setting. -->
+   - When you are being attacked by an ally to free you from your lord, your army will not participate in the battle regardless of its priority setting. *(in development)*
 
 ---
 
@@ -70,29 +67,29 @@ Depending on the orders assigned, an army can be in one of the following states:
 1. **Hidden**:  
    The default state when an army is created. In this state, the army will not participate in combat.  
 
-<!-- 2. **In Movement**:  
+2. **In Movement** *(in development)*:  
    The army is traveling between two provinces.  
-   - Movement is faster if the army is composed exclusively of cavalry units.   -->
+   - Movement is faster if the army is composed exclusively of cavalry units.
 
-2. **Attacking**:  
+3. **Attacking**:  
    The army is launching an attack on another player’s province.  
 
-3. **Defending the Capital**:  
+4. **Defending the Capital**:  
    The army is defending its own province from an enemy attack.  
 
-<!-- 5. **Defending an Ally**:  
+5. **Defending an Ally** *(in development)*:  
    The army is defending an allied province from an enemy attack.  
 
-6. **Tax Collecting**:  
+6. **Tax Collecting** *(in development)*:  
    The army remains in a vassal's province collecting taxes.  
    - If the vassal attempts to liberate themselves, this results in an attack on the tax-collecting army.  
 
-7. **Associated**:  
-   The army is associated with another allied army. While in this state, you cannot control its actions. -->  
+7. **Associated** *(in development)*:  
+   The army is associated with another allied army. While in this state, you cannot control its actions.  
 
 For further details, refer to [Military Strategy](military-strategy.md).  
 
-<!-- ## Morale
+## Morale *(in development)*
 
 Morale represents the state of mind of your troops.
 
@@ -115,15 +112,14 @@ Morale represents the state of mind of your troops.
   - **Policies Increasing Morale**:  
     - *Promise of Power*: Adds **at least +5 morale**.  
     - *Unity is Strength*: Adds **+2 morale for each allied army associated with yours**.  
- -->
+
 ---
 
 ## Army Movement
 
 The time required for an army to reach its destination depends on the distance, the action being undertaken, and the composition of the army.  
 
-The formula is approximately:  
-**total_time = base_time + preparation_time + (distance * army_speed)**
+The formula is approximately: `total_time = base_time + preparation_time + (distance * army_speed)`
 
 - **Base Time**:  
   - Standard base time is **10 minutes**.  
@@ -138,8 +134,8 @@ The formula is approximately:
   - The **army_speed** value is the same regardless of the action, meaning distance affects all actions equally.  
 
 - **Time Reduction**:  *(in development)*  
-  - **Minister of War Knowledge**: Can reduce movement time by up to **15%**, excluding the 2-hour preparation time for attacks.  
-  - **Cartographer Ability** (related to Reasoning): Can also reduce movement time by up to **15%**, excluding the 2-hour preparation time for attacks.  
+  - **The knowledge of [Minister of War](../game-concepts/samurais/samurais.md#samurai-states)**: Can reduce movement time by up to **15%**, excluding the 2-hour preparation time for attacks.  
+  - **[Cartographer Ability](../game-concepts/samurais/reasoning-skills.md#war-minister)** (related to Reasoning): Can also reduce movement time by up to **15%**, excluding the 2-hour preparation time for attacks.  
 
 ---
 ## Undergoing an Attack
@@ -150,7 +146,7 @@ When you are attacked, the attacking army (and its associated armies) will be vi
 
 ### Attack Visibility  
 - The attack becomes visible **2 hours + 4 minutes for each [watchtower](./buildings/ninjutsu/watchtower.md)** you have constructed.  
-- You will not see the exact number of units in the attacking army.<!--  or their samurai details. --> Instead, you'll receive approximate information about the unit count:
+- You will not see the exact number of units in the attacking army or their samurai details. Instead, you'll receive approximate information about the unit count:
   - For example:
     - 5 units will appear as **\<10** (less than 10).  
     - 70 units will appear as **\<100** (less than 100).  
@@ -161,7 +157,7 @@ When you are attacked, the attacking army (and its associated armies) will be vi
 
 ---
 
-<!-- ## Fatigue
+## Fatigue *(in development)*
 
 Fatigue represents the physical exhaustion of your units.  
 - Armies accumulate fatigue while moving, which negatively impacts their performance in battles.  
@@ -177,7 +173,7 @@ Fatigue represents the physical exhaustion of your units.
 ### Fatigue Recovery
 - An army stationed in a province recovers **1% fatigue per hour**.  
 - Once fatigue reaches **0**, the army requires an additional **3 hours** to fully recover and be considered completely rested.  
- -->
+
 ## Basic Concepts of Combat
 
 1. **Roles in Battle**:  
@@ -198,7 +194,7 @@ Fatigue represents the physical exhaustion of your units.
 
 4. **Armor**:  
    - Armor **reduces** incoming **damage** by a percentage equal to the unit's armor value.  
-   <!-- - Armor does not protect against certain damage types, such as magic.   -->
+   - Armor does not protect against certain damage types, such as magic.
 
 5. **Counterattack**:  
    - A unit can **reflect** a percentage of the **damage** it suffers based on its counterattack value.
@@ -207,14 +203,14 @@ Fatigue represents the physical exhaustion of your units.
    - Units have strengths and weaknesses based on their type.  
    - For more details, refer to the [Military Units](./military-units/index.md) section.
 
-<!-- 7. **Stamina and Combat Efficiency**:  
+7. **Stamina and Combat Efficiency**:  
    - Units lose **stamina** as combat progresses, reducing the damage they deal.  
    - Initial stamina is **100%** minus the movement fatigue of each army.  
    - Stamina loss during combat does not affect the fatigue level of the army after the battle.  
-   - Certain political actions or samurai abilities can mitigate stamina loss.   -->
+   - Certain political actions or samurai abilities can mitigate stamina loss.
 
-7. **Damage and Death Probability**:  
-   - When a unit takes damage but is not completely killed (considering <!-- healing from monks and  -->armor), there is a chance it may die based on the proportion of damage received relative to its total health.
+8. **Damage and Death Probability**:  
+   - When a unit takes damage but is not completely killed (considering healing from monks and armor), there is a chance it may die based on the proportion of damage received relative to its total health.
    - More noticeable for powerful units like **Kamis** and **Onis**, which, despite their high health, still have a chance to die when taking significant damage.
 
    :::info Example

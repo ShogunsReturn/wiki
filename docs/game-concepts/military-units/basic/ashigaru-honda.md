@@ -35,7 +35,7 @@ Ashigaru with Honda are trained in ranged combat. Their projectiles allow them t
 - [Ashigaru Unit](../index.md#ashigaru-units)
 - [Ranged Unit](../index.md#ranged-units)
 
-### Stats by level PENDING
+### Stats by level
 
 | Level | Attack | Defense | Armor | Health | Counter Attack | Requirement |
 | :---: | :----: | :-----: | :---: | :----: | :------------: | :---------: |

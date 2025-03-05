@@ -32,19 +32,19 @@ Heavy cavalry units are trained in horseback riding, the use of heavy weapons, a
 - [Melee Cavalry](../index.md#melee-cavalry)
 
 
-### Stats by level PENDING
+### Stats by level
 
-| Level | Attack | Defense | Armor | Health | Counter Attack | Requirement |
-| :---: | :----: | :-----: | :---: | :----: | :------------: | :---------: |
-|   1   |   11   |   10    |  25   |   95   |       0        |  Stable(4)  |
-|   2   |   4    |    5    |   0   |   31   |       0        | Archery(8)  |
-|   3   |   4    |    5    |   0   |   32   |       0        | Archery(12) |
-|   4   |   5    |    6    |   0   |   33   |       0        | Archery(15) |
-|   5   |   5    |    6    |   0   |   34   |       0        | Archery(17) |
-|   6   |   5    |    7    |   0   |   35   |       0        | Archery(20) |
-|   7   |   6    |    7    |   0   |   36   |       0        | Archery(22) |
-|   8   |   6    |    8    |   0   |   37   |       0        | Archery(25) |
-|   9   |   6    |    8    |   0   |   38   |       0        | Archery(27) |
-|  10   |   7    |    9    |   0   |   39   |       0        | Archery(29) |
+| Level | Attack | Defense | Armor | Health | Counter Attack |        Requirement         |
+| :---: | :----: | :-----: | :---: | :----: | :------------: | :------------------------: |
+|   1   |   11   |   10    |  25   |   95   |       0        |  Stable(4), Blacksmith(4)  |
+|   2   |   12   |   11    |  26   |  103   |       0        |  Stable(8), Blacksmith(8)  |
+|   3   |   13   |   12    |  28   |  111   |       0        | Stable(12), Blacksmith(12) |
+|   4   |   14   |   13    |  29   |  120   |       0        | Stable(15), Blacksmith(15) |
+|   5   |   15   |   14    |  31   |  128   |       0        | Stable(17), Blacksmith(17) |
+|   6   |   16   |   15    |  32   |  136   |       0        | Stable(20), Blacksmith(20) |
+|   7   |   17   |   16    |  34   |  145   |       0        | Stable(22), Blacksmith(22) |
+|   8   |   18   |   17    |  35   |  153   |       0        | Stable(25), Blacksmith(25) |
+|   9   |   19   |   18    |  37   |  161   |       0        | Stable(27), Blacksmith(27) |
+|  10   |   20   |   19    |  38   |  170   |       0        | Stable(29), Blacksmith(29) |
 
 > [More information about unit attributes](../index.md#attributes)

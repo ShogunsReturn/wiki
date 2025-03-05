@@ -35,19 +35,19 @@ Bushi undergo extensive training in the use of steel weapons and advanced infant
 +5 damage bonus against Ashigaru units.
 :::
 
-### Stats by level PENDING
+### Stats by level
 
 | Level | Attack | Defense | Armor | Health | Counter Attack | Requirement |
 | :---: | :----: | :-----: | :---: | :----: | :------------: | :---------: |
-|   1   |   4    |    5    |   0   |   30   |       0        | Archery(4)  |
-|   2   |   4    |    5    |   0   |   31   |       0        | Archery(8)  |
-|   3   |   4    |    5    |   0   |   32   |       0        | Archery(12) |
-|   4   |   5    |    6    |   0   |   33   |       0        | Archery(15) |
-|   5   |   5    |    6    |   0   |   34   |       0        | Archery(17) |
-|   6   |   5    |    7    |   0   |   35   |       0        | Archery(20) |
-|   7   |   6    |    7    |   0   |   36   |       0        | Archery(22) |
-|   8   |   6    |    8    |   0   |   37   |       0        | Archery(25) |
-|   9   |   6    |    8    |   0   |   38   |       0        | Archery(27) |
-|  10   |   7    |    9    |   0   |   39   |       0        | Archery(29) |
+|   1   |   7    |    9    |   0   |   60   |       0        |   Dojo(6)   |
+|   2   |   8    |   10    |   1   |   61   |       0        |   Dojo(7)   |
+|   3   |   10   |   11    |   2   |   62   |       0        |   Dojo(8)   |
+|   4   |   11   |   12    |   3   |   63   |       0        |  Dojo(10)   |
+|   5   |   13   |   13    |   4   |   64   |       0        |  Dojo(12)   |
+|   6   |   14   |   15    |   5   |   65   |       0        |  Dojo(14)   |
+|   7   |   16   |   16    |   6   |   66   |       0        |  Dojo(16)   |
+|   8   |   17   |   17    |   7   |   67   |       0        |  Dojo(19)   |
+|   9   |   19   |   18    |   8   |   68   |       0        |  Dojo(23)   |
+|  10   |   21   |   20    |   9   |   69   |       0        |  Dojo(29)   |
 
 > [More information about unit attributes](../index.md#attributes)

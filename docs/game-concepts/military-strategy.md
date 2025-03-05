@@ -29,11 +29,11 @@ Orders an army to attack a target province.
 1. **If the province belongs to any player**:  
    - Victory will make you their **lord**, allowing you to impose a tax rate while maintaining an army in the province.  
 
-<!-- 2. **If the province belongs to an ally or clan member** *(in development)*:  
+2. **If the province belongs to an ally or clan member** *(in development)*:  
    - Victory will **liberate** them from their lord.  
    - If they are already a free lord, you cannot attack their province.  
- -->
-2. **If the province belongs to you**:  
+
+3. **If the province belongs to you**:  
    - This is treated as a **liberation attack**. Victory will free you from your current lord.  
 
 ### What is the Castle?  
@@ -53,16 +53,16 @@ You cannot attack a player if your glory exceeds theirs by more than **2.5 times
 A special type of attack directed at the **tax-collecting army** stationed in your province by your lord.  
 - **Victory** will expel the army, freeing you from vassalage and ending tax payments.  
 
-<!-- ### How Does Your Castle Act During Liberation?
+### How Does Your Castle Act During Liberation?
 - If you launch a liberation attack **without allied support**, your army will **not** have to fight your castle’s defenses (archers and traps).  
-- If you have **associated allied armies**, you will have to fight your own castle defenses.  
+- If you have **associated allied armies**, you will have to fight your own castle defenses. *(in development)* 
 
-### Other Ways to Achieve Liberation
+### Other Ways to Achieve Liberation *(in development)*
 1. An **ally or clan member** attacks and defeats your lord's army.  
 2. Your lord **withdraws** their tax-collecting army from your province.  
 3. Your lord **greatly surpasses** you in glory. You will be freed if your glory is less than **one-third** of theirs.  
 4. Using the political action **"People’s Rebellion"**, if your lord leaves insufficient defenses in their tax-collecting army.  
- -->
+
 ---
 
 ## Defense
@@ -80,9 +80,9 @@ Your armies will automatically defend the province they are stationed in against
     Tax-collecting armies **cannot** use the **"Do Not Defend"** order.  
     :::
 
-<!-- ---
+---
 
-## **5. Association**
+## Association *(in development)*
 
 Associating an army means joining it to an ally’s or clan member’s army.  
 - Once associated, your army will perform the same actions as the **main army** it is joined to.  
@@ -95,5 +95,5 @@ A player with **level 9 in the Circle of Sages** can associate up to **3 armies*
 - The only command you can issue is **"Dissociate"**, which returns control of the army to you.
 :::
 
-### **Can an Army with Associated Armies Receive More Associations?**
+### Can an Army with Associated Armies Receive More Associations?
 Yes, as long as the main army’s player has sufficient Circle of Sages levels to manage all associated armies.   -->

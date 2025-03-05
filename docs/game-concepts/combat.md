@@ -22,7 +22,7 @@ Battles are engagements between armies for control of a province.
 - **Unit Effectiveness**:
    - Different unit types have varying effectiveness against others. For details, refer to the [**Military Units**](military-units/index.md) section.  
 
-<!-- 5. **Stamina and Fatigue**:
+- **Stamina and Fatigue** *(in development)*:
    - Units lose **stamina** during battles, reducing their damage output over time.  
    - Fatigue from movement does not carry over to future battles.  
    - Certain political actions or samurai abilities can mitigate stamina loss.  --> 
@@ -38,9 +38,8 @@ Battles are engagements between armies for control of a province.
 
 - **Attacking Armies**:
    - The number of attackers is limited by the level of the **castle** in the target province.  
-
-<!-- - The attacking army can receive support from allied or clan armies, which must be **associated**.  
-- For every two levels of the **Circle of Sages**, one additional army can be associated.   -->
+   - The attacking army can receive support from allied or clan armies, which must be **associated**. *(in development)*  
+   - For every two levels of the **Circle of Sages**, one additional army can be associated.
 
 - **Defending Troops**:
    - Defenders consist of:  
@@ -51,7 +50,7 @@ Battles are engagements between armies for control of a province.
        - The castle limits the number of allied defenders that can assist, excluding the owner’s armies.  
 
    - If there are no defending armies, attackers fight only the castle's defenses.  
-   - **Liberation Attacks**<!--  (without allied support) --> do not include castle defenses.  
+   - **Liberation Attacks** (without allied support) do not include castle defenses.  
 
 ---
 

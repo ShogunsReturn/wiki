@@ -6,9 +6,9 @@ In the Social Menus drop-down menu you will find the game options to interact an
 
 Within Social Menus we display the following options:
 
-- Messages Menu 
+- [Messages Menu](./messages.md) 
 - Contacts Menu *(in development)*
 - Clan Menu *(in development)*
-- Profile Menu *(in development)*
+- [Profile Menu](./profile.md)
 
 All social menus appear unlocked from the start of the game.

@@ -36,7 +36,7 @@ Archers are trained in Kyudo, the art of archery. They rain arrows upon their en
 
 :::tip Special Effect
 The more archers grouped together in a single unit, the greater their potential.
-For every 500 archers in the same block, they receive a bonus of +(0.5 × level), up to a maximum of +5.
+For every 500 archers in the same block, they receive a bonus of `+(0.5 × level)`, **up to a maximum of +5**.
 :::
 
 ### Stats by level

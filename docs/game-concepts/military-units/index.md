@@ -21,38 +21,38 @@ When you upgrade buildings, the units you have already recruited will not automa
 ## Types of Military Units
 
 ### Basic Units
-- [Ashigaru](basic/ashigaru.md)
-- [Ashigaru with Yari](basic/ashigaru-yari.md)
-- [Ashigaru with Honda](basic/ashigaru-honda.md)
-- [Naginata](basic/naginata.md)
-- [Archer](basic/archer.md)
-- [Bushi](basic/bushi.md)
-- [Nodachi](basic/nodachi.md)
-- [Light Cavarly](basic/light-cavalry.md)
-- [Bow Cavarly](basic/bow-cavalry.md)
-- [Heavy Cavarly](basic/heavy-cavalry.md)
+- [Ashigaru](./basic/ashigaru.md)
+- [Ashigaru with Yari](./basic/ashigaru-yari.md)
+- [Ashigaru with Honda](./basic/ashigaru-honda.md)
+- [Naginata](./basic/naginata.md)
+- [Archer](./basic/archer.md)
+- [Bushi](./basic/bushi.md)
+- [Nodachi](./basic/nodachi.md)
+- [Light Cavarly](./basic/light-cavalry.md)
+- [Bow Cavarly](./basic/bow-cavalry.md)
+- [Heavy Cavarly](./basic/heavy-cavalry.md)
 
 ### Magic Units
-- Monk
-- Fire Shugenja *
-- Earth Shugenja *
-- Air Shugenja *
-- Water Shugenja *
-- Kami *
+- [Monk](./magic/monk.md)
+- [Fire Shugenja](./magic/fire-shugenja.md)
+- [Earth Shugenja](./magic/earth-shugenja.md)
+- [Air Shugenja](./magic/air-shugenja.md)
+- [Water Shugenja](./magic/water-shugenja.md)
+- [Kami](./magic/kami.md)
 
 ### Dark Units
 - Undead
-- Gaki
-- Goblin
-- Jigoku Shugenja *
-- Oni *
+- [Gaki](./dark/gaki.md)
+- [Goblin](./dark/goblin.md)
+- [Jigoku Shugenja](./dark/jigoku-shugenja.md)
+- [Oni](./dark/oni.md)
 
 ### Special Units 
-| Ronin           | Crane          | Dragon            | Snake       | Tiger       | Leopard     | Jigoku            |
-| --------------- | -------------- | ----------------- | ----------- | ----------- | ----------- | ----------------- |
-| Raider          | Elite Archer * | Warrior Monk *    | Saboteur *  | Veteran *   | Fanatic *   | Infected Goblin * |
-| Ashigaru Leader | Kenshinzen *   | Natura Shugenja * | Assassin *  | Master *    | Vanguard *  | Arcane Tengu *    |
-| General         | Yojimbo *      | Dragon *          | Tormentor * | Tactician * | Berserker * | War Tower *       |
+| Ronin                                                 | Crane                                           | Dragon                                                 | Snake                                     | Tiger                                     | Leopard                                     | Jigoku            |
+| ----------------------------------------------------- | ----------------------------------------------- | ------------------------------------------------------ | ----------------------------------------- | ----------------------------------------- | ------------------------------------------- | ----------------- |
+| [Raider](./special/ronin/raider.md)                   | [Elite Archer](./special/crane/elite-archer.md) | [Warrior Monk](./special/dragon/warrior-monk.md)       | [Saboteur](./special/snake/saboteur.md)   | [Veteran](./special/tiger/veteran.md)     | [Fanatic](./special/leopard/fanatic.md)     | Infected Goblin * |
+| [Ashigaru Leader](./special/ronin/ashigaru-leader.md) | [Kenshinzen](./special/crane/kenshinzen.md)     | [Nature Shugenja](./special/dragon/nature-shugenja.md) | [Assassin](./special/snake/assassin.md)   | [Master](./special/tiger/master.md)       | [Vanguard](./special/leopard/vanguard.md)   | Arcane Tengu *    |
+| [General](./special/ronin/general.md)                 | [Yojimbo](./special/crane/yojimbo.md)           | [Dragon](./special/dragon/dragon.md)                   | [Tormentor](./special/snake/tormentor.md) | [Tactician](./special/tiger/tactician.md) | [Berserker](./special/leopard/berserker.md) | War Tower *       |
 
 > *Units marked with \* are in development*
 
@@ -105,9 +105,9 @@ Ashigaru units not only fight in battles but also work as part of the population
 
 ### Spear Units  
 Spear units have bonuses against cavalry, applying throughout the battle, including during the cavalry charge turn (where their normal damage applies only to cavalry).  
-- [**Ashigaru with yari**](./basic/ashigaru-yari.md): +(3 + 2 * (level - 1))  
-- [**Naginata**](./basic/naginata.md): +(10 + 5 * (level - 1))  
-- **Gaki**: +(1 * level)  
+- [**Ashigaru with yari**](./basic/ashigaru-yari.md): `+(3 + 2 * (level - 1))`  
+- [**Naginata**](./basic/naginata.md): `+(10 + 5 * (level - 1))`  
+- [**Gaki**](./dark/gaki.md): `+(1 * level)`  
 
 ### Ranged Units  
 Ranged units are the first to attack enemy units and can attack while enemies advance towards them.  
@@ -133,7 +133,7 @@ Dark units do not require villagers for recruitment but suffer higher maintenanc
     - Oni or Tormentors: 200 health points  
     - Each level above 1 increases torment capacity by 10%.  
 
-:::note
+:::caution
 Recruiting dark units reduces honor rapidly, ranging from 0.01/hour for a Gaki to 0.1/hour for an Oni.  
 :::
 

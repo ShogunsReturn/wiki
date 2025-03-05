@@ -36,7 +36,7 @@ They are **deadly projectile troops**, capable of **harassing enemy forces** fro
 - [Ranged Cavalry](../index.md#ranged-cavalry)
 
 
-### Stats by level PENDING
+### Stats by level
 
 | Level | Attack | Defense | Armor | Health | Counter Attack |       Requirement       |
 | :---: | :----: | :-----: | :---: | :----: | :------------: | :---------------------: |

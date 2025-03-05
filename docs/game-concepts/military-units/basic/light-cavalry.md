@@ -32,19 +32,19 @@ Light cavalry units are trained in the art of horseback riding and the use of li
 - [Melee Cavalry](../index.md#melee-cavalry)
 
 
-### Stats by level PENDING
+### Stats by level
 
 | Level | Attack | Defense | Armor | Health | Counter Attack | Requirement |
 | :---: | :----: | :-----: | :---: | :----: | :------------: | :---------: |
 |   1   |   7    |    6    |  10   |   60   |       0        |  Stable(1)  |
-|   2   |   4    |    5    |   0   |   31   |       0        | Archery(8)  |
-|   3   |   4    |    5    |   0   |   32   |       0        | Archery(12) |
-|   4   |   5    |    6    |   0   |   33   |       0        | Archery(15) |
-|   5   |   5    |    6    |   0   |   34   |       0        | Archery(17) |
-|   6   |   5    |    7    |   0   |   35   |       0        | Archery(20) |
-|   7   |   6    |    7    |   0   |   36   |       0        | Archery(22) |
-|   8   |   6    |    8    |   0   |   37   |       0        | Archery(25) |
-|   9   |   6    |    8    |   0   |   38   |       0        | Archery(27) |
-|  10   |   7    |    9    |   0   |   39   |       0        | Archery(29) |
+|   2   |   8    |    7    |  11   |   31   |       0        |  Stable(2)  |
+|   3   |   9    |    8    |  12   |   32   |       0        |  Stable(3)  |
+|   4   |   10   |    9    |  13   |   33   |       0        |  Stable(5)  |
+|   5   |   11   |   10    |  14   |   34   |       0        |  Stable(7)  |
+|   6   |   12   |   11    |  15   |   35   |       0        |  Stable(9)  |
+|   7   |   13   |   12    |  16   |   36   |       0        | Stable(11)  |
+|   8   |   14   |   13    |  17   |   37   |       0        | Stable(14)  |
+|   9   |   15   |   14    |  18   |   38   |       0        | Stable(18)  |
+|  10   |   16   |   15    |  19   |   39   |       0        | Stable(24)  |
 
 > [More information about unit attributes](../index.md#attributes)

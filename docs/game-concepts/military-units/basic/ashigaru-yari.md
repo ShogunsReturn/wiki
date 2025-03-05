@@ -35,7 +35,7 @@ Ashigaru with yari are trained in combat using long wooden spears, making them p
 - [Ashigaru Unit](../index.md#ashigaru-units)
 - [Spear Unit](../index.md#spear-units)
 
-### Stats by level PENDING
+### Stats by level
 
 | Level | Attack | Defense | Armor | Health | Counter Attack | Requirement |
 | :---: | :----: | :-----: | :---: | :----: | :------------: | :---------: |
