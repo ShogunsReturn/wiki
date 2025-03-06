@@ -35,18 +35,17 @@ sidebar_position: 2
 ### Trait
 - [Magical Unit](../index.md#magical-units)
 
-:::tip Magic Effect
+:::tip Magic Effect - Infernal Conflagration
 - The **Fire Shugenja attacks twice per battle**:  
   - **First attack:** 2 turns after infantry → **Deals 250 damage**.  
   - **Second attack:** 4 turns later → **Deals 300 damage**.  
   - Each level increases damage by +10%.  
-
 - **Fire magic bypasses armor protection** and **distributes damage among all enemy units**.  
 - **Fire Shugenja negate Water Shugenja damage** during the turns they attack, absorbing **an amount of damage equal to the damage they deal**.
 :::
 
 ### Samurai Skills
-<!-- They can be affected by the Samurai abilities [Spread Panic](../../samurais/reasoning-skills.md) and [Dark Leader](../../samurais/charisma-skills.md). -->
+They can be affected by the Samurai ability [Arcane Knowledge](../../samurais/knowledge-skills.md).
 
 ### Stats by level
 

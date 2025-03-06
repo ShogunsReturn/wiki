@@ -34,8 +34,7 @@ The Serpent Assassins are mystically enchanted warriors, concealed beneath masks
 ### Trait
 - Special Effect
 
-:::tip Special Effect
-**Targeted Assassination**
+:::tip Special Effect - Targeted Assassination
 - Acts before archers and before the battle officially begins (Turn 2).
 - Targets only rearguard units, inflicting all its damage on them for one turn.
 - After executing its attack, the Assassin retreats to the third row, avoiding further combat. Can still be killed in battle despite not engaging afterward.
@@ -50,7 +49,7 @@ The Serpent Assassins are mystically enchanted warriors, concealed beneath masks
 :::
 
 ### Samurai Skills
-They can be affected by the Samurai abilities [Special Knowledge](../../../samurais/knowledge-skills.md).
+They can be affected by the Samurai ability [Special Knowledge](../../../samurais/knowledge-skills.md).
 
 ### Stats by level
 

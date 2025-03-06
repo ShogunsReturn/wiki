@@ -34,8 +34,7 @@ The Mystic Dragon Warrior Monks are devout servants of the Kami, living in the m
 ### Trait
 - Special Effect
 
-:::tip Special Effect
-**Divine Judgment**
+:::tip Special Effect - Divine Judgment
 - Deals additional damage to dark units equal to their base attack.
 - Ignores infantry cover and evasion mechanics, meaning they can strike even behind defensive lines, affecting:
   - Goblins behind Gakis

@@ -34,8 +34,7 @@ The Dragon Nature Shugenja are mystical sorceresses with the ability to sense an
 ### Trait
 - Magical Unit
 
-:::tip Special Effect
-**Summon Nature’s Beasts**
+:::tip Special Effect - Summon Nature’s Beasts
 The Nature Shugenja summons animals to the battlefield, with the following quantities per Shugenja:
 - **Eagles:** 2.2 per Shugenja
   - Function as cavalry, with high evasion against attacks.
@@ -47,8 +46,8 @@ The Nature Shugenja summons animals to the battlefield, with the following quant
 The summoned creatures will match the level of the Nature Shugenja that invoked them.
 :::
 
-<!-- ### Samurai Skills
-They can be affected by the Samurai abilities [Special Knowledge](../../../samurais/knowledge-skills.md) and [Horseman](../../../samurais/reasoning-skills.md). -->
+### Samurai Skills
+They can be affected by the Samurai abilities [Arcane Knowledge](../../../samurais/knowledge-skills.md) and [Special Knowledge](../../../samurais/knowledge-skills.md).
 
 ### Stats by level
 

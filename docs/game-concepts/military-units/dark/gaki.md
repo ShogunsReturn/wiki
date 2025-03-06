@@ -37,7 +37,7 @@ The Gaki are hungry spirits, cursed by the vices they committed in their mortal 
 - [Spear Unit](../index.md#spear-units)
 - [Special Effect](../index.md#special-effects)
 
-:::tip Special Effect
+:::tip Special Effect - Embrace of Shadows
 - **Torment:** 8 points.
 - Each level of the unit increases Torment by **10%**.
 :::

@@ -37,7 +37,7 @@ Goblins are savage and malevolent creatures that harbor a deep hatred for humans
 - [Ranged Unit](../index.md#ranged-units)
 - [Special Effect](../index.md#special-effects)
 
-:::tip Special Effect
+:::tip Special Effect - Embrace of Shadows
 - **Torment:** 8 points.
 - Each level of the unit increases Torment by **10%**.
 :::

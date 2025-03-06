@@ -35,14 +35,14 @@ sidebar_position: 5
 ### Trait
 - [Magical Unit](../index.md#magical-units)
 
-:::tip Magic Effect
+:::tip Magic Effect - Tidal Wrath
 - **The Water Shugenja's spell takes longer to cast** than the Fire Shugenja's spell.  
 - Once the spell is completed, **each Water Shugenja deals 200 damage per turn**.  
 - This effect begins on **Turn 10** (**two turns after the infantry enters combat**) and **continues until the end of the battle**.
 :::
 
 ### Samurai Skills
-<!-- They can be affected by the Samurai abilities [Spread Panic](../../samurais/reasoning-skills.md) and [Dark Leader](../../samurais/charisma-skills.md). -->
+They can be affected by the Samurai ability [Arcane Knowledge](../../samurais/knowledge-skills.md).
 
 ### Stats by level
 

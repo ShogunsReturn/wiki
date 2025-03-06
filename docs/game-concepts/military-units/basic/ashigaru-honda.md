@@ -35,6 +35,9 @@ Ashigaru with Honda are trained in ranged combat. Their projectiles allow them t
 - [Ashigaru Unit](../index.md#ashigaru-units)
 - [Ranged Unit](../index.md#ranged-units)
 
+### Samurai Skills
+They can be affected by the Samurai abilities [Archer](../../samurais/reasoning-skills.md), [Popular Support](../../samurais/charisma-skills.md) and [Divine Fury](../../samurais/charisma-skills.md).
+
 ### Stats by level
 
 | Level | Attack | Defense | Armor | Health | Counter Attack | Requirement |

@@ -31,9 +31,12 @@ Bushi undergo extensive training in the use of steel weapons and advanced infant
 ### Unit type
 - [Melee Infantry](../index.md#melee-infantry)
 
-:::tip Special Effect
+:::tip Special Effect - Supremacy of Steel
 +5 damage bonus against Ashigaru units.
 :::
+
+### Samurai Skills
+They can be affected by the Samurai abilities [Exemplary Soldier](../../samurais/charisma-skills.md) and [Divine Fury](../../samurais/charisma-skills.md).
 
 ### Stats by level
 

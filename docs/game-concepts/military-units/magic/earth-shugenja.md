@@ -35,7 +35,7 @@ sidebar_position: 3
 ### Trait
 - [Magical Unit](../index.md#magical-units)
 
-:::tip Magic Effect
+:::tip Magic Effect - Unyielding Bastion
 - **All Earth Shugenja (both allied and own) increase unit armor**, improving the **percentage of damage avoided**.  
 - **More Earth Shugenja provide greater protection**, but **each additional Shugenja** contributes **less** to the overall effect.  
 - **Each level increases their effect by +10%**, meaning a **Level 10 Shugenja** counts as **1.9 Shugenja** in terms of protection.  
@@ -50,7 +50,7 @@ sidebar_position: 3
 :::
 
 ### Samurai Skills
-<!-- They can be affected by the Samurai abilities [Spread Panic](../../samurais/reasoning-skills.md) and [Dark Leader](../../samurais/charisma-skills.md). -->
+They can be affected by the Samurai ability [Arcane Knowledge](../../samurais/knowledge-skills.md).
 
 ### Stats by level
 

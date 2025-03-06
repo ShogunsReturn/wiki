@@ -46,6 +46,9 @@ Ashigaru are villagers with basic military training. They fight with self-crafte
 ### Trait
 - [Ashigaru Unit](../index.md#ashigaru-units)
 
+### Samurai Skills
+They can be affected by the Samurai abilities [Exemplary Soldier](../../samurais/charisma-skills.md), [Popular Support](../../samurais/charisma-skills.md) and [Divine Fury](../../samurais/charisma-skills.md).
+
 ### Stats by level
 
 | Level | Attack | Defense | Armor | Health | Counter Attack | Requirement |

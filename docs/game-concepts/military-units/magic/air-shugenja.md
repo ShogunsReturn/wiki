@@ -35,7 +35,7 @@ sidebar_position: 4
 ### Trait
 - [Magical Unit](../index.md#magical-units)
 
-:::tip Magic Effect
+:::tip Magic Effect - Winds of Evasion
 - **The Air Shugenja operates throughout the entire battle**, **negating incoming projectile damage**.  
 - **Each Air Shugenja prevents 30 points of enemy projectile damage**.  
 - **Air Shugenja can counteract enemy Air Shugenja**, reducing their effectiveness by **15 points**.  
@@ -43,7 +43,7 @@ sidebar_position: 4
 :::
 
 ### Samurai Skills
-<!-- They can be affected by the Samurai abilities [Spread Panic](../../samurais/reasoning-skills.md) and [Dark Leader](../../samurais/charisma-skills.md). -->
+They can be affected by the Samurai ability [Arcane Knowledge](../../samurais/knowledge-skills.md).
 
 ### Stats by level
 

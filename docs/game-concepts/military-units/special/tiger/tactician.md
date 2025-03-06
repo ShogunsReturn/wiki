@@ -34,7 +34,7 @@ The Tiger Revered Strategists are masters of warfare, deeply knowledgeable in th
 ### Trait
 - Special Effect
 
-:::tip Special Effect
+:::tip Special Effect - Master of War
 - Enhances all units that have a natural bonus against specific enemies, granting an additional damage boost.
 - Functions similarly to Ashigaru Leaders or Generals.
 - Applies to units in allied or attached armies, as long as at least one Strategist is present among their ranks.
@@ -65,6 +65,9 @@ If an army contains Strategists, Leaders, or Generals of different levels, the g
 **Example:**
 10 Level 1 Strategists + 10 Level 3 Strategists → Treated as 20 Level 2 Strategists (always rounded down).
 :::
+
+### Samurai Skills
+They can be affected by the Samurai ability [Special Knowledge](../../../samurais/knowledge-skills.md).
 
 ### Stats by level
 

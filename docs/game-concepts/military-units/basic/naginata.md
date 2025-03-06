@@ -34,6 +34,9 @@ Naginata units are trained in the use of the naginata, a highly versatile weapon
 ### Trait
 - [Spear Unit](../index.md#spear-units)
 
+### Samurai Skills
+They can be affected by the Samurai abilities [Exemplary Soldier](../../samurais/charisma-skills.md) and [Divine Fury](../../samurais/charisma-skills.md).
+
 ### Stats by level
 
 | Level | Attack | Defense | Armor | Health | Counter Attack |       Requirement        |

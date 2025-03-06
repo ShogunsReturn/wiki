@@ -37,7 +37,7 @@ They soar over the battlefield and descend upon their enemies from the sky, stri
 - [Dark Unit](../index.md#dark-units-1)
 - [Special Effect](../index.md#special-effects)
 
-:::tip Special Effect
+:::tip Special Effect - Embrace of Shadows
 - **Torment:** 20 points.
 - Each level of the unit increases Torment by **10%**.
 :::

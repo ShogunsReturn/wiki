@@ -34,8 +34,8 @@ The Elite Crane Archers are the fastest and most precise marksmen in the empire.
 ### Trait
 - [Ranged Unit](../../index.md#ranged-units)
 
-:::tip Special Effect
-**Extended Range**: The Elite Crane Archers possess an extraordinary **range of 4**, surpassing the standard **range of 3** found in common archers.
+:::tip Special Effect - Extended Range
+The Elite Crane Archers possess an extraordinary **range of 4**, surpassing the standard **range of 3** found in common archers.
 ::: 
 
 ### Samurai Skills

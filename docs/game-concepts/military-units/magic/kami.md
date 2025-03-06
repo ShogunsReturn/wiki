@@ -35,7 +35,7 @@ sidebar_position: 6
 ### Trait
 - [Magical Unit](../index.md#magical-units)
 
-:::tip Special Effect
+:::tip Special Effect - Divine Wrath
 - **Exceptional effectiveness against dark units**, **dealing double damage** when fighting them.  
 - **Immune to poisoning effects** and **cannot be tormented**.  
 :::

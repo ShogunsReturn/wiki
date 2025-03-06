@@ -31,6 +31,8 @@ Heavy cavalry units are trained in horseback riding, the use of heavy weapons, a
 ### Unit type
 - [Melee Cavalry](../index.md#melee-cavalry)
 
+### Samurai Skills
+They can be affected by the Samurai abilities [Horseman](../../samurais/reasoning-skills.md) and [Divine Fury](../../samurais/charisma-skills.md).
 
 ### Stats by level
 

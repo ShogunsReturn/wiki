@@ -42,7 +42,7 @@ sidebar_position: 1
 :::
 
 ### Samurai Skills
-<!-- They can be affected by the Samurai abilities [Spread Panic](../../samurais/reasoning-skills.md) and [Dark Leader](../../samurais/charisma-skills.md). -->
+They can be affected by the Samurai ability [Arcane Knowledge](../../samurais/knowledge-skills.md).
 
 ### Stats by level
 

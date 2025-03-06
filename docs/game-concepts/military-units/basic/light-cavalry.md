@@ -31,6 +31,8 @@ Light cavalry units are trained in the art of horseback riding and the use of li
 ### Unit type
 - [Melee Cavalry](../index.md#melee-cavalry)
 
+### Samurai Skills
+They can be affected by the Samurai abilities [Horseman](../../samurais/reasoning-skills.md) and [Divine Fury](../../samurais/charisma-skills.md).
 
 ### Stats by level
 

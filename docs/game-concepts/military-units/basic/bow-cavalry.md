@@ -35,6 +35,8 @@ They are **deadly projectile troops**, capable of **harassing enemy forces** fro
 ### Unit type
 - [Ranged Cavalry](../index.md#ranged-cavalry)
 
+### Samurai Skills
+They can be affected by the Samurai abilities [Horseman](../../samurais/reasoning-skills.md) and [Divine Fury](../../samurais/charisma-skills.md).
 
 ### Stats by level
 

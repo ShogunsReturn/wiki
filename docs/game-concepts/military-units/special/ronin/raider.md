@@ -32,8 +32,7 @@ The Ronin Raiders are stealthy warriors who hide in the shadows the night before
 ### Trait
 - Special Effect
 
-:::tip Special Effect
-**Pre-Battle Raid**
+:::tip Special Effect - Pre-Battle Raid
 - Raiders attack the enemy before the main battle begins (turns 1 to 3), catching them by surprise.
 - For three turns, the Raider attacks enemy units while absorbing the following fractions of total enemy army damage:
   - Turn 1: Receives 1/9 of the total enemy damage.

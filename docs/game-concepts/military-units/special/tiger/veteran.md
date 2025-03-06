@@ -34,8 +34,8 @@ The Tiger Veterans are battle-hardened infantry units known for their extreme di
 ### Trait
 - Special Effect
 
-:::tip Special Effect
-**Combat Synergy**: Gain +1 additional damage for every 50 Tiger Veterans. Bonus cannot exceed twice their original damage (after applying modifiers).
+:::tip Special Effect - Combat Synergy
+Gain +1 additional damage for every 50 Tiger Veterans. Bonus cannot exceed twice their original damage (after applying modifiers).
 :::
 
 ### Samurai Skills

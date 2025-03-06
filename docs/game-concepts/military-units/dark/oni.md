@@ -38,7 +38,7 @@ sidebar_position: 5
 - [Dark Unit](../index.md#dark-units-1)
 - [Special Effect](../index.md#special-effects)
 
-:::tip Special Effect
+:::tip Special Effect - Embrace of Shadows
 - **Torment:** 200 points.  
 - Each unit level **increases Torment by 10%**.  
 :::

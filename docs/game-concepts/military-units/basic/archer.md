@@ -34,10 +34,13 @@ Archers are trained in Kyudo, the art of archery. They rain arrows upon their en
 ### Trait
 - [Ranged Unit](../index.md#ranged-units)
 
-:::tip Special Effect
-The more archers grouped together in a single unit, the greater their potential.
-For every 500 archers in the same block, they receive a bonus of `+(0.5 × level)`, **up to a maximum of +5**.
+:::tip Special Effect - Coordinated Rain
+- The more archers grouped together in a single unit, the greater their potential.
+- For every 500 archers in the same block, they receive a bonus of `+(0.5 × level)`, **up to a maximum of +5**.
 :::
+
+### Samurai Skills
+They can be affected by the Samurai abilities [Archer](../../samurais/reasoning-skills.md) and [Divine Fury](../../samurais/charisma-skills.md).
 
 ### Stats by level
 

@@ -31,6 +31,8 @@ Nodachi units are trained in the use of the nodachi, a large and heavy two-hande
 ### Unit type
 - [Melee Infantry](../index.md#melee-infantry)
 
+### Samurai Skills
+They can be affected by the Samurai abilities [Exemplary Soldier](../../samurais/charisma-skills.md) and [Divine Fury](../../samurais/charisma-skills.md).
 
 ### Stats by level
 

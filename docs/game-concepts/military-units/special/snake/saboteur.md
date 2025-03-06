@@ -34,15 +34,14 @@ The Serpent Saboteurs are warriors marked with intricate tattoos, possessing exc
 ### Trait
 - Special Effect
 
-:::tip Special Effect
-**Pre-Battle Ambush**
+:::tip Special Effect - Pre-Battle Ambush
 - Saboteurs strike before archers act (turns 3 and 4), meaning before the actual battle begins.
 - They damage all enemy units equally by setting traps that last for two turns.
 - After completing their mission, Saboteurs retreat to the third row, avoiding direct combat. They can still be killed in battle despite not actively fighting.
 :::
 
 ### Samurai Skills
-They can be affected by the Samurai abilities [Special Knowledge](../../../samurais/knowledge-skills.md).
+They can be affected by the Samurai ability [Special Knowledge](../../../samurais/knowledge-skills.md).
 
 ### Stats by level
 

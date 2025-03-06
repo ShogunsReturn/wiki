@@ -34,8 +34,7 @@ The Leopard Fanatics are warriors driven by the pursuit of an honorable death on
 ### Trait
 - Special Effect
 
-:::tip Special Effect
-**Reckless Charge**
+:::tip Special Effect - Reckless Charge
 - Leopard Fanatics always fight in the front line.
 - They charge one turn earlier than other melee infantry, dealing double damage (x2 bonus).
 - Their aggressive nature comes at a cost—they take 3x the normal damage.

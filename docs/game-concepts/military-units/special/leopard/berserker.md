@@ -34,9 +34,9 @@ The Leopard Berserkers are ferocious warriors who unleash their full fury in a s
 ### Trait
 - Special Effect
 
-:::tip Special Effect
-**Last Stand**: Before dying in battle, if melee infantry combat is ongoing, the Berserker delivers a final strike.
-Deals 50 base damage + 2.5 per additional level to enemy units.
+:::tip Special Effect - Last Stand
+- Before dying in battle, if melee infantry combat is ongoing, the Berserker delivers a final strike.
+- Deals 50 base damage + 2.5 per additional level to enemy units.
 :::
 
 ### Samurai Skills

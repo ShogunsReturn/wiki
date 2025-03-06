@@ -34,8 +34,7 @@ The Serpent Tormentors are humanoid creatures with reptilian skin, towering in s
 ### Trait
 - Special Effect
 
-:::tip Special Effect
-**Fear-Induced Retreat**
+:::tip Special Effect - Fear-Induced Retreat
 - Intimidates enemy troops, forcing them to flee before battle begins.
 - Frightened troops will not participate in the fight.
 - If their army survives the battle, the tormented troops will return to their ranks.
@@ -45,7 +44,7 @@ The Serpent Tormentors are humanoid creatures with reptilian skin, towering in s
 :::
 
 ### Samurai Skills
-They can be affected by the Samurai abilities [Special Knowledge](../../../samurais/knowledge-skills.md) and [Exemplary Soldier](../../../samurais/charisma-skills.md).
+They can be affected by the Samurai ability [Special Knowledge](../../../samurais/knowledge-skills.md).
 
 ### Stats by level
 

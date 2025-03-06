@@ -38,11 +38,11 @@ Shugenja of Jigoku are rearguard units and are classified as Dark units. They ca
 - [Magical Unit](../index.md#magical-units)
 - [Special Effect](../index.md#special-effects)
 
-:::tip Special Effect
+:::tip Special Effect - Embrace of Shadows
 - **Torment:** 20 points.
 - Each level of the unit increases Torment by **10%**.
 :::
-:::tip Magic Effect
+:::tip Magic Effect - Cursed Invocation
 - If there were human casualties in battle, the Shugenja will resurrect up to 5 corpses as undead per turn.
 - If both attackers and defenders have Shugenja of Jigoku, defenders will have priority over corpses.
 :::

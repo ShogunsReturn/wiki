@@ -34,8 +34,7 @@ The Ronin Ashigaru Leaders are battle-hardened peasant warriors, promoted for th
 ### Trait
 - Special Effect
 
-:::tip Special Effect
-**Ashigaru Commanders**
+:::tip Special Effect - Ashigaru Commanders
 - Each Ashigaru Leader boosts Ashigaru (and Raider) units by:
   - +0.2 + 0.05(level-1) damage* per unit.
   - +2 + 0.5(level-1) health* per unit.

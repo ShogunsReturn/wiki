@@ -34,8 +34,7 @@ The Tiger Masters are highly intelligent warriors, skilled in multiple combat st
 ### Trait
 - Special Effect
 
-:::tip Special Effect
-**Precision Strike**: 
+:::tip Special Effect - Precision Strike 
 - Deals additional damage to enemy special troops equal to their base attack.
 - Ignores infantry cover and evasion mechanics, meaning they can directly harm:
   - Elite archers behind Ashigaru lines.

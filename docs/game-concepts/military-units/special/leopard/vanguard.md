@@ -34,8 +34,7 @@ The Leopard Vanguard is an elite cavalry unit, trained to charge in a straight l
 ### Trait
 - Special Effect
 
-:::tip Special Effect
-**Devastating Charge**
+:::tip Special Effect - Devastating Charge
 - The Leopard Vanguard possesses a unique charge ability. Unlike regular cavalry, which has a **x2** charge bonus, the Vanguard's charge is **x3**, making it twice as powerful.
 - This overwhelming charge can shatter enemy formations, allowing the rest of the army to exploit the breach.
 :::

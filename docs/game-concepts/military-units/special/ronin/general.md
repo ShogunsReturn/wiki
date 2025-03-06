@@ -34,9 +34,7 @@ The Ronin Generals are renowned battlefield leaders, highly skilled in strategy 
 ### Trait
 - Special Effect
 
-:::tip Special Effect
-**Strategic Leadership**
-
+:::tip Special Effect - Strategic Leadership
 - Each General increases the damage of all friendly units by:
   - +0.5 + 0.05(level-1) per unit.*
 - Each General affects up to 100 units (including himself).

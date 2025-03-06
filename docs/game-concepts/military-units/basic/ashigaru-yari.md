@@ -35,6 +35,9 @@ Ashigaru with yari are trained in combat using long wooden spears, making them p
 - [Ashigaru Unit](../index.md#ashigaru-units)
 - [Spear Unit](../index.md#spear-units)
 
+### Samurai Skills
+They can be affected by the Samurai abilities [Exemplary Soldier](../../samurais/charisma-skills.md), [Popular Support](../../samurais/charisma-skills.md) and [Divine Fury](../../samurais/charisma-skills.md).
+
 ### Stats by level
 
 | Level | Attack | Defense | Armor | Health | Counter Attack | Requirement |

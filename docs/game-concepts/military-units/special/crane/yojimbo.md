@@ -34,7 +34,7 @@ The Crane Yojimbo are elite warriors dedicated to a single purpose: protecting t
 ### Trait
 - Special Effect
 
-:::tip Special Effect
+:::tip Special Effect - Guardian of the Rearguard
 The Yojimbo is a protector unit for [**rear-line units**](../../index.md#rear-units).
 While classified as **rear-line**, the Yojimbo also takes damage but **absorbs 5 times** the proportional damage they would normally receive.
 Damage absorption is not negated; instead, the Yojimbo endures it with superior resilience.
