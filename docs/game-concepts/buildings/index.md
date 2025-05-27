@@ -1,6 +1,6 @@
 # Buildings
 
-Building construction is a fundamental aspect of Shogun's Return. Buildings unlock various game menus and allow players to specialize in different playstyles. You can command building construction from the [Build Menu](../../game-menu/basic-menu/build).
+Building construction is a fundamental aspect of Shogun's Return. Buildings unlock various game menus and allow players to specialize in different playstyles. You can command building construction from the [Build Menu](/docs/game-menu/basic-menu/build.md).
 
 ## Types of buildings
 Buildings are categorized into Quantity or Level types:
