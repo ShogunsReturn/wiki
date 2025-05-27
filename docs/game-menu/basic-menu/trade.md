@@ -6,7 +6,7 @@ sidebar_label: Trade Menu
 The trade menu is the **third option** found when displaying the Basic Menus.
 
 :::note
-The trade menu is locked at the start of the game, to unlock it you must build the [Market](../../game-concepts/buildings/commercial-political/market.md).
+The trade menu is locked at the start of the game, to unlock it you must build the [Market](/docs/game-concepts/buildings/commercial-political/market).
 :::
 
 From the trade menu you can view and manage all aspects related to the purchase, sale and shipment of resources, as well as order the creation of crafted objects. The trade menu has 4 submenus: Buy, Sell, Ship and Craft.

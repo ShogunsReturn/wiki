@@ -3,7 +3,7 @@
 The Army menu is the first option we find when displaying the Advanced Menus. <!-- This menu can also be accessed by pressing the “E” hotkey. --> 
 
 :::note
-The Army menu is locked at the start of the game, to unlock it we must build the [dojo](../../game-concepts/buildings/military/dojo.md).
+The Army menu is locked at the start of the game, to unlock it we must build the [dojo](/docs/game-concepts/buildings/military/dojo).
 :::
 
 From the Armies Menu, you can view and manage all aspects related to military units and armies. 

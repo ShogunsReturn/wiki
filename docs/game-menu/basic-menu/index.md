@@ -14,4 +14,4 @@ Within Basic Menus we display the following options:
 - [Build Menu](build.md)
 - Trade Menu *(in development)*
 
-When you start the game, the Resources Menu and the Build Menu appear **unlocked**, while the Trade Menu appears **blocked** until you build the [market](../../game-concepts/buildings/commercial-political/market.md).
+When you start the game, the Resources Menu and the Build Menu appear **unlocked**, while the Trade Menu appears **blocked** until you build the [market](/docs/game-concepts/buildings/commercial-political/market).
