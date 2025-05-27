@@ -22,7 +22,7 @@ You can also remove units<!--  —or even disband the entire army— --> by drag
 
 Creating an army costs **2000 gold**.  
 - **In your capital**: You can create an army using units from your reserve or units from other armies stationed in your capital.  
-- **In other provinces you control** *(in development)*: Armies can also be created, but since the reserve is only available in the capital, you must use troops from other armies stationed in that province.   
+- **In other provinces you control**: Armies can also be created, but since the reserve is only available in the capital, you must use troops from other armies stationed in that province.   
 
 Maintaining an army costs **50 gold per hour**.
 
@@ -30,7 +30,7 @@ Maintaining an army costs **50 gold per hour**.
 
 ## Army Commands
 
-1. **Move** *(in development)*:  
+1. **Move**:  
    Use this command to send troops to allied provinces or provinces under your control.
 
 2. **Attack**:  
@@ -67,7 +67,7 @@ Depending on the orders assigned, an army can be in one of the following states:
 1. **Hidden**:  
    The default state when an army is created. In this state, the army will not participate in combat.  
 
-2. **In Movement** *(in development)*:  
+2. **In Movement**:  
    The army is traveling between two provinces.  
    - Movement is faster if the army is composed exclusively of cavalry units.
 
@@ -80,7 +80,7 @@ Depending on the orders assigned, an army can be in one of the following states:
 5. **Defending an Ally** *(in development)*:  
    The army is defending an allied province from an enemy attack.  
 
-6. **Tax Collecting** *(in development)*:  
+6. **Tax Collecting**:  
    The army remains in a vassal's province collecting taxes.  
    - If the vassal attempts to liberate themselves, this results in an attack on the tax-collecting army.  
 
@@ -89,7 +89,7 @@ Depending on the orders assigned, an army can be in one of the following states:
 
 For further details, refer to [Military Strategy](military-strategy.md).  
 
-## Morale *(in development)*
+## Morale
 
 Morale represents the state of mind of your troops.
 
@@ -100,7 +100,7 @@ Morale represents the state of mind of your troops.
   - **Shugenjas** (magical, nature, or Jigoku): Their abilities are not affected by morale.  
   - **Monks**: The amount of healing done by monks is increased by **2% per morale point**.  
   - **Torment Resistance**: Each morale point reduces torment effects by **5%**. Armies with higher morale are harder to torment. Magical units have double the resistance to torment.  
-  - **Unaffected Abilities**: Strategists, tormentors, ashigaru leaders, and generals are unaffected by morale in terms of their abilities. However, ashigaru leaders and generals do gain the morale bonus for their own damage.  
+  - **Unaffected Abilities**: Tacticians, Agonizers, Ashihei Captain, and generals are unaffected by morale in terms of their abilities. However, Ashihei Captain and generals do gain the morale bonus for their own damage.  
 
 - **Gaining or Losing Morale**:  
   - **Victory**: Each victory increases morale by 1 point, up to a maximum of 5. For defensive victories, the attack must involve more units than the defending army's glory.  
@@ -129,13 +129,13 @@ The formula is approximately: `total_time = base_time + preparation_time + (dist
   - Attack actions require a **2-hour siege preparation time**.  
   - Movement actions do not require preparation time.  
 
-- **Speed Modifiers**: *(in development)*  
+- **Speed Modifiers**:  
   - Armies composed entirely of cavalry move at **double speed**.  
   - The **army_speed** value is the same regardless of the action, meaning distance affects all actions equally.  
 
-- **Time Reduction**:  *(in development)*  
+- **Time Reduction**:  
   - **The knowledge of [Minister of War](../game-concepts/samurais/samurais.md#samurai-states)**: Can reduce movement time by up to **15%**, excluding the 2-hour preparation time for attacks.  
-  - **[Cartographer Ability](../game-concepts/samurais/reasoning-skills.md#war-minister)** (related to Reasoning): Can also reduce movement time by up to **15%**, excluding the 2-hour preparation time for attacks.  
+  - **[Cartographer Ability](/docs/game-concepts/samurais/reasoning-skills#war-minister)** (related to Reasoning): Can also reduce movement time by up to **15%**, excluding the 2-hour preparation time for attacks.  
 
 ---
 ## Undergoing an Attack
@@ -145,7 +145,7 @@ When you are attacked, the attacking army (and its associated armies) will be vi
 <!-- If an ally, clan member, vassal, or spied player is attacked, you can also see the attack on their profile.   -->
 
 ### Attack Visibility  
-- The attack becomes visible **2 hours + 4 minutes for each [watchtower](./buildings/ninjutsu/watchtower.md)** you have constructed.  
+- The attack becomes visible **2 hours + 4 minutes for each [watchtower](/docs/game-concepts/buildings/ninjutsu/watchtower)** you have constructed.  
 - You will not see the exact number of units in the attacking army or their samurai details. Instead, you'll receive approximate information about the unit count:
   - For example:
     - 5 units will appear as **\<10** (less than 10).  
@@ -157,7 +157,7 @@ When you are attacked, the attacking army (and its associated armies) will be vi
 
 ---
 
-## Fatigue *(in development)*
+## Fatigue
 
 Fatigue represents the physical exhaustion of your units.  
 - Armies accumulate fatigue while moving, which negatively impacts their performance in battles.  
@@ -201,7 +201,7 @@ Fatigue represents the physical exhaustion of your units.
 
 6. **Unit Effectiveness**:  
    - Units have strengths and weaknesses based on their type.  
-   - For more details, refer to the [Military Units](./military-units/index.md) section.
+   - For more details, refer to the [Military Units](./military-units) section.
 
 7. **Stamina and Combat Efficiency**:  
    - Units lose **stamina** as combat progresses, reducing the damage they deal.  

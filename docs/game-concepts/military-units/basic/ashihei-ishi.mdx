@@ -1,0 +1,75 @@
+---
+sidebar_position: 3
+---
+
+import UnitStatsTable from '@site/src/components/UnitStatsTable';
+import Link from '@docusaurus/Link';
+
+# Ashihei With Ishi
+
+## Overview
+
+Ashihei with Ishi are trained in ranged combat. Their projectiles allow them to inflict casualties as the enemy approaches and during the early stages of battle. However, they are highly vulnerable if they lose infantry cover. Like basic Ashihei, they contribute to the province's workforce when stationed in their own province.
+
+---
+
+## Key Features
+
+### Cost
+- Rice: 60
+- Wood: 10
+- Iron: 0
+- Gold: 8
+- Population: 1
+
+### Maintenance
+- Meat: 1.2 /h
+- Gold: 0.6 /h
+
+### Training duration
+- 1 Hours 30 Minutes
+
+### Honor requirement
+- -100
+
+### Unit type
+- <Link to="../#ranged-infantry">Ranged Infantry</Link> with range of **2**
+
+### Trait
+- <Link to="../#ashihei-units">Ashihei Unit</Link>
+- <Link to="../#ranged-units">Ranged Unit</Link>
+
+### Samurai Skills  
+They can be affected by the Samurai abilities:  
+- <Link to="../../samurais/reasoning-skills#archer">Archer</Link>  
+- <Link to="../../samurais/charisma-skills#popular-support">Popular Support</Link>  
+- <Link to="../../samurais/charisma-skills#divine-fury">Divine Fury</Link>
+
+### Stats by level
+
+<UnitStatsTable
+  baseStats={{
+    attack: 2,
+    attackPerLevel: 0.223,
+    defense: 2,
+    defensePerLevel: 0.334,
+    armor: 0,
+    health: 14,
+    healthPerLevel: 1.0,
+    counter: 0,
+  }}
+  requirements={{
+    1: 'Archery(1)',
+    2: 'Archery(2)',
+    3: 'Archery(3)',
+    4: 'Archery(5)',
+    5: 'Archery(7)',
+    6: 'Archery(9)',
+    7: 'Archery(11)',
+    8: 'Archery(14)',
+    9: 'Archery(18)',
+    10: 'Archery(24)',
+  }}
+/>
+
+> <Link to="../#attributes">More information about unit attributes</Link>

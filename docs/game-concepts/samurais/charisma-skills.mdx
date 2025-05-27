@@ -1,0 +1,24 @@
+---
+sidebar_position: 3
+---
+
+import SamuraiAbilitiesSection from '@site/src/components/SamuraiAbilitiesSection';
+import SamuraiAbilitiesTable from '@site/src/components/SamuraiAbilitiesTable.jsx';
+import samuraiAbilities from '@site/src/data/samurai_abilities.json';
+
+# Charisma-Related Skills
+
+{/* <SamuraiAbilitiesTable category="charisma" order={["economy", "politics", "subterfuge", "military", "general"]} /> */}
+{/* <SamuraiAbilitiesTable skills={samuraiAbilities.charisma} /> */}
+
+{/* <SamuraiAbilitiesTable skills={samuraiAbilities.charisma.filter(skill => skill.type === 'economy')} /> */}
+{/* <SamuraiAbilitiesTable skills={samuraiAbilities.charisma.filter(skill => skill.type === 'politics')} /> */}
+{/* <SamuraiAbilitiesTable skills={samuraiAbilities.charisma.filter(skill => skill.type === 'military')} /> */}
+{/* <SamuraiAbilitiesTable skills={samuraiAbilities.charisma.filter(skill => skill.type === 'general')} /> */}
+{/* <SamuraiAbilitiesTable skills={samuraiAbilities.charisma.filter(skill => skill.type === 'subterfuge')} /> */}
+
+<SamuraiAbilitiesSection
+  title="Charisma"
+  skills={samuraiAbilities.charisma}
+  typeOrder={['economy', 'politics', 'military', 'general']}
+/>

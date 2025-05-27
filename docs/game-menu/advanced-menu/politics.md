@@ -21,7 +21,7 @@ There are **five categories** of political actions, each represented by a **tab*
 1. Resources  
 2. Armies  
 3. Ninjutsu *(in development)*
-4. Samurais *(in development)*
+4. Samurais
 5. Special Actions  
 
 ### How to Activate a Political Action?  

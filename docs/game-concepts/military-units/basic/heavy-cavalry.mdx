@@ -1,0 +1,71 @@
+---
+sidebar_position: 10
+---
+
+import UnitStatsTable from '@site/src/components/UnitStatsTable';
+import Link from '@docusaurus/Link';
+
+# Heavy Cavalry
+
+## Overview
+
+Heavy cavalry units are trained in horseback riding, the use of heavy weapons, and advanced cavalry strategies. Their devastating charges strike fear into enemy infantry ranks, making them a formidable force on the battlefield.
+
+---
+
+## Key Features
+
+### Cost
+- Rice: 180
+- Wood: 10
+- Iron: 35
+- Gold: 70
+- Population: 1
+
+### Maintenance
+- Meat: 4.2 /h
+- Gold: 2.0 /h
+
+### Training duration
+- 5 Hours
+
+### Honor requirement
+- -100
+
+### Unit type
+- <Link to="../#melee-cavalry">Melee Cavalry</Link>
+
+### Samurai Skills  
+They can be affected by the Samurai abilities:  
+- <Link to="../../samurais/reasoning-skills#horseman">Horseman</Link>  
+- <Link to="../../samurais/charisma-skills#divine-fury">Divine Fury</Link>
+
+### Stats by level
+
+<UnitStatsTable
+  baseStats={{
+    attack: 11,
+    attackPerLevel: 1.223,
+    defense: 10,
+    defensePerLevel: 1.112,
+    armor: 25,
+    armorPerLevel: 1.223,
+    health: 95,
+    healthPerLevel: 5.667,
+    counter: 0,
+  }}
+  requirements={{
+    1: 'Stable(4), Blacksmith(4)',
+    2: 'Stable(8), Blacksmith(8)',
+    3: 'Stable(12), Blacksmith(12)',
+    4: 'Stable(15), Blacksmith(15)',
+    5: 'Stable(17), Blacksmith(17)',
+    6: 'Stable(20), Blacksmith(20)',
+    7: 'Stable(22), Blacksmith(22)',
+    8: 'Stable(25), Blacksmith(25)',
+    9: 'Stable(27), Blacksmith(27)',
+    10: 'Stable(29), Blacksmith(29)',
+  }}
+/>
+
+> <Link to="../#attributes">More information about unit attributes</Link>

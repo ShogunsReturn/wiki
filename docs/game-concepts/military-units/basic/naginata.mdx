@@ -1,0 +1,74 @@
+---
+sidebar_position: 4
+---
+
+import UnitStatsTable from '@site/src/components/UnitStatsTable';
+import Link from '@docusaurus/Link';
+
+# Naginata
+
+## Overview
+
+Naginata units are trained in the use of the naginata, a highly versatile weapon suited for various combat situations. They **excel against cavalry** and are effective in melee combat.
+
+---
+
+## Key Features
+
+### Cost
+- Rice: 80
+- Wood: 10
+- Iron: 20
+- Gold: 25
+- Population: 1
+
+### Maintenance
+- Meat: 1.6 /h
+- Gold: 0.9 /h
+
+### Training duration
+- 3 Hours
+
+### Honor requirement
+- -100
+
+### Unit type
+- <Link to="../#melee-infantry">Melee Infantry</Link> specialized in countering cavalry.
+
+### Trait
+- <Link to="../#spear-units">Spear Unit</Link>
+
+### Samurai Skills  
+They can be affected by the Samurai abilities:  
+- <Link to="../../samurais/charisma-skills#exemplary-soldier">Exemplary Soldier</Link>  
+- <Link to="../../samurais/charisma-skills#divine-fury">Divine Fury</Link>
+
+### Stats by level
+
+<UnitStatsTable
+  baseStats={{
+    attack: 3,
+    attackPerLevel: 1.112,
+    defense: 4,
+    defensePerLevel: 0.889,
+    armor: 20,
+    armorPerLevel: 1.334,
+    health: 60,
+    healthPerLevel: 2.445,
+    counter: 0,
+  }}
+  requirements={{
+    1: 'Dojo(5), Blacksmith(1)',
+    2: 'Dojo(6), Blacksmith(2)',
+    3: 'Dojo(7), Blacksmith(3)',
+    4: 'Dojo(9), Blacksmith(5)',
+    5: 'Dojo(11), Blacksmith(7)',
+    6: 'Dojo(13), Blacksmith(9)',
+    7: 'Dojo(15), Blacksmith(11)',
+    8: 'Dojo(18), Blacksmith(14)',
+    9: 'Dojo(22), Blacksmith(18)',
+    10: 'Dojo(25), Blacksmith(24)',
+  }}
+/>
+
+> <Link to="../#attributes">More information about unit attributes</Link>

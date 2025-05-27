@@ -1,0 +1,799 @@
+{
+    "resources": [
+        {
+            "name": "Temporal Villagers",
+            "description": "Gathers 200 temporal villagers to your town.",
+            "cost": [
+                100,
+                300,
+                0,
+                0,
+                0,
+                0
+            ],
+            "maintenance": [
+                50,
+                200,
+                0,
+                0,
+                0,
+                0
+            ],
+            "building_requirement": [
+                "Circle Of Sages",
+                2
+            ],
+            "activation": 7200,
+            "cooldown": 86400
+        },
+        {
+            "name": "Extra Temporal Villagers",
+            "description": "Gathers 400 temporal villagers to your town.",
+            "cost": [
+                200,
+                600,
+                0,
+                0,
+                0,
+                0
+            ],
+            "maintenance": [
+                100,
+                400,
+                0,
+                0,
+                0,
+                0
+            ],
+            "building_requirement": [
+                "Circle Of Sages",
+                3
+            ],
+            "activation": 7200,
+            "cooldown": 86400
+        },
+        {
+            "name": "Regional Temporal Villagers",
+            "description": "Gathers 600 temporal villagers to your town.",
+            "cost": [
+                300,
+                900,
+                0,
+                0,
+                0,
+                0
+            ],
+            "maintenance": [
+                150,
+                600,
+                0,
+                0,
+                0,
+                0
+            ],
+            "building_requirement": [
+                "Circle Of Sages",
+                4
+            ],
+            "activation": 7200,
+            "cooldown": 86400
+        },
+        {
+            "name": "Power of the People",
+            "description": "The population will grow by an additional 100 villagers per hour, but you will be unable to initiate attacks. This policy will be canceled if your troops participate in any attack. With a minister of politics with 100 charisma, you have 130 villagers per hour",
+            "cost": [
+                200,
+                500,
+                0,
+                0,
+                0,
+                0
+            ],
+            "maintenance": [
+                100,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "building_requirement": [
+                "Library",
+                12
+            ],
+            "honor_requirement": 100,
+            "activation": 7200,
+            "cooldown": 86400
+        },
+        {
+            "name": "Exemplary Punishment",
+            "description": "Impose strict discipline to motivate your villagers, increasing their efficiency by 15% across all tasks. However, this approach may come at the cost of your honor.",
+            "cost": [
+                200,
+                0,
+                0,
+                0,
+                10,
+                0
+            ],
+            "maintenance": [
+                100,
+                0,
+                0,
+                0,
+                0.2,
+                0
+            ],
+            "building_requirement": [
+                "Circle Of Sages",
+                4
+            ],
+            "activation": 7200,
+            "cooldown": 86400
+        },
+        {
+            "name": "Investment",
+            "description": "Invest in the prosperity of your town by depositing an amount of gold (between 1000 and 50,000 gold). Once activated, your investment will yield a 25% return on the deposited amount. Upon maturity, you will receive your initial investment along with the bonus profit. A wise shogun knows that gold can grow when spent wisely!",
+            "cost": [
+                100,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "building_requirement": [
+                "Market",
+                6
+            ],
+            "activation": 172800,
+            "cooldown": 86400
+        },
+        {
+            "name": "Great Investment",
+            "description": "Double down on your financial strategy with the Great Investment option. Deposit an amount of gold (between 0 and 50,000 gold) and watch your wealth grow with an impressive 50% return on your investment. Upon activation, you will receive your initial deposit along with the substantial bonus. True wealth comes to those who dare to invest boldly!",
+            "cost": [
+                200,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "building_requirement": [
+                "Market",
+                12
+            ],
+            "activation": 172800,
+            "cooldown": 86400
+        },
+        {
+            "name": "Reforest",
+            "description": "Your town will launch a large-scale reforestation initiative, planting numerous trees to restore the forest. This effort will increase the forest recovery rate to 2.5 forest hectares per hour, ensuring a sustainable supply of wood and contributing to the ecological balance of your province. With a minister of politics with 100 charisma, the rate would be 3.25.",
+            "cost": [
+                500,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "building_requirement": [
+                "Library",
+                4
+            ],
+            "maintenance": [
+                300,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "activation": 7200,
+            "cooldown": 28800
+        },
+        {
+            "name": "Trial of Honor",
+            "description": "Your province will undergo a strict trial of honor, evaluating the actions and values of its inhabitants. This policy will increase the honor gain by 0.1 honor per hour, fostering a sense of integrity and loyalty among the citizens. With a minister of politics with 100 charisma, it would be 0.13 honor per hour. This policy cannot be activated if you own any dark units or if your Dark Sanctuary is Level 2 or higher. Additionally, if your honor decreases by any means while this policy is active, it will be immediately canceled.",
+            "cost": [
+                400,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "building_requirement": [
+                "Circle Of Sages",
+                2
+            ],
+            "maintenance": [
+                100,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "activation": 10800,
+            "cooldown": 28800
+        },
+        {
+            "name": "Specialize",
+            "description": "Your villagers will be trained to excel in gathering a specific resource. By focusing their efforts, they will harvest 10% more of the selected resource, maximizing productivity and efficiency in your province. With a minister of politics with 100 charisma, it would 13%.",
+            "cost": [
+                200,
+                100,
+                0,
+                0,
+                0,
+                0
+            ],
+            "building_requirement": [
+                "Library",
+                5
+            ],
+            "maintenance": [
+                120,
+                20,
+                0,
+                0,
+                0,
+                0
+            ],
+            "activation": 10800,
+            "cooldown": 28800
+        }
+    ],
+    "armies": [
+        {
+            "name": "Sacrifice to the Dark Gods",
+            "description": "Your dark units will have 30% better attack stats in your next attack that you lead.",
+            "cost": [
+                1000,
+                500,
+                0,
+                0,
+                20,
+                0
+            ],
+            "maintenance": [
+                200,
+                400,
+                0,
+                0,
+                0.5,
+                0
+            ],
+            "building_requirement": [
+                "Dark Sanctuary",
+                7
+            ],
+            "activation": 7200,
+            "cooldown": 86400
+        },
+        {
+            "name": "Promise of Power",
+            "description": "At least +5 morale to all your armies while the political action is active. Stackable with base army morale. With a minister of politics with 100 charisma, you will have +6.5 morale.",
+            "cost": [
+                2000,
+                2000,
+                100,
+                100,
+                2,
+                0
+            ],
+            "maintenance": [
+                300,
+                200,
+                0,
+                0,
+                0.2,
+                0
+            ],
+            "building_requirement": [
+                "Dojo",
+                10
+            ],
+            "activation": 14400,
+            "cooldown": 86400,
+            "duration": 86400
+        },
+        {
+            "name": "Propaganda",
+            "description": "Earn at least double the honor in the next battle against dark units. With a minister of politics with 100 charisma, you will earn 2.3 times more.",
+            "cost": [
+                350,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "maintenance": [
+                20,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "building_requirement": [
+                "Library",
+                1
+            ],
+            "activation": 3600,
+            "cooldown": 14400
+        },
+        {
+            "name": "Promotions",
+            "description": "Promote one of every 20 units in reserve to stronger units. Ministers of politics with charisma improve the promotion rate to 1 out of 14.",
+            "cost": [
+                500,
+                0,
+                0,
+                50,
+                0,
+                0
+            ],
+            "building_requirement": [
+                "Academy",
+                4
+            ],
+            "activation": 14400,
+            "cooldown": 259200
+        },
+        {
+            "name": "Extra Rations",
+            "description": "Your units consume 30% more food but avoid fatigue penalties by at least 80%.",
+            "cost": [
+                200,
+                500,
+                0,
+                0,
+                0,
+                0
+            ],
+            "maintenance": [
+                125,
+                50,
+                0,
+                0,
+                0,
+                0
+            ],
+            "building_requirement": [
+                "Dojo",
+                1
+            ],
+            "activation": 14400,
+            "cooldown": 28800
+        },
+        {
+            "name": "Time of War",
+            "description": "Your capital is well-prepared for defense. Your troops deal at least 20% additional damage while defending. With a minister of politics with 100 charisma, this bonus is increased to 26%.",
+            "cost": [
+                500,
+                0,
+                400,
+                150,
+                0,
+                0
+            ],
+            "maintenance": [
+                200,
+                100,
+                5,
+                5,
+                0,
+                0
+            ],
+            "building_requirement": [
+                "Blacksmith",
+                4
+            ],
+            "activation": 86400,
+            "cooldown": 28800
+        },
+        {
+            "name": "Pact with the Shadows",
+            "description": "Lose all your honor up to -100. Gain dark units in reserve based on the honor lost. Cancels all active political actions requiring honor.",
+            "cost": [
+                3000,
+                0,
+                0,
+                500,
+                0,
+                0
+            ],
+            "building_requirement": [
+                "Temple",
+                2
+            ],
+            "honor_requirement": -10,
+            "activation": 14400,
+            "cooldown": 259200
+        },
+        {
+            "name": "Mercenaries",
+            "description": "Hire mercenaries to join your cause. Each group contains 100 archers, 150 naginatas, and 50 light cavalry. Ministers with charisma increase the number of mercenaries.",
+            "cost": [
+                12500,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "building_requirement": [
+                "Dojo",
+                4
+            ],
+            "activation": 86400,
+            "cooldown": 259200
+        },
+        {
+            "name": "Good Relations",
+            "description": "Ashihei from your region help defend your province when attacked, contributing up to 10% of your population as defenders. This scales with your Politics Magistrate\u2019s charisma \u2014 up to 13% at 100 charisma.",
+            "cost": [
+                200,
+                300,
+                0,
+                0,
+                0,
+                0
+            ],
+            "maintenance": [
+                50,
+                300,
+                0,
+                0,
+                0,
+                0
+            ],
+            "building_requirement": [
+                "Market",
+                3
+            ],
+            "honor_requirement": 30,
+            "activation": 14400,
+            "cooldown": 28800
+        },
+        {
+            "name": "Sacrifice to the Gods",
+            "description": "Your Shugenja and Monks have 30% stronger effects in the next battle you lead. This bonus increases by up to +9% based on your Politics Magistrate\u2019s Charisma.",
+            "cost": [
+                500,
+                400,
+                200,
+                200,
+                0,
+                0
+            ],
+            "maintenance": [
+                100,
+                20,
+                0,
+                0,
+                0,
+                0
+            ],
+            "building_requirement": [
+                "Temple",
+                7
+            ],
+            "honor_requirement": 40,
+            "activation": 14400,
+            "cooldown": 28800
+        },
+        {
+            "name": "Sacred Battlefield",
+            "description": "Dark units from both sides will lose 20% of their health in the next battle you lead.",
+            "cost": [
+                2000,
+                0,
+                200,
+                100,
+                0,
+                0
+            ],
+            "maintenance": [
+                0,
+                50,
+                50,
+                0,
+                0,
+                0
+            ],
+            "building_requirement": [
+                "Temple",
+                5
+            ],
+            "honor_requirement": 40,
+            "activation": 14400,
+            "cooldown": 86400
+        },
+        {
+            "name": "Study the Terrain",
+            "description": "In your next attack, traps will have no effect on your troops.",
+            "cost": [
+                1000,
+                500,
+                0,
+                0,
+                0,
+                0
+            ],
+            "maintenance": [
+                50,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "building_requirement": [
+                "Circle Of Sages",
+                7
+            ],
+            "activation": 14400,
+            "cooldown": 43200
+        },
+        {
+            "name": "Rebellion of the People",
+            "description": "Your villagers will expel enemy troops from your province if their total defense is lower than your population multiplied by your lord's tax rate. Enemy armies are not destroyed, only expelled, as long as their defense total is below the population \u00d7 tax rate threshold. Example: 2000 population with 20% tax \u2192 threshold is 2000 \u00d7 0.20 = 400 defense \u2192 approximately 100 level 4 ashihei. Takeshi and his clan are immune to rebellions. A skilled Politics Magistrate makes rebellion easier: it's as if you had up to 30% more population (with 100 Charisma).",
+            "cost": [
+                0,
+                3500,
+                0,
+                0,
+                0,
+                0
+            ],
+            "building_requirement": [
+                "Castle",
+                2
+            ],
+            "activation": 0,
+            "cooldown": 28800
+        },
+        {
+            "name": "Recruit Volunteers",
+            "description": "Assign a samurai to recruit volunteers from your villagers. Choose one Ashihei type. Based on the samurai's charisma, up to 100 Ashiheis per hour will be recruited to your reserve while the policy is active.",
+            "cost": [
+                400,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "maintenance": [
+                35,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "building_requirement": [
+                "Dojo",
+                5
+            ],
+            "activation": 14400,
+            "cooldown": 86400,
+            "duration": 28800
+        },
+        {
+            "name": "Recruit Infantry",
+            "description": "Assign a samurai to recruit infantry from your villagers. Choose between Naginata, Archer, Bushi, or Nodachi units. Based on the samurai's charisma, up to 40 units per hour will be recruited to your reserve while the policy is active.",
+            "cost": [
+                1200,
+                40,
+                0,
+                0,
+                0,
+                0
+            ],
+            "maintenance": [
+                70,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "building_requirement": [
+                "Dojo",
+                10
+            ],
+            "activation": 14400,
+            "cooldown": 86400,
+            "duration": 28800
+        },
+        {
+            "name": "Recruit Riders",
+            "description": "Assign a samurai to recruit cavalry from your villagers. Choose between Light Cavalry, Heavy Cavalry, or Archer Cavalry. Based on the samurai's charisma, up to 20 units per hour will be recruited to your reserve while the policy is active.",
+            "cost": [
+                1600,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "maintenance": [
+                70,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "building_requirement": [
+                "Stables",
+                7
+            ],
+            "activation": 14400,
+            "cooldown": 86400,
+            "duration": 28800
+        },
+        {
+            "name": "Recruit Special Units",
+            "description": "Assign a samurai to recruit special units from your faction. Choose your faction\u2019s primary special unit (Elite Archer, Veteran, Fanatic, Warrior Monk, Infiltrator, or Ambusher). Based on the samurai's charisma, up to 60 units per hour will be recruited to your reserve while the policy is active.",
+            "cost": [
+                2000,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "maintenance": [
+                70,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "building_requirement": [
+                "Academy",
+                5
+            ],
+            "honor_requirement": 10,
+            "activation": 14400,
+            "cooldown": 86400,
+            "duration": 28800
+        }
+    ],
+    "specials": [
+        {
+            "name": "Assembly of Leaders",
+            "description": "Representatives from all leaders will gather to update the rankings and select a new Shogun. The gold cost depends on how much time has passed since the last Assembly of Leaders. Upon activation, the Emperor will owe you a favor and grant you +10 Imperial Favors. Only one player may call an assembly at a time. Neither activation time, cooldown, nor cost can be reduced by ministers.",
+            "cost": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "building_requirement": [
+                "Library",
+                1
+            ],
+            "activation": 3600,
+            "cooldown": 14400
+        },
+        {
+            "name": "Imperial Lands",
+            "description": "Use the Emperor's lands for 5 days, thereby expanding your available hectares. The Emperor can grant up to 100 additional construction areas from his forests. At the end of the term, the Emperor will reclaim his lands. If the term ends and you have more constructed areas than those you own, you will pay 20 gold coins per hour for each area that does not belong to you. You can avoid the rent by recovering areas or demolishing buildings, or you can activate the Emperor's Lands more than once to extend the duration of its effect. Your minister cannot assist in obtaining additional areas.",
+            "cost": [
+                1600,
+                0,
+                0,
+                0,
+                0,
+                10
+            ],
+            "building_requirement": [
+                "Library",
+                2
+            ],
+            "activation": 21600,
+            "duration": 432000
+        },
+        {
+            "name": "Imperial State",
+            "description": "Reduce the penalty for overpopulation in your province and corruption by at least 40%. The effect of the Imperial State lasts for 5 days (real time, not game time). You can activate the Imperial State more than once to extend its duration. Your ministers do not help to increase this effect.",
+            "cost": [
+                400,
+                0,
+                0,
+                0,
+                0,
+                15
+            ],
+            "building_requirement": [
+                "Circle Of Sages",
+                1
+            ],
+            "activation": 21600,
+            "duration": 432000
+        },
+        {
+            "name": "Imperial Militia",
+            "description": "The Emperor will assign troops to your province to support your cause. Imperial troops are organized into different formations that you can select. Each formation has its own requirements, number, and types of units, but the same cost. Choose the militia that best suits your playstyle. The units will arrive at the maximum level unlocked, or at level 1 if they have not yet been unlocked. Your minister cannot help increase the number of units that arrive.",
+            "cost": [
+                9600,
+                20000,
+                6000,
+                3600,
+                0,
+                25
+            ],
+            "building_requirement": [
+                "Dojo",
+                2
+            ],
+            "activation": 21600,
+            "cooldown": 172800
+        },
+        {
+            "name": "Imperial Expert",
+            "description": "The Emperor will assign one of his best samurai to act in your province. The Samurai will have all their attributes set to 30, plus 2 for each level of the Council of Magistrates. Your minister cannot help increase the number of attribute points your Imperial Expert will have. Each expert will have two skills related to the selected position: Economy (Economist, Lumber Leader), War (Cartographer, Watchman), Politics (Great Orator, Protocol Specialist), Ninjutsu (Master Spy, Census Manager), or General (Great Warrior, Well-Prepared).",
+            "cost": [
+                3600,
+                0,
+                0,
+                0,
+                0,
+                20
+            ],
+            "building_requirement": [
+                "Magistrates Council",
+                1
+            ],
+            "activation": 21600,
+            "cooldown": 172800
+        },
+        {
+            "name": "Imperial Help",
+            "description": "The Emperor will order a shipment of the resource of your choice to your province: 6,000 gold coins, 12,000 units of food, 4,000 units of wood, or 2,500 units of iron. Each level of the market will allow the Emperor to send an additional 10% of resources. Your minister cannot help increase the amount of resources received.",
+            "cost": [
+                80,
+                0,
+                0,
+                0,
+                0,
+                10
+            ],
+            "building_requirement": [
+                "Market",
+                1
+            ],
+            "activation": 7200,
+            "cooldown": 64800
+        },
+        {
+            "name": "Oath",
+            "description": "Permanently change your faction. This policy also includes the Jigoku faction, provided it has been previously unlocked in the talent tree. Switching to the Jigoku faction comes at a total cost of 50 Imperial Favors, instead of the 30 required to pledge allegiance to any other faction.",
+            "cost": [
+                20000,
+                28000,
+                6000,
+                2000,
+                35,
+                30
+            ],
+            "building_requirement": [
+                "Library",
+                3
+            ],
+            "activation": 21600,
+            "cooldown": 345600
+        }
+    ]
+}

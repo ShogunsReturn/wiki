@@ -1,0 +1,14 @@
+import Link from '@docusaurus/Link';
+import CostByLevelTable from '@site/src/components/CostByLevelTable';
+import playerBuildings from '@site/src/data/player_buildings.json';
+
+# Academy
+
+- The Academy is a <Link to="/docs/game-concepts/buildings#types-of-buildings">Level building</Link>, so we can only increase it one level at a time and its construction has a maximum limit.
+- The Academy unlocks the creation of <Link to="/docs/game-concepts/military-units#special-units">special units</Link>: units unique to each <Link to="/docs/game-concepts/factions">Faction</Link>.
+- Each additional Academy level increases the level of certain military Units.
+
+**Cost Table by Level:**
+
+<CostByLevelTable building={playerBuildings['Academy']} />
+

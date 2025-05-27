@@ -1,0 +1,21 @@
+---
+sidebar_label: Ninja Dojo
+---
+
+import Link from '@docusaurus/Link';
+import CostByLevelTable from '@site/src/components/CostByLevelTable';
+import playerBuildings from '@site/src/data/player_buildings.json';
+
+# Ninja Dojo *(in development)*
+
+- The Ninja Dojo is a <Link to="/docs/game-concepts/buildings#types-of-buildings">Level building</Link>, so we can only increase it one level at a time, but in this case its construction has no maximum limit.
+
+**Cost Table by Level:**
+
+<CostByLevelTable building={playerBuildings["Ninja Dojo"]} />
+
+### *In Development*
+
+- The Ninja Dojo unlocks the Ninjutsu Menu, where Ninja Missions can be ordered.
+- Each additional Ninja Dojo level allows you to attract a greater number of ninjas to your province.
+- Each additional Ninja Dojo level increases the range of the spy attributes of the ninjas who are attracted to your ninja dojo by 2 points. (The initial range being 30–60)

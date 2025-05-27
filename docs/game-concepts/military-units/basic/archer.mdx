@@ -1,0 +1,81 @@
+---
+sidebar_position: 5
+---
+
+import UnitStatsTable from '@site/src/components/UnitStatsTable';
+import Link from '@docusaurus/Link';
+import Admonition from '@theme/Admonition'
+
+# Archer
+
+## Overview
+
+Archers are trained in Kyudo, the art of archery. They rain arrows upon their enemies as they approach, then retreat behind infantry lines to avoid melee combat, where they are highly vulnerable.
+
+---
+
+## Key Features
+
+### Cost
+- Rice: 80
+- Wood: 50
+- Iron: 0
+- Gold: 35
+- Population: 1
+
+### Maintenance
+- Meat: 1.6 /h
+- Gold: 0.9 /h
+
+### Training duration
+- 4 Hours
+
+### Honor requirement
+- -100
+
+### Unit type
+- <Link to="../#ranged-infantry">Ranged Infantry</Link> with range of **3**
+
+### Trait
+- <Link to="../#ranged-units">Ranged Unit</Link>
+
+<Admonition type="tip" title="Special Effect – Coordinated Rain">
+  <ul>
+    <li>The more archers grouped together in a single unit, the greater their potential.</li>
+    <li>For every 500 archers in the same block, they receive a bonus of <code>+(0.5 × level)</code>, <strong>up to a maximum of +5</strong>.</li>
+  </ul>
+</Admonition>
+
+### Samurai Skills  
+They can be affected by the Samurai abilities:  
+- <Link to="../../samurais/reasoning-skills#archer">Archer</Link>  
+- <Link to="../../samurais/charisma-skills#divine-fury">Divine Fury</Link>
+
+### Stats by level
+
+<UnitStatsTable
+  baseStats={{
+    attack: 4,
+    attackPerLevel: 0.334,
+    defense: 5,
+    defensePerLevel: 0.445,
+    armor: 0,
+    health: 30,
+    healthPerLevel: 1.0,
+    counter: 0,
+  }}
+  requirements={{
+    1: 'Archery(4)',
+    2: 'Archery(8)',
+    3: 'Archery(12)',
+    4: 'Archery(15)',
+    5: 'Archery(17)',
+    6: 'Archery(20)',
+    7: 'Archery(22)',
+    8: 'Archery(25)',
+    9: 'Archery(27)',
+    10: 'Archery(29)',
+  }}
+/>
+
+> <Link to="../#attributes">More information about unit attributes</Link>

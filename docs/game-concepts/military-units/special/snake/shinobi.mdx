@@ -1,0 +1,92 @@
+---
+sidebar_position: 2
+---
+
+import UnitStatsTable from '@site/src/components/UnitStatsTable';
+import Link from '@docusaurus/Link';
+import Admonition from '@theme/Admonition';
+
+# Shinobi
+
+## Overview
+
+The Serpent Shinobi are mystically enchanted warriors, concealed beneath masks that hide their true identity.
+In battle, they move unseen through smoke and shadows, evading enemies as they strike rival leaders from behind, before vanishing without a trace.
+
+---
+
+## Key Features
+
+### Cost
+- Rice: 50  
+- Wood: 0  
+- Iron: 25  
+- Gold: 90  
+- Population: 1
+
+### Maintenance
+- Meat: 1.6 /h  
+- Gold: 2.4 /h
+
+### Training duration
+- 10 Hours
+
+### Honor requirement
+- -100
+
+### Unit type
+- <Link to="../../#rear-units">Rear Units</Link>
+
+### Trait
+- Special Effect
+
+<Admonition type="tip" title="Special Effect – Targeted Assassination">
+  <ul>
+    <li>Acts before archers and before the battle officially begins (Turn 2).</li>
+    <li>Targets only rearguard units, inflicting all its damage on them for one turn.</li>
+    <li>After executing its attack, the Shinobi retreats to the third row, avoiding further combat. Can still be killed in battle despite not engaging afterward.</li>
+    <li>Units Affected by the Shinobi:</li>
+    <ul>
+      <li>Enemy Samurai</li>
+      <li>Monks and all Shugenja</li>
+      <li>Yojimbo (Bodyguards)</li>
+      <li>Tacticians</li>
+      <li>Infiltrators</li>
+      <li>Other Shinobi</li>
+      <li>Agonizers</li>
+    </ul>
+  </ul>
+</Admonition>
+
+### Samurai Skills  
+They can be affected by the Samurai ability:  
+- <Link to="../../../samurais/knowledge-skills#special-knowledge">Special Knowledge</Link>
+
+### Stats by level
+
+<UnitStatsTable
+  baseStats={{
+    attack: 40,
+    attackPerLevel: 3.667,
+    defense: 40,
+    defensePerLevel: 3.556,
+    armor: 0,
+    health: 28,
+    healthPerLevel: 2.445,
+    counter: 0,
+  }}
+  requirements={{
+    1: 'Academy(3), Assassins Room(3)',
+    2: 'Academy(5), Assassins Room(5)',
+    3: 'Academy(8), Assassins Room(7)',
+    4: 'Academy(12), Assassins Room(9)',
+    5: 'Academy(14), Assassins Room(11)',
+    6: 'Academy(17), Assassins Room(13)',
+    7: 'Academy(20), Assassins Room(15)',
+    8: 'Academy(23), Assassins Room(17)',
+    9: 'Academy(25), Assassins Room(19)',
+    10: 'Academy(29), Assassins Room(21)',
+  }}
+/>
+
+> <Link to="../../#attributes">More information about unit attributes</Link>

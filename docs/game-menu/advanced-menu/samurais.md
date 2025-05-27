@@ -3,7 +3,7 @@
 The **Samurai Menu** is the fourth option in the **Advanced Menus** dropdown.<!-- It can also be accessed quickly using the **hotkey "S"**.   -->
 
 :::info
-At the start of the game, the Samurai Menu is **locked**. To unlock it, players **must construct** the [Council of Magistrates](../../game-concepts/buildings/commercial-political/magistrates-council.md).  
+At the start of the game, the Samurai Menu is **locked**. To unlock it, players **must construct** the [Council of Magistrates](/docs/game-concepts/buildings/commercial-political/magistrates-council).  
 :::
 
 From the **Samurai Menu**, players can **create, train, and assign samurai to magistrate positions**.  
@@ -28,8 +28,8 @@ This is the first submenu of the Samurai Menu. <!-- It can be accessed by clicki
 4. Click the **"Train" button** to finalize creation.  
 
 ### Attribute Points  
-- The **number of points available** for distribution depends on the level of the [Council of Magistrates](../../game-concepts/buildings/commercial-political/magistrates-council.md).  
-- The **maximum value** that can be assigned to a single attribute is determined by the [Library](../../game-concepts/buildings/commercial-political/library.md) level.  
+- The **number of points available** for distribution depends on the level of the [Council of Magistrates](/docs/game-concepts/buildings/commercial-political/magistrates-council).  
+- The **maximum value** that can be assigned to a single attribute is determined by the [Library](/docs/game-concepts/buildings/commercial-political/library) level.  
 
 ### Cost  
 - Creating a samurai requires **gold**.  
@@ -65,8 +65,8 @@ Each tab has its **own training area**.
      - Once the ability is learned, the samurai **continues training the selected attribute**.  
 
 ### Training Limitations
-- **Training slots** for each attribute can be expanded by upgrading the [Council of Magistrates](../../game-concepts/buildings/commercial-political/magistrates-council.md).  
-- The **maximum points** that can be trained per attribute are determined by the [Library](../../game-concepts/buildings/commercial-political/library.md) level.  
+- **Training slots** for each attribute can be expanded by upgrading the [Council of Magistrates](/docs/game-concepts/buildings/commercial-political/magistrates-council).  
+- The **maximum points** that can be trained per attribute are determined by the [Library](/docs/game-concepts/buildings/commercial-political/library) level.  
 
 ---
 

@@ -1,0 +1,86 @@
+---
+sidebar_position: 2
+---
+
+import UnitStatsTable from '@site/src/components/UnitStatsTable';
+import Link from '@docusaurus/Link';
+import Admonition from '@theme/Admonition';
+
+# Vanguard
+
+## Overview
+
+The Leopard Vanguard is an elite cavalry unit, trained to charge in a straight line against any defense.
+Their primary objective is to break through enemy ranks, creating an opening for the main army to advance.
+Being part of the Vanguard is considered the highest honor among the Leopard forces.
+
+---
+
+## Key Features
+
+### Cost
+- Rice: 240  
+- Wood: 20  
+- Iron: 20  
+- Gold: 110  
+- Population: 1
+
+### Maintenance
+- Meat: 4.2 /h  
+- Gold: 2.3 /h
+
+### Training duration
+- 8 Hours
+
+### Honor requirement
+- 10
+
+### Unit type
+- <Link to="../../#melee-cavalry">Melee Cavalry</Link>
+
+### Trait
+- Special Effect
+
+<Admonition type="tip" title="Special Effect – Devastating Charge">
+  <ul>
+    <li>The Leopard Vanguard possesses a unique charge ability.</li>
+    <li>Unlike regular cavalry, which has a <strong>×2</strong> charge bonus, the Vanguard's charge is <strong>×3</strong>, making it twice as powerful.</li>
+    <li>This overwhelming charge can shatter enemy formations, allowing the rest of the army to exploit the breach.</li>
+  </ul>
+</Admonition>
+
+### Samurai Skills  
+They can be affected by the Samurai abilities:  
+- <Link to="../../../samurais/knowledge-skills#special-knowledge">Special Knowledge</Link>  
+- <Link to="../../../samurais/reasoning-skills#horseman">Horseman</Link>
+
+### Stats by level
+
+<UnitStatsTable
+  baseStats={{
+    attack: 13,
+    attackPerLevel: 1.445,
+    defense: 12,
+    defensePerLevel: 1.112,
+    armor: 25,
+    armorPerLevel: 1,
+    health: 154,
+    healthPerLevel: 10.556,
+    counter: 10,
+    counterPerLevel: 1.112,
+  }}
+  requirements={{
+    1: 'Academy(3), Stable(4)',
+    2: 'Academy(5), Stable(8)',
+    3: 'Academy(8), Stable(12)',
+    4: 'Academy(12), Stable(15)',
+    5: 'Academy(14), Stable(17)',
+    6: 'Academy(17), Stable(20)',
+    7: 'Academy(20), Stable(22)',
+    8: 'Academy(23), Stable(25)',
+    9: 'Academy(25), Stable(27)',
+    10: 'Academy(29), Stable(29)',
+  }}
+/>
+
+> <Link to="../../#attributes">More information about unit attributes</Link>

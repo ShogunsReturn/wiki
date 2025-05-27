@@ -1,0 +1,20 @@
+---
+sidebar_label: Thieves Room
+---
+
+import Link from '@docusaurus/Link';
+import CostByLevelTable from '@site/src/components/CostByLevelTable';
+import playerBuildings from '@site/src/data/player_buildings.json';
+
+# Thieves Room *(in development)*
+
+- The Thief Room is a <Link to="/docs/game-concepts/buildings#types-of-buildings">Level building</Link>, so we can only increase it one level at a time, but in this case its construction has no maximum limit.
+
+**Cost Table by Level:**
+
+<CostByLevelTable building={playerBuildings["Thieves Room"]} />
+
+### *In Development*
+
+- The Thief Room unlocks the Steal Submenu, where you can order Steal missions.
+- Each additional Thief Room level increases the stealing attribute range of the ninjas attracted to your Ninja Dojo by 3 points. (The initial range is 20–50)

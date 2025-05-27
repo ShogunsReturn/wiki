@@ -1,0 +1,19 @@
+import CostByLevelTable from '@site/src/components/CostByLevelTable';
+import playerBuildings from '@site/src/data/player_buildings.json';
+import Link from '@docusaurus/Link';
+
+# Circle Of Sages
+
+- The Circle of Sages is a <Link to="/docs/game-concepts/buildings#types-of-buildings">Level building</Link>, so we can only increase one level at a time and its construction has a maximum limit.
+- It limits the maximum number of Armies. Every two levels of the Circle of Sages will allow you to control 1 additional army at the same time. The first at level 1.
+- The Circle of Sages unlocks different Political Actions and skills for the Samurai.
+
+## Cost Table by Level
+
+<CostByLevelTable building={playerBuildings["Circle Of Sages"]} />
+
+---
+
+### *In Development*
+
+- It limits the maximum number of associated armies. Every three levels of the Circle of Sages your allies will be able to associate an additional army to yours. The first at level 2.

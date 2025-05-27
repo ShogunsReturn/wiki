@@ -1,0 +1,22 @@
+---
+sidebar_label: Assassins Room
+---
+
+import Link from '@docusaurus/Link';
+import CostByLevelTable from '@site/src/components/CostByLevelTable';
+import playerBuildings from '@site/src/data/player_buildings.json';
+
+# Assassins Room *(in development)*
+
+- The Assassin's Room is a <Link to="/docs/game-concepts/buildings#types-of-buildings">Level building</Link>, so we can only increase it by one level at a time, but in this case its construction has no maximum limit.
+
+**Cost Table by Level:**
+
+<CostByLevelTable building={playerBuildings["Assassins Room"]} />
+
+---
+
+### *In Development*
+
+- The Assassin's Room unlocks the Assassinate Submenu and also the Poison Submenu, where Assassination and Poisoning missions can be ordered.
+- Each additional Assassin's Room level increases the rank of the attributes for assassination and poisoning of the ninjas who are attracted to our <Link to="/docs/game-concepts/buildings/ninjutsu/ninja-dojo">Ninja Dojo</Link> by 3 points. (The initial rank being 20–50)

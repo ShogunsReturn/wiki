@@ -1,0 +1,89 @@
+---
+sidebar_position: 4
+---
+
+import UnitStatsTable from '@site/src/components/UnitStatsTable';
+import Link from '@docusaurus/Link';
+import Admonition from '@theme/Admonition';
+
+# Jigoku Shugenja
+
+## Overview
+
+The so-called Shugenja of Jigoku are arcane sorceresses who master the dark arts of blood magic. They raise the fallen on the battlefield, extracting their most corrupt essence to create legions of the undead.  
+Shugenja of Jigoku are rearguard units and are classified as Dark units. They can be affected by the Samurai abilities: Sow Panic and Dark Leader.
+
+---
+
+## Key Features
+
+### Cost
+- Rice: 100
+- Wood: 20
+- Iron: 0
+- Gold: 75
+- Population: 0
+
+### Maintenance
+- Meat: 2.0 /h
+- Gold: 1.9 /h
+
+### Training duration
+- 9 Hours 30 Minutes
+
+### Honor requirement
+- -100
+
+### Unit type
+- <Link to="../#rear-units">Rear Units</Link>
+
+### Trait
+- <Link to="../#dark-units-1">Dark Unit</Link>  
+- <Link to="../#magical-units">Magical Unit</Link>  
+- <Link to="../#special-effects">Special Effect</Link>
+
+<Admonition type="tip" title="Special Effect – Embrace of Shadows">
+  <ul>
+    <li><strong>Torment:</strong> 20 points.</li>
+    <li>Each level of the unit increases Torment by <strong>10%</strong>.</li>
+  </ul>
+</Admonition>
+
+<Admonition type="tip" title="Magic Effect – Cursed Invocation">
+  <ul>
+    <li>If there were human casualties in battle, the Shugenja will resurrect up to 5 corpses as undead per turn.</li>
+    <li>If both attackers and defenders have Shugenja of Jigoku, defenders will have priority over corpses.</li>
+  </ul>
+</Admonition>
+
+### Samurai Skills  
+They can be affected by the Samurai abilities:  
+- <Link to="../../samurais/reasoning-skills#spread-panic">Spread Panic</Link>  
+- <Link to="../../samurais/charisma-skills#dark-leader">Dark Leader</Link>
+
+### Stats by level
+
+<UnitStatsTable
+  baseStats={{
+    attack: 0,
+    defense: 0,
+    armor: 0,
+    health: 30,
+    healthPerLevel: 2.223,
+    counter: 0,
+  }}
+  requirements={{
+    1: 'Temple(8), Dark Sanctuary(4)',
+    2: 'Temple(11), Dark Sanctuary(8)',
+    3: 'Temple(14), Dark Sanctuary(12)',
+    4: 'Temple(17), Dark Sanctuary(16)',
+    5: 'Temple(21), Dark Sanctuary(18)',
+    6: 'Temple(25), Dark Sanctuary(20)',
+    7: 'Temple(28), Dark Sanctuary(22)',
+    8: 'Temple(30), Dark Sanctuary(24)',
+    9: 'Temple(33), Dark Sanctuary(26)',
+    10: 'Temple(35), Dark Sanctuary(28)',
+  }}
+/>
+
+> <Link to="../#attributes">More information about unit attributes</Link>

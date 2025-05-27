@@ -1,0 +1,75 @@
+---
+sidebar_position: 2
+---
+
+import UnitStatsTable from '@site/src/components/UnitStatsTable';
+import Link from '@docusaurus/Link';
+
+# Ashihei With Yari
+
+## Overview
+
+Ashihei with yari are trained in combat using long wooden spears, making them particularly **effective against cavalry units**. Like basic Ashihei, they contribute to the province's workforce when stationed in their own province.
+
+---
+
+## Key Features
+
+### Cost
+- Rice: 60
+- Wood: 15
+- Iron: 0
+- Gold: 10
+- Population: 1
+
+### Maintenance
+- Meat: 1.2 /h
+- Gold: 0.6 /h
+
+### Training duration
+- 2 Hours
+
+### Honor requirement
+- -100
+
+### Unit type
+- <Link to="../#melee-infantry">Melee Infantry</Link> specialized in countering cavalry.
+
+### Trait
+- <Link to="../#ashihei-units">Ashihei Unit</Link>
+- <Link to="../#spear-units">Spear Unit</Link>
+
+### Samurai Skills  
+They can be affected by the Samurai abilities:  
+- <Link to="../../samurais/charisma-skills#exemplary-soldier">Exemplary Soldier</Link>  
+- <Link to="../../samurais/charisma-skills#popular-support">Popular Support</Link>  
+- <Link to="../../samurais/charisma-skills#divine-fury">Divine Fury</Link>
+
+### Stats by level
+
+<UnitStatsTable
+  baseStats={{
+    attack: 2,
+    attackPerLevel: 0.445,
+    defense: 3,
+    defensePerLevel: 0.334,
+    armor: 0,
+    health: 35,
+    healthPerLevel: 1.667,
+    counter: 0,
+  }}
+  requirements={{
+    1: 'Dojo(1)',
+    2: 'Dojo(2)',
+    3: 'Dojo(3)',
+    4: 'Dojo(5)',
+    5: 'Dojo(7)',
+    6: 'Dojo(9)',
+    7: 'Dojo(11)',
+    8: 'Dojo(14)',
+    9: 'Dojo(18)',
+    10: 'Dojo(24)',
+  }}
+/>
+
+> <Link to="../#attributes">More information about unit attributes</Link>

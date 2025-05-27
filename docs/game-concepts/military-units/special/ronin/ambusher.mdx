@@ -1,0 +1,91 @@
+---
+sidebar_position: 1
+---
+
+import UnitStatsTable from '@site/src/components/UnitStatsTable';
+import Link from '@docusaurus/Link';
+import Admonition from '@theme/Admonition';
+
+# Ambusher
+
+## Overview
+
+The Ronin Ambushers are stealthy warriors who hide in the shadows the night before a battle.
+As dawn approaches, they strike the enemy camp, spreading chaos and eliminating as many troops as possible before the main battle begins.
+
+---
+
+## Key Features
+
+### Cost
+- Rice: 50  
+- Wood: 0  
+- Iron: 15  
+- Gold: 70  
+- Population: 1
+
+### Maintenance
+- Meat: 1.6 /h  
+- Gold: 1.2 /h
+
+### Training duration
+- 6 Hours
+
+### Honor requirement
+- -100
+
+### Unit type
+- <Link to="../../index.md#melee-infantry">Melee Infantry</Link>
+
+### Trait
+- Special Effect
+
+<Admonition type="tip" title="Special Effect – Pre-Battle Raid">
+  <ul>
+    <li>Ambushers attack the enemy before the main battle begins (turns 1 to 3), catching them by surprise.</li>
+    <li>For three turns, the Ambusher attacks enemy units while absorbing the following fractions of total enemy army damage:</li>
+      <ul>
+        <li><strong>Turn 1:</strong> Receives 1/9 of the total enemy damage.</li>
+        <li><strong>Turn 2:</strong> Receives 2/9 of the total enemy damage.</li>
+        <li><strong>Turn 3:</strong> Receives 3/9 of the total enemy damage.</li>
+      </ul>
+    <li>After the raid, Ambushers temporarily withdraw, returning one turn after infantry engages.</li>
+    <li>Damage dealt by the Ambushers is distributed across all enemy units, ensuring widespread disruption.</li>
+    <li>Receives bonuses from Ashihei Captain, further enhancing their battlefield efficiency.</li>
+  </ul>
+</Admonition>
+
+### Samurai Skills  
+They can be affected by the Samurai abilities:  
+- <Link to="../../../samurais/knowledge-skills#special-knowledge">Special Knowledge</Link>  
+- <Link to="../../../samurais/charisma-skills#exemplary-soldier">Exemplary Soldier</Link>
+
+### Stats by level
+
+<UnitStatsTable
+  baseStats={{
+    attack: 10,
+    defense: 8,
+    armor: 20,
+    health: 65,
+    counter: 0,
+    attackPerLevel: 1.223,
+    defensePerLevel: 0.889,
+    armorPerLevel: 1.667,
+    healthPerLevel: 4.112
+  }}
+  requirements={{
+    1: 'Academy(1), Dojo(4)',
+    2: 'Academy(2), Dojo(8)',
+    3: 'Academy(4), Dojo(12)',
+    4: 'Academy(7), Dojo(16)',
+    5: 'Academy(9), Dojo(20)',
+    6: 'Academy(11), Dojo(23)',
+    7: 'Academy(15), Dojo(28)',
+    8: 'Academy(18), Dojo(31)',
+    9: 'Academy(21), Dojo(33)',
+    10: 'Academy(27), Dojo(35)',
+  }}
+/>
+
+> <Link to="../../index.md#attributes">More information about unit attributes</Link>

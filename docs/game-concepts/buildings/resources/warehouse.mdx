@@ -1,0 +1,54 @@
+---
+sidebar_label: Warehouse
+---
+
+import Link from '@docusaurus/Link';
+import CostByLevelTable from '@site/src/components/CostByLevelTable';
+import playerBuildings from '@site/src/data/player_buildings.json';
+
+# Warehouse
+
+- The warehouse is a <Link to="/docs/game-concepts/buildings#types-of-buildings">Level building</Link>, so we can only increase it one level at a time and its construction has no maximum level.
+- The warehouse limits the amount of food, wood, and iron we can store.
+- Each additional level improves the amount of each storable resource.
+
+**Cost Table by Level:**
+
+<CostByLevelTable building={playerBuildings["Warehouse"]} />
+
+---
+
+## Table of storable resources by level
+
+| Level |  Rice   |  Wood  |  Iron  |
+| :---: | :-----: | :----: | :----: |
+|   1   |  4500   |  2250  |  800   |
+|   2   |  9500   |  4750  |  1600  |
+|   3   | 17000   |  8500  |  2800  |
+|   4   | 27000   | 13500  |  4400  |
+|   5   | 39500   | 19750  |  6400  |
+|   6   | 54500   | 27250  |  8800  |
+|   7   | 72000   | 36000  | 11600  |
+|   8   | 92000   | 46000  | 14800  |
+|   9   | 114500  | 57250  | 18400  |
+|  10   | 139500  | 69750  | 22400  |
+|  11   | 167000  | 83500  | 26800  |
+|  12   | 197000  | 98500  | 31600  |
+|  13   | 229500  | 114750 | 36800  |
+|  14   | 264500  | 132250 | 42400  |
+|  15   | 302000  | 151000 | 48400  |
+|  16   | 342000  | 171000 | 54800  |
+|  17   | 384500  | 192250 | 61600  |
+|  18   | 429500  | 214750 | 68800  |
+|  19   | 477000  | 238500 | 76400  |
+|  20   | 527000  | 263500 | 84400  |
+|  21   | 579500  | 289750 | 92800  |
+|  22   | 634500  | 317250 | 101600 |
+|  23   | 692000  | 346000 | 110800 |
+|  24   | 752000  | 376000 | 120400 |
+|  25   | 814500  | 407250 | 130400 |
+|  26   | 879500  | 439750 | 140800 |
+|  27   | 947000  | 473500 | 151600 |
+|  28   | 1017000 | 508500 | 162800 |
+|  29   | 1089500 | 544750 | 174400 |
+|  30   | 1164500 | 582250 | 186400 |

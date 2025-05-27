@@ -1,0 +1,73 @@
+---
+sidebar_position: 2
+---
+
+import UnitStatsTable from '@site/src/components/UnitStatsTable';
+import Link from '@docusaurus/Link';
+
+# Kenshinzen
+
+## Overview
+
+The Crane Kenshinzen are master swordsmen highly skilled in the art of Iaijutsu, the technique of swift and precise drawing of the blade.
+They are cold, calculating, and relentless in close combat. Their defensive stance on the battlefield is renowned for its ability to repel even the most devastating attacks.
+
+---
+
+## Key Features
+
+### Cost
+- Rice: 90  
+- Wood: 0  
+- Iron: 50  
+- Gold: 60  
+- Population: 1
+
+### Maintenance
+- Meat: 1.6 /h  
+- Gold: 1.2 /h
+
+### Training duration
+- 7 Hours
+
+### Honor requirement
+- 20
+
+### Unit type
+- <Link to="../../#melee-infantry">Melee Infantry</Link>
+
+### Samurai Skills  
+They can be affected by the Samurai abilities:  
+- <Link to="../../../samurais/knowledge-skills#special-knowledge">Special Knowledge</Link>  
+- <Link to="../../../samurais/charisma-skills#exemplary-soldier">Exemplary Soldier</Link>
+
+### Stats by level
+
+<UnitStatsTable
+  baseStats={{
+    attack: 8,
+    attackPerLevel: 0.889,
+    defense: 8,
+    defensePerLevel: 1.112,
+    armor: 35,
+    armorPerLevel: 2.223,
+    health: 63,
+    healthPerLevel: 5.889,
+    counter: 55,
+    counterPerLevel: 5,
+  }}
+  requirements={{
+    1: 'Academy(3), Blacksmith(4)',
+    2: 'Academy(5), Blacksmith(8)',
+    3: 'Academy(8), Blacksmith(12)',
+    4: 'Academy(12), Blacksmith(15)',
+    5: 'Academy(14), Blacksmith(17)',
+    6: 'Academy(17), Blacksmith(20)',
+    7: 'Academy(20), Blacksmith(22)',
+    8: 'Academy(23), Blacksmith(25)',
+    9: 'Academy(25), Blacksmith(27)',
+    10: 'Academy(29), Blacksmith(29)',
+  }}
+/>
+
+> <Link to="../../#attributes">More information about unit attributes</Link>

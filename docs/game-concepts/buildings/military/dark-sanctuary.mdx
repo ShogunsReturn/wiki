@@ -1,0 +1,28 @@
+import Link from '@docusaurus/Link';
+import CostByLevelTable from '@site/src/components/CostByLevelTable';
+import playerBuildings from '@site/src/data/player_buildings.json';
+
+# Dark Sanctuary
+
+- The Dark Sanctuary is a <Link to="/docs/game-concepts/buildings#types-of-buildings">Level building</Link>, so we can only increase one level at a time and its construction has a maximum limit.
+- The Dark Sanctuary unlocks the creation of dark units.
+- Each level of the Dark Sanctuary reduces Honor by 20 points.
+- Each level of Dark Sanctuary brings dark units to your province for free to join your reserve.
+- Each additional level of Dark Sanctuary increases the level of certain <Link to="/docs/game-concepts/military-units">Military Units</Link>.
+
+### The dark sanctuary attracts units as follows
+
+- Starting at level 2, it will begin to bring dark units of the maximum level that we have unlocked.
+- The number of units will be determined as follows:
+  - Summon Points: 20 * (Dark Sanctuary Level - 1)
+  - To know how many units of each type arrive, it is divided by their cost in summon points:
+    - Undead = 20
+    - Gaki = 30
+    - Dokumono = 45
+    - Karasu = 90
+    - Shugenja = 150
+  - For each additional level unlocked, the cost will increase by 10%, so a level 2 Undead will cost 22 points.
+
+**Cost Table by Level:**
+
+<CostByLevelTable building={playerBuildings["Dark Sanctuary"]} />

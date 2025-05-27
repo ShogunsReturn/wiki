@@ -1,0 +1,50 @@
+import Link from '@docusaurus/Link';
+import CostByLevelTable from '@site/src/components/CostByLevelTable';
+import playerBuildings from '@site/src/data/player_buildings.json';
+
+# Magistrates' Council
+
+- The Magistrates' Council is a <Link to="/docs/game-concepts/buildings#types-of-buildings">Level building</Link>, so we can only increase it by one level at a time and its construction has a maximum limit.
+- Each additional level of Magistrates' Council unlocks and increases the training slots for the different attributes and skills. 1st Knowledge &gt; Cunning &gt; Charisma &gt; 4th Reasoning.
+- The Magistrates' Council unlocks the <Link to='/docs/game-menu/advanced-menu/samurais'>Samurai Menu</Link>, where you can activate to create and train samurai to be assigned as magistrates or army warlords.
+- Each additional level of Magistrates' Council allows you to create samurai with a higher number of initial attribute points. At level n, you can create samurai with 14+4n initial attribute points.
+- Each additional level of <Link to="/docs/game-concepts/buildings/commercial-political/library">Library</Link> increases the limit to which samurai attributes can be created and trained by 2.5 points.
+
+**Cost Table:**
+
+<CostByLevelTable building={playerBuildings["Magistrates Council"]} />
+
+### Training positions of the Council of Magistrates by level:
+
+| Level | Knowledge Positions | Picardy Positions | Charisma Positions | Reasoning Positions |
+| :---: | :-----------------: | :---------------: | :----------------: | :-----------------: |
+|   1   |          1          |         0         |         0          |          0          |
+|   2   |          1          |         1         |         0          |          0          |
+|   3   |          1          |         1         |         1          |          0          |
+|   4   |          1          |         1         |         1          |          1          |
+|   5   |          2          |         1         |         1          |          1          |
+|   6   |          2          |         2         |         1          |          1          |
+|   7   |          2          |         2         |         2          |          1          |
+|   8   |          2          |         2         |         2          |          2          |
+|   9   |          3          |         2         |         2          |          2          |
+|  10   |          3          |         3         |         2          |          2          |
+|  11   |          3          |         3         |         3          |          2          |
+|  12   |          3          |         3         |         3          |          3          |
+|  13   |          4          |         3         |         3          |          3          |
+|  14   |          4          |         4         |         3          |          3          |
+|  15   |          4          |         4         |         4          |          3          |
+|  16   |          4          |         4         |         4          |          4          |
+|  17   |          5          |         4         |         4          |          4          |
+|  18   |          5          |         5         |         4          |          4          |
+|  19   |          5          |         5         |         5          |          4          |
+|  20   |          5          |         5         |         5          |          5          |
+|  21   |          6          |         5         |         5          |          5          |
+|  22   |          6          |         6         |         5          |          5          |
+|  23   |          6          |         6         |         6          |          5          |
+|  24   |          6          |         6         |         6          |          6          |
+|  25   |          7          |         6         |         6          |          6          |
+|  26   |          7          |         7         |         6          |          6          |
+|  27   |          7          |         7         |         7          |          6          |
+|  28   |          7          |         7         |         7          |          7          |
+|  29   |          8          |         7         |         7          |          7          |
+|  30   |          8          |         8         |         7          |          7          |

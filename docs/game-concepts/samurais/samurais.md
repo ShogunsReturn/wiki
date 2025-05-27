@@ -1,9 +1,9 @@
 # Samurai 
 
-Samurai are distinguished men and women who can be trained to learn various skills and later assigned as **magistrates** or **army generals**, granting **powerful in-game advantages**. Players can **create, train, and assign samurai** from the [Samurai Menu](../../game-menu/advanced-menu/samurais.md).  
+Samurai are distinguished men and women who can be trained to learn various skills and later assigned as **magistrates** or **army generals**, granting **powerful in-game advantages**. Players can **create, train, and assign samurai** from the [Samurai Menu](/docs/game-menu/advanced-menu/samurais).  
 
 :::info
-To **unlock** the Samurai Menu, players **must construct** the [Council of Magistrates](../../game-concepts/buildings/commercial-political/magistrates-council.md).  
+To **unlock** the Samurai Menu, players **must construct** the [Council of Magistrates](/docs/game-concepts/buildings/commercial-political/magistrates-council).  
 :::
 
 ---
@@ -18,28 +18,28 @@ An **icon below the samurai’s name** indicates their current state. The possib
 
 2. **Training**  
    - When assigned to an **attribute or skill training area**.  
-   - Assignments are managed from the [Train submenu](../../game-menu/advanced-menu/samurais.md#train-submenu) in the Samurai Menu.  
+   - Assignments are managed from the [Train submenu](/docs/game-menu/advanced-menu/samurais#train-submenu) in the Samurai Menu.  
 
 3. **Magistrate of Economy**  
    - Assigned as an **Economy Magistrate**, granting **economic bonuses**.  
-   - Assigned from the [Magistrates submenu](../../game-menu/advanced-menu/samurais.md#magistrates-submenu).  
+   - Assigned from the [Magistrates submenu](/docs/game-menu/advanced-menu/samurais#magistrates-submenu).  
 
 4. **Magistrate of Politics**  
    - Assigned as a **Politics Magistrate**, providing **political advantages**.  
-   - Assigned from the [Magistrates submenu](../../game-menu/advanced-menu/samurais.md#magistrates-submenu).
+   - Assigned from the [Magistrates submenu](/docs/game-menu/advanced-menu/samurais#magistrates-submenu).
 
 5. **Magistrate of War**  
    - Assigned as a **War Magistrate**, improving **military operations**.  
-   - Assigned from the [Magistrates submenu](../../game-menu/advanced-menu/samurais.md#magistrates-submenu).
+   - Assigned from the [Magistrates submenu](/docs/game-menu/advanced-menu/samurais#magistrates-submenu).
 
 6. **Magistrate of Subterfuge**  
    - Assigned as a **Subterfuge Magistrate**, specializing in **covert operations**.  
-   - Assigned from the [Magistrates submenu](../../game-menu/advanced-menu/samurais.md#magistrates-submenu).
+   - Assigned from the [Magistrates submenu](/docs/game-menu/advanced-menu/samurais#magistrates-submenu).
 
 7. **Army General**  
    - Assigned as a **General of an army**, influencing battles with **military skills and attributes**.  
    - Increases **battle effectiveness**, turning the samurai into a **powerful warrior**.  
-   - Assigned from the [Armies submenu](../../game-menu/advanced-menu/armies.md#armies-submenu) within the Army Menu.  
+   - Assigned from the [Armies submenu](/docs/game-menu/advanced-menu/armies#armies-submenu) within the Army Menu.  
 
 ---
 
@@ -96,10 +96,10 @@ A samurai can learn **various abilities** that enhance their effectiveness.
 
 ### Skill Categories  
 
-- [Knowledge-related Skills](./knowledge-skills.md)  
-- [Reasoning-related Skills](./reasoning-skills.md)  
-- [Charisma-related Skills](./charisma-skills.md)  
-- [Picardy-related Skills](./picardy-skills.md)  
+- [Knowledge-related Skills](/docs/game-concepts/samurais/knowledge-skills)  
+- [Reasoning-related Skills](/docs/game-concepts/samurais/reasoning-skills)  
+- [Charisma-related Skills](/docs/game-concepts/samurais/charisma-skills)  
+- [Picardy-related Skills](/docs/game-concepts/samurais/picardy-skills)  
 
 ---
 
@@ -124,7 +124,7 @@ The **Escort System** is a **gold-based protection mechanism** that helps safegu
 ### Samurai Attributes & Battle Effects  
 
 #### Knowledge:  
-- The **samurai contributes damage** to the attack starting from the [archery turn](../combat.md#combat-turns).  
+- The **samurai contributes damage** to the attack starting from the [archery turn](/docs/game-concepts/combat#combat-turns).  
 - **Samurai Damage Formula:**  
   - **Projectile Damage:** `Knowledge × 20` → **Active during turns 6 to 9**.  
   - **Cavalry Damage:** `Knowledge × 30` → **Active during turns 10 to 16**.  
@@ -170,7 +170,7 @@ The **Escort System** is a **gold-based protection mechanism** that helps safegu
   - Applies during Turn 10, after infantry engages.  
 
 - **Counts as a Special Unit:**  
-  - Affected by assassins and masters.  
+  - Affected by Shinobis and Masters.  
 
 - **Damage Accumulation:**  
   - Damage received by the samurai carries over between turns.  

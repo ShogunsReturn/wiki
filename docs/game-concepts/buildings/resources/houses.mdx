@@ -1,0 +1,21 @@
+import Link from '@docusaurus/Link';
+import CostByLevelTable from '@site/src/components/CostByLevelTable';
+import playerBuildings from '@site/src/data/player_buildings.json';
+import Admonition from '@theme/Admonition';
+
+# Houses
+
+- Houses are a <Link to="/docs/game-concepts/buildings#types-of-buildings">Quantity building</Link>, so we can build several at the same time and they have no limit.
+- Houses are one of the most basic buildings in the game. They determine the maximum **Population** that can inhabit the province. Each house can accommodate up to **20 villagers**.
+- When starting a game, we already have some houses to provide shelter for the population we initially have.
+- In addition, **free houses encourage population growth**. For each unoccupied house, population growth increases by **2 villagers/hour**.
+
+<Admonition type="tip" title="Population Growth">
+Building many houses is the basis of a strong economy, since increasing the population means a greater income of gold and labor for carrying out resource gathering or construction tasks.
+</Admonition>
+
+The cost of each house is higher the more we have.
+
+**Cost Table:**
+
+<CostByLevelTable building={playerBuildings["Houses"]} />

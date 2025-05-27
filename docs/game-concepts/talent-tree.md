@@ -61,7 +61,7 @@ For each talent point allocated, the following benefits are gained. (Effects sta
 - **Treasurers:** Gain +2% gold collection from your villagers.
 
 #### Level 7 *(in development)*
-- **Ashigaru with Rifle:** Unlocks the Ashigaru with Rifle craft.
+- **Ashihei with Rifle:** Unlocks the Ashihei with Rifle craft.
 
 ### Military Talent Tree *(in development)*
 
@@ -84,18 +84,18 @@ For each talent point allocated, the following benefits are gained. (Effects sta
 - **Circle Expansion:** You gain +1 level of initial circle of sages.
 
 #### Level 4
-- **Fright:** You generate +4% goblins in the dark shrine.
+- **Fright:** You generate +4% Dokumonos in the dark shrine.
 - **Longbows:** You reduce the wood cost of archer units by 2.
 - **Bravery:** 4% of the units that torment you in battle return to your ranks.
 
 #### Level 5
 - **Terror:** You generate +4% gakis in the dark shrine.
 - **Fair Wages:** You reduce the gold maintenance of basic and magic units by 0.1.
-- **Fair Rations:** You reduce the food maintenance of non-ashigaru basic units by 2.
+- **Fair Rations:** You reduce the food maintenance of non-ashihei basic units by 2.
 - **Dosing:** You reduce the gold cost of movements and attacks by 10%.
 
 #### Level 6
-- **Panic:** You generate +4% tengus and shugenjas of the jigoku in the dark shrine.
+- **Panic:** You generate +4% Karasus and shugenjas of the jigoku in the dark shrine.
 - **Making Legend:** You unlock the political action Making Legend.
 - **Limited Rations:** You reduce the food maintenance of special units by 2. 
 

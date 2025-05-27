@@ -1,0 +1,85 @@
+---
+sidebar_position: 1
+---
+
+import UnitStatsTable from '@site/src/components/UnitStatsTable';
+import Link from '@docusaurus/Link';
+import Admonition from '@theme/Admonition';
+
+# Veteran
+
+## Overview
+
+<p>
+The Tiger Veterans are battle-hardened infantry units known for their extreme discipline.
+Accustomed to fighting together, they maximize their effectiveness through mutual support.
+These elite troops are deployed to the most critical points of the battlefield.
+</p>
+
+---
+
+## Key Features
+
+### Cost
+- Rice: 90  
+- Wood: 0  
+- Iron: 30  
+- Gold: 40  
+- Population: 1
+
+### Maintenance
+- Meat: 1.6 /h  
+- Gold: 1.3 /h
+
+### Training duration
+- 7 Hours
+
+### Honor requirement
+- 30
+
+### Unit type
+- <Link to="../../#melee-infantry">Melee Infantry</Link>
+
+### Trait
+- Special Effect
+
+<Admonition type="tip" title="Special Effect – Combat Synergy">
+  Gain <strong>+1 additional damage for every 50 Tiger Veterans</strong>.  
+  Bonus cannot exceed <strong>twice their original damage</strong> (after applying modifiers).
+</Admonition>
+
+### Samurai Skills  
+They can be affected by the Samurai abilities:  
+- <Link to="../../../samurais/knowledge-skills#special-knowledge">Special Knowledge</Link>  
+- <Link to="../../../samurais/charisma-skills#exemplary-soldier">Exemplary Soldier</Link>
+
+### Stats by level
+
+<UnitStatsTable
+  baseStats={{
+    attack: 6,
+    attackPerLevel: 0.445,
+    defense: 7,
+    defensePerLevel: 0.667,
+    armor: 20,
+    armorPerLevel: 2.223,
+    health: 70,
+    healthPerLevel: 5.334,
+    counter: 10,
+    counterPerLevel: 0,
+  }}
+  requirements={{
+    1: 'Academy(1), Dojo(4)',
+    2: 'Academy(2), Dojo(8)',
+    3: 'Academy(4), Dojo(12)',
+    4: 'Academy(7), Dojo(16)',
+    5: 'Academy(9), Dojo(20)',
+    6: 'Academy(11), Dojo(23)',
+    7: 'Academy(15), Dojo(28)',
+    8: 'Academy(18), Dojo(31)',
+    9: 'Academy(21), Dojo(33)',
+    10: 'Academy(27), Dojo(35)',
+  }}
+/>
+
+> <Link to="../../#attributes">More information about unit attributes</Link>

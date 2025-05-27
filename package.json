@@ -17,10 +17,13 @@
     "@docusaurus/core": "3.6.3",
     "@docusaurus/preset-classic": "3.6.3",
     "@mdx-js/react": "^3.0.0",
+    "@tailwindcss/postcss": "^4.1.7",
     "clsx": "^2.0.0",
+    "postcss": "^8.5.3",
     "prism-react-renderer": "^2.3.0",
     "react": "^18.0.0",
-    "react-dom": "^18.0.0"
+    "react-dom": "^18.0.0",
+    "tailwindcss": "^4.1.7"
   },
   "devDependencies": {
     "@docusaurus/module-type-aliases": "3.6.3",

@@ -1,0 +1,16 @@
+import Link from '@docusaurus/Link';
+import CostByLevelTable from '@site/src/components/CostByLevelTable';
+import playerBuildings from '@site/src/data/player_buildings.json';
+
+# Farms
+
+- Farms are <Link to="/docs/game-concepts/buildings#types-of-buildings">Quantity buildings</Link>, so you can build several at the same time and they don't have a limit.
+- Farms determine the amount of people who can harvest meat. Up to **25 villagers** can work on each farm.
+- Each villager on a farm produces **5 food/hour**. Meat, unlike rice, is a type of food that **can't be stored**, so it only serves to pay **maintenance**.
+- When you start a game, you already have a few farms to harvest meat.
+
+The cost of each farm is **higher the more you have**.
+
+**Cost Table:**
+
+<CostByLevelTable building={playerBuildings["Farms"]} />

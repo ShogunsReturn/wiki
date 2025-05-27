@@ -1,0 +1,80 @@
+---
+sidebar_position: 1
+---
+
+import UnitStatsTable from '@site/src/components/UnitStatsTable';
+import Link from '@docusaurus/Link';
+import Admonition from '@theme/Admonition';
+
+# Monk
+
+## Overview
+
+**Monks** are **mystical figures** who live in solitude, meditating to attain **healing and protective abilities** through the simple **imposition of their hands**. They join armies to **treat wounded soldiers** in the heat of battle.  
+
+---
+
+## Key Features
+
+### Cost
+- Rice: 130  
+- Wood: 10  
+- Iron: 0  
+- Gold: 60  
+- Population: 1
+
+### Maintenance
+- Meat: 1.6 /h  
+- Gold: 1.5 /h
+
+### Training duration
+- 6 Hours
+
+### Honor requirement
+- 10
+
+### Unit type
+- <Link to="../#rear-units">Rear Unit</Link>
+
+### Trait
+- <Link to="../#magical-units">Magical Unit</Link>
+
+<Admonition type="tip" title="Healing Effect">
+  <ul>
+    <li>Each <strong>monk heals 3 points of damage per turn</strong> (<strong>+1 point per level</strong>; at level 1, they heal <strong>4 points</strong>).</li>
+    <li>Healing applies to <strong>both physical and magical damage</strong>.</li>
+    <li>Healing is <strong>affected by army morale</strong>, increasing by <strong>2% per point of morale</strong>.</li>
+  </ul>
+</Admonition>
+
+### Samurai Skills  
+They can be affected by the Samurai ability:  
+- <Link to="../../samurais/knowledge-skills#arcane-knowledge">Arcane Knowledge</Link>
+
+### Stats by level
+
+<UnitStatsTable
+  baseStats={{
+    attack: 0,
+    defense: 0,
+    armor: 1,
+    armorPerLevel: 0,
+    health: 21,
+    healthPerLevel: 1.778,
+    counter: 0,
+  }}
+  requirements={{
+    1: 'Temple(1)',
+    2: 'Temple(2)',
+    3: 'Temple(3)',
+    4: 'Temple(5)',
+    5: 'Temple(7)',
+    6: 'Temple(9)',
+    7: 'Temple(11)',
+    8: 'Temple(14)',
+    9: 'Temple(18)',
+    10: 'Temple(24)',
+  }}
+/>
+
+> <Link to="../#attributes">More information about unit attributes</Link>

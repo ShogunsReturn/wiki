@@ -1,0 +1,16 @@
+import Link from '@docusaurus/Link';
+import CostByLevelTable from '@site/src/components/CostByLevelTable';
+import playerBuildings from '@site/src/data/player_buildings.json';
+
+# Fields
+
+- Fields are <Link to="/docs/game-concepts/buildings#types-of-buildings">Quantity buildings</Link>, so we can build several at the same time and they have no limit.
+- Fields determine the amount of population that can harvest rice. Up to **20 villagers** can work in each field.
+- Each villager in a field produces **3 food/hour**. Rice, unlike meat, is a type of food that **can be stored**.
+- When starting a game we already have some fields to harvest rice.
+
+The cost of each field is **higher the more you have**.
+
+**Cost Table:**
+
+<CostByLevelTable building={playerBuildings["Fields"]} />

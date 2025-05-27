@@ -1,0 +1,87 @@
+---
+sidebar_position: 6
+---
+
+import UnitStatsTable from '@site/src/components/UnitStatsTable';
+import Link from '@docusaurus/Link';
+import Admonition from '@theme/Admonition';
+
+# Kami
+
+## Overview
+
+**Kami** are **living deities** who only join those who **worship them fervently**. **Kamies** can be as powerful as entire armies. Their mere presence **imbues warriors with extraordinary strength and combat effectiveness**.  
+
+---
+
+## Key Features
+
+### Cost
+- Rice: 1000  
+- Wood: 50  
+- Iron: 150  
+- Gold: 500  
+- Population: 1
+
+### Maintenance
+- Meat: 5.0 /h  
+- Gold: 5.0 /h
+
+### Training duration
+- 7 Hours
+
+### Honor requirement
+- 25
+
+### Unit type
+- <Link to="../#melee-cavalry">Melee Cavalry</Link>
+
+### Trait
+- <Link to="../#magical-units">Magical Unit</Link>
+
+<Admonition type="tip" title="Special Effect – Divine Wrath">
+  <ul>
+    <li><strong>Exceptional effectiveness against dark units</strong>, <strong>dealing double damage</strong> when fighting them.</li>
+    <li><strong>Immune to poisoning effects</strong> and <strong>cannot be tormented</strong>.</li>
+  </ul>
+</Admonition>
+
+<Admonition type="note">
+  Due to their immense power, <strong>each Kami requires an additional cost of 5 Imperial Favors</strong> to be created.
+</Admonition>
+
+### Samurai Skills  
+They can be affected by the Samurai abilities:  
+- <Link to="../../samurais/knowledge-skills#arcane-knowledge">Arcane Knowledge</Link>  
+- <Link to="../../samurais/reasoning-skills#horseman">Horseman</Link>
+
+### Stats by level
+
+<UnitStatsTable
+  baseStats={{
+    attack: 360,
+    attackPerLevel: 60,
+    defense: 500,
+    defensePerLevel: 90,
+    armor: 50,
+    armorPerLevel: 2,
+    health: 550,
+    healthPerLevel: 100,
+    counter: 12,
+    counterPerLevel: 4,
+  }}
+  requirements={{
+    1: 'Castle(2)',
+    2: 'Castle(4)',
+    3: 'Castle(6)',
+    4: 'Castle(8)',
+    5: 'Castle(10)',
+    6: 'Castle(12)',
+    7: 'Castle(14)',
+    8: 'Castle(16)',
+    9: 'Castle(18)',
+    10: 'Castle(20)',
+  }}
+/>
+
+> <Link to="../#attributes">More information about unit attributes</Link>

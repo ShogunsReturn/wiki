@@ -1,0 +1,16 @@
+import Link from '@docusaurus/Link';
+import CostByLevelTable from '@site/src/components/CostByLevelTable';
+import playerBuildings from '@site/src/data/player_buildings.json';
+
+# Mines
+
+- Mines are a <Link to="/docs/game-concepts/buildings#types-of-buildings">Quantity building</Link>, so we can build several at the same time and they have no limit.
+- Mines determine the amount of population that can harvest iron. Up to **15 villagers** can work in each mine.
+- Each villager in a mine produces **1 iron/hour**.
+- If you belong to the **Leopard** faction, up to **30 villagers** can work in the mines.
+
+The cost of each mine is higher the more we have.
+
+**Cost Table:**
+
+<CostByLevelTable building={playerBuildings["Mines"]} />

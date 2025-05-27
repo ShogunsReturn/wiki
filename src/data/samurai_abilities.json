@@ -1,0 +1,698 @@
+{
+    "knowledge": [
+        {
+            "type": "general",
+            "name": "Arcane Knowledge",
+            "description": "Your magic units gain up to a 15% bonus on their spells during battle.",
+            "cost": [
+                600,
+                600,
+                0,
+                0
+            ],
+            "requirement": [
+                "Temple",
+                5
+            ],
+            "learning_time": 18000
+        },
+        {
+            "type": "general",
+            "name": "Special Knowledge",
+            "description": "Your special units gain up to a 20% damage bonus during battle.",
+            "cost": [
+                800,
+                0,
+                0,
+                100
+            ],
+            "requirement": [
+                "Academy",
+                8
+            ],
+            "learning_time": 14400
+        },
+        {
+            "type": "general",
+            "name": "Great Warrior",
+            "description": "Your samurai deals up to 100% more damage in battle and duels.",
+            "cost": [
+                450,
+                0,
+                0,
+                300
+            ],
+            "requirement": [
+                "Dojo",
+                3
+            ],
+            "learning_time": 7200
+        },
+        {
+            "type": "general",
+            "name": "Guardian of the Forest",
+            "description": "Your samurai summons 3 animals per attribute point in battle.",
+            "cost": [
+                2300,
+                0,
+                450,
+                0
+            ],
+            "requirement": [
+                "Temple",
+                12
+            ],
+            "learning_time": 7200
+        },
+        {
+            "type": "general",
+            "name": "Guardian Spirit",
+            "description": "Your samurai avoids up to 500 enemy damage per turn.",
+            "cost": [
+                1350,
+                0,
+                500,
+                0
+            ],
+            "requirement": [
+                "Temple",
+                6
+            ],
+            "learning_time": 7200
+        },
+        {
+            "type": "general",
+            "name": "Arcane Power",
+            "description": "Your samurai adds up to 2500 magic damage to their attacks (begins 2 turns after infantry).",
+            "cost": [
+                2600,
+                0,
+                0,
+                450
+            ],
+            "requirement": [
+                "Temple",
+                15
+            ],
+            "learning_time": 7200
+        },
+        {
+            "type": "military",
+            "name": "Arcane Lord",
+            "description": "Magic units are up to 15% cheaper.",
+            "cost": [
+                2000,
+                0,
+                600,
+                0
+            ],
+            "requirement": [
+                "Temple",
+                4
+            ],
+            "learning_time": 10800
+        },
+        {
+            "type": "military",
+            "name": "Dark Lord",
+            "description": "Dark units are up to 25% cheaper.",
+            "cost": [
+                22500,
+                0,
+                0,
+                750
+            ],
+            "requirement": [
+                "Dark Sanctuary",
+                5
+            ],
+            "learning_time": 18000
+        },
+        {
+            "type": "politics",
+            "name": "Loyal Followers",
+            "description": "Attracts expert soldiers (Bushi) to the province at a rate of up to 10 per hour.",
+            "cost": [
+                2000,
+                0,
+                0,
+                400
+            ],
+            "requirement": [
+                "Dojo",
+                17
+            ],
+            "learning_time": 14400
+        },
+        {
+            "type": "politics",
+            "name": "Faction Leader",
+            "description": "Faction upgrades are up to 25% more effective.",
+            "cost": [
+                4000,
+                0,
+                1200,
+                0
+            ],
+            "requirement": [
+                "Library",
+                13
+            ],
+            "learning_time": 18000
+        },
+        {
+            "type": "politics",
+            "name": "Protocol",
+            "description": "Gain up to 0.2 additional honor per hour.",
+            "cost": [
+                1200,
+                250,
+                0,
+                0
+            ],
+            "requirement": [
+                "Library",
+                1
+            ],
+            "learning_time": 3600
+        },
+        {
+            "type": "economy",
+            "name": "Economist",
+            "description": "Produces up to 400 additional gold coins per hour.",
+            "cost": [
+                1100,
+                0,
+                0,
+                0
+            ],
+            "requirement": [
+                "Magistrates Council",
+                2
+            ],
+            "learning_time": 7200
+        },
+        {
+            "type": "economy",
+            "name": "Herbalist",
+            "description": "Increases wood regeneration by up to 30% per hour.",
+            "cost": [
+                1250,
+                0,
+                500,
+                0
+            ],
+            "requirement": [
+                "Market",
+                4
+            ],
+            "learning_time": 7200
+        }
+    ],
+    "reasoning": [
+        {
+            "type": "general",
+            "name": "Archer",
+            "description": "Your projectile units gain up to a 15% bonus to their damage during battle. The bonus does not affect dark units.",
+            "cost": [
+                0,
+                400,
+                0,
+                1400
+            ],
+            "requirement": [
+                "Archery",
+                12
+            ],
+            "learning_time": 14400
+        },
+        {
+            "type": "general",
+            "name": "Rider",
+            "description": "Your cavalry gains up to a 20% bonus to their damage during battle. The bonus does not affect dark units.",
+            "cost": [
+                1800,
+                0,
+                0,
+                270
+            ],
+            "requirement": [
+                "Stable",
+                6
+            ],
+            "learning_time": 10800
+        },
+        {
+            "type": "general",
+            "name": "Spread Panic",
+            "description": "Units with the torment ability will torment up to an additional 20%.",
+            "cost": [
+                1800,
+                0,
+                0,
+                350
+            ],
+            "requirement": [
+                "Dark Sanctuary",
+                3
+            ],
+            "learning_time": 7200
+        },
+        {
+            "type": "general",
+            "name": "Master of the Wind",
+            "description": "Your samurai avoids up to 1000 points of projectile damage per turn.",
+            "cost": [
+                2200,
+                0,
+                0,
+                100
+            ],
+            "requirement": [
+                "Temple",
+                9
+            ],
+            "learning_time": 7200
+        },
+        {
+            "type": "general",
+            "name": "Elite Archer",
+            "description": "Your samurai attacks one turn earlier, dealing up to 100% of their normal bow damage.",
+            "cost": [
+                600,
+                0,
+                200,
+                0
+            ],
+            "requirement": [
+                "Archery",
+                6
+            ],
+            "learning_time": 7200
+        },
+        {
+            "type": "military",
+            "name": "Cartographer",
+            "description": "Reduces your army movement times by up to an additional 15%.",
+            "cost": [
+                1200,
+                600,
+                0,
+                0
+            ],
+            "requirement": [
+                "Circle Of Sages",
+                7
+            ],
+            "learning_time": 3600
+        },
+        {
+            "type": "military",
+            "name": "Warlord",
+            "description": "Basic units are up to 25% cheaper.",
+            "cost": [
+                750,
+                400,
+                0,
+                0
+            ],
+            "requirement": [
+                "Dojo",
+                11
+            ],
+            "learning_time": 10800
+        },
+        {
+            "type": "military",
+            "name": "Loyal Warriors",
+            "description": "For every battle you lead and win, up to 50 Nodachi will join your cause. The attack must be made with more units than the total glory possessed by all defenders.",
+            "cost": [
+                1750,
+                3000,
+                0,
+                0
+            ],
+            "requirement": [
+                "Blacksmith",
+                10
+            ],
+            "learning_time": 10800
+        },
+        {
+            "type": "military",
+            "name": "War and Honor",
+            "description": "For every battle you lead and win, up to 50 archers will join your cause. The attack must be made with more units than the total glory possessed by all defenders.",
+            "cost": [
+                2500,
+                0,
+                700,
+                0
+            ],
+            "requirement": [
+                "Archery",
+                12
+            ],
+            "learning_time": 7200
+        },
+        {
+            "type": "politics",
+            "name": "Great Orator",
+            "description": "Political actions have up to 20% lower maintenance costs.",
+            "cost": [
+                850,
+                500,
+                0,
+                0
+            ],
+            "requirement": [
+                "Library",
+                2
+            ],
+            "learning_time": 7200
+        },
+        {
+            "type": "economy",
+            "name": "Overseer",
+            "description": "You build up to 30% faster.",
+            "cost": [
+                1300,
+                0,
+                350,
+                0
+            ],
+            "requirement": [
+                "Magistrates Council",
+                5
+            ],
+            "learning_time": 3600
+        }
+    ],
+    "charisma": [
+        {
+            "type": "general",
+            "name": "Popular Support",
+            "description": "Your Ashihei gain up to a 20% bonus to their damage during battle.",
+            "cost": [
+                1100,
+                800,
+                0,
+                0
+            ],
+            "requirement": [
+                "Dojo",
+                5
+            ],
+            "learning_time": 10800
+        },
+        {
+            "type": "general",
+            "name": "Dark Leader",
+            "description": "Your dark units gain up to a 20% bonus to their damage during battle.",
+            "cost": [
+                2000,
+                0,
+                0,
+                1000
+            ],
+            "requirement": [
+                "Dark Sanctuary",
+                8
+            ],
+            "learning_time": 18000
+        },
+        {
+            "type": "general",
+            "name": "Exemplary Soldier",
+            "description": "Your melee infantry soldiers gain up to a 20% damage bonus in battle. The bonus does not affect dark units.",
+            "cost": [
+                2000,
+                0,
+                0,
+                1400
+            ],
+            "requirement": [
+                "Dojo",
+                20
+            ],
+            "learning_time": 18000
+        },
+        {
+            "type": "general",
+            "name": "Divine Fury",
+            "description": "Your basic units deal 20% additional damage against dark units.",
+            "cost": [
+                2500,
+                1500,
+                0,
+                0
+            ],
+            "requirement": [
+                "Temple",
+                7
+            ],
+            "learning_time": 7200
+        },
+        {
+            "type": "politics",
+            "name": "Popular Leader",
+            "description": "Attracts population to the province at a rate of up to 25 per hour.",
+            "cost": [
+                1400,
+                2300,
+                0,
+                0
+            ],
+            "requirement": [
+                "Magistrates Council",
+                9
+            ],
+            "learning_time": 10800
+        },
+        {
+            "type": "politics",
+            "name": "Peasant Followers",
+            "description": "Attracts Ashihei to the province at a rate of up to 20 per hour.",
+            "cost": [
+                750,
+                2000,
+                0,
+                0
+            ],
+            "requirement": [
+                "Dojo",
+                8
+            ],
+            "learning_time": 10800
+        },
+        {
+            "type": "economy",
+            "name": "Lumber Leader",
+            "description": "Generates up to 200 extra wood per hour.",
+            "cost": [
+                500,
+                0,
+                600,
+                0
+            ],
+            "requirement": [
+                "Market",
+                7
+            ],
+            "learning_time": 7200
+        },
+        {
+            "type": "economy",
+            "name": "Peasant Leader",
+            "description": "Generates up to 500 extra rice per hour.",
+            "cost": [
+                400,
+                600,
+                0,
+                0
+            ],
+            "requirement": [
+                "Fields",
+                50
+            ],
+            "learning_time": 7200
+        },
+        {
+            "type": "economy",
+            "name": "Mining Leader",
+            "description": "Generates up to 100 extra iron per hour.",
+            "cost": [
+                650,
+                0,
+                0,
+                350
+            ],
+            "requirement": [
+                "Mines",
+                10
+            ],
+            "learning_time": 7200
+        },
+        {
+            "type": "economy",
+            "name": "Civil Leader",
+            "description": "Attracts up to 50 additional villagers to your town per hour.",
+            "cost": [
+                1500,
+                650,
+                0,
+                0
+            ],
+            "requirement": [
+                "Market",
+                12
+            ],
+            "learning_time": 14400
+        },
+        {
+            "type": "military",
+            "name": "Honorable",
+            "description": "Gain up to +5 honor for a successful defense without using dark units. The attack must be carried out with more units than the total glory possessed.",
+            "cost": [
+                600,
+                200,
+                0,
+                0
+            ],
+            "requirement": [
+                "Circle Of Sages",
+                1
+            ],
+            "learning_time": 3600
+        },
+        {
+            "type": "military",
+            "name": "Noble Cause",
+            "description": "Gain up to 200 Yari Ashihei per successful defense without using dark units. The attack must be carried out with more units than the total glory possessed by all defenders.",
+            "cost": [
+                1250,
+                5000,
+                0,
+                0
+            ],
+            "requirement": [
+                "Dojo",
+                21
+            ],
+            "learning_time": 14400
+        },
+        {
+            "type": "military",
+            "name": "Loyal Cavalry",
+            "description": "Attracts heavy cavalry to the province at a rate of up to 5 per hour.",
+            "cost": [
+                2400,
+                4000,
+                0,
+                0
+            ],
+            "requirement": [
+                "Stable",
+                12
+            ],
+            "learning_time": 7200
+        }
+    ],
+    "picardy": [
+        {
+            "type": "general",
+            "name": "Well-Prepared",
+            "description": "Can reduce the fatigue of the entire army by up to 20% during battles.",
+            "cost": [
+                600,
+                1500,
+                0,
+                0
+            ],
+            "requirement": [
+                "Circle Of Sages",
+                3
+            ],
+            "learning_time": 10800
+        },
+        {
+            "type": "general",
+            "name": "Great Endurance",
+            "description": "Your samurai has up to 100% extra health.",
+            "cost": [
+                500,
+                0,
+                0,
+                300
+            ],
+            "requirement": [
+                "Blacksmith",
+                8
+            ],
+            "learning_time": 7200
+        },
+        {
+            "type": "general",
+            "name": "Guard Chief",
+            "description": "Reduces incoming damage just before battle by up to 30% (against Shinobis, Infiltrators, Ambushers, etc.).",
+            "cost": [
+                900,
+                700,
+                0,
+                0
+            ],
+            "requirement": [
+                "Circle Of Sages",
+                5
+            ],
+            "learning_time": 7200
+        },
+        {
+            "type": "general",
+            "name": "Soul Reaper",
+            "description": "Up to 100 enemy units killed in each battle turn will join your side as undead.",
+            "cost": [
+                3000,
+                0,
+                0,
+                350
+            ],
+            "requirement": [
+                "Dark Sanctuary",
+                12
+            ],
+            "learning_time": 7200
+        },
+        {
+            "type": "military",
+            "name": "Instilling Loyalty",
+            "description": "Your units take up to 20% less damage from torment.",
+            "cost": [
+                2000,
+                0,
+                0,
+                200
+            ],
+            "requirement": [
+                "Temple",
+                8
+            ],
+            "learning_time": 10800
+        },
+        {
+            "type": "politics",
+            "name": "Reckless",
+            "description": "Political actions reduce their honor requirements by up to 50%.",
+            "cost": [
+                900,
+                0,
+                0,
+                0
+            ],
+            "requirement": [
+                "Library",
+                4
+            ],
+            "learning_time": 3600
+        }
+    ]
+}

@@ -1,0 +1,90 @@
+---
+sidebar_position: 5
+---
+
+import UnitStatsTable from '@site/src/components/UnitStatsTable';
+import Link from '@docusaurus/Link';
+import Admonition from '@theme/Admonition';
+
+# Oni
+
+## Overview
+
+**Oni** are **massive demons from Jigoku** that only agree to fight in exchange for **human sacrifices**. A single Oni can be as **powerful as an entire army**. Their mere presence **instills fear** in all who cross their path. Oni are **melee cavalry units** and are classified as **Dark units**.
+
+---
+
+## Key Features
+
+### Cost
+- Rice: 1000  
+- Wood: 50  
+- Iron: 100  
+- Gold: 450  
+- Population: 0  
+- Imperial Favors: 5
+
+### Maintenance
+- Meat: 20.0 /h  
+- Gold: 5.5 /h  
+- Population: 1 /h
+
+### Training duration
+- 7 Hours
+
+### Honor requirement
+- -100
+
+### Unit type
+- <Link to="../#melee-cavalry">Melee Cavalry</Link>
+
+### Trait
+- <Link to="../#dark-units-1">Dark Unit</Link>  
+- <Link to="../#special-effects">Special Effect</Link>
+
+<Admonition type="tip" title="Special Effect – Embrace of Shadows">
+  <ul>
+    <li><strong>Torment:</strong> 200 points.</li>
+    <li>Each unit level <strong>increases Torment by 10%</strong>.</li>
+  </ul>
+</Admonition>
+
+<Admonition type="note">
+  Due to their immense power, <strong>each Oni requires an additional cost of 5 Imperial Favors</strong> to be created.
+</Admonition>
+
+### Samurai Skills  
+They can be affected by the Samurai abilities:  
+- <Link to="../../samurais/reasoning-skills#spread-panic">Spread Panic</Link>  
+- <Link to="../../samurais/charisma-skills#dark-leader">Dark Leader</Link>
+
+### Stats by level
+
+<UnitStatsTable
+  baseStats={{
+    attack: 540,
+    attackPerLevel: 90,
+    defense: 450,
+    defensePerLevel: 75,
+    armor: 25,
+    armorPerLevel: 2,
+    health: 800,
+    healthPerLevel: 75,
+    counter: 35,
+    counterPerLevel: 5,
+  }}
+  requirements={{
+    1: 'Castle(2)',
+    2: 'Castle(4)',
+    3: 'Castle(6)',
+    4: 'Castle(8)',
+    5: 'Castle(10)',
+    6: 'Castle(12)',
+    7: 'Castle(14)',
+    8: 'Castle(16)',
+    9: 'Castle(18)',
+    10: 'Castle(20)',
+  }}
+/>
+
+> <Link to="../#attributes">More information about unit attributes</Link>

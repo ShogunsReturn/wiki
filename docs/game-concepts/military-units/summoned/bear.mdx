@@ -1,0 +1,51 @@
+import UnitStatsTable from '@site/src/components/UnitStatsTable';
+import Link from '@docusaurus/Link';
+import Admonition from '@theme/Admonition';
+
+# Bear
+
+## Overview
+
+Summoned by the Nature Shugenja before the battle. They do not last from one battle to another.
+
+---
+
+## Key Features
+
+### Unit type
+- <Link to="../#melee-infantry">Melee Infantry</Link>
+
+### Samurai Skills  
+They can be affected by the Samurai abilities:
+- <Link to="../../samurais/charisma-skills#exemplary-soldier">Exemplary Soldier</Link>  
+
+### Stats by level
+
+<UnitStatsTable
+  baseStats={{
+    attack: 4,
+    defense: 4,
+    armor: 0,
+    health: 30,
+    counter: 10,
+    attackPerLevel: 0.223,
+    defensePerLevel: 0.223,
+    armorPerLevel: 0,
+    healthPerLevel: 1.667,
+    counterPerLevel: 2,
+  }}
+  requirements={{
+    1: 'Academy(3), Temple(4)',
+    2: 'Academy(5), Temple(8)',
+    3: 'Academy(8), Temple(12)',
+    4: 'Academy(12), Temple(15)',
+    5: 'Academy(14), Temple(17)',
+    6: 'Academy(17), Temple(20)',
+    7: 'Academy(20), Temple(22)',
+    8: 'Academy(23), Temple(25)',
+    9: 'Academy(25), Temple(27)',
+    10: 'Academy(29), Temple(29)',
+  }}
+/>
+
+> <Link to="../#attributes">More information about unit attributes</Link>

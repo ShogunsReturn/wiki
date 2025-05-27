@@ -1,0 +1,18 @@
+import Link from '@docusaurus/Link';
+import CostByLevelTable from '@site/src/components/CostByLevelTable';
+import playerBuildings from '@site/src/data/player_buildings.json';
+
+# Dojo
+
+- The Dojo is a <Link to="/docs/game-concepts/buildings#types-of-buildings">Level building</Link>, so we can only increase one level at a time and its construction has a maximum limit.
+- The Dojo unlocks the <Link to="/docs/game-menu/advanced-menu/armies">Army Menu</Link>, where you can activate recruiting units and creating armies.
+- The Dojo unlocks the creation of <Link to="/docs/game-concepts/military-units#melee-infantry">infantry units</Link>.
+- Each additional Dojo level increases the level of certain <Link to="/docs/game-concepts/military-units">military units</Link>.
+- The Dojo will allow you to have more training stations. Every three levels will provide an additional station in addition to the initial one.
+  - That is, with level 1 you will have one training station,
+  - With level 3 you will have 2 training stations,
+  - And from there on you will gain a training station every 3 levels (level 6, level 9, level 12...).
+
+**Cost Table by Level:**
+
+<CostByLevelTable building={playerBuildings["Dojo"]} />

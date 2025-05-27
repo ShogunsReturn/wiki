@@ -1,0 +1,113 @@
+---
+sidebar_position: 3
+---
+
+import UnitStatsTable from '@site/src/components/UnitStatsTable';
+import Link from '@docusaurus/Link';
+import Admonition from '@theme/Admonition';
+
+# Tactician
+
+## Overview
+
+The Tiger Revered Tacticians are masters of warfare, deeply knowledgeable in the art of battle.
+Regardless of the enemy, they can neutralize their power and turn the tide of a seemingly lost battle.
+
+---
+
+## Key Features
+
+### Cost
+- Rice: 50  
+- Wood: 0  
+- Iron: 0  
+- Gold: 110  
+- Population: 1
+
+### Maintenance
+- Meat: 1.6 /h  
+- Gold: 2.0 /h
+
+### Training duration
+- 11 Hours
+
+### Honor requirement
+- 10
+
+### Unit type
+- <Link to="../../#rear-units">Rear Units</Link>
+
+### Trait
+- Special Effect
+
+<Admonition type="tip" title="Special Effect – Master of War">
+  <ul>
+    <li>Enhances all units that have a natural bonus against specific enemies, granting an additional damage boost.</li>
+    <li>Functions similarly to Ashihei Captains or Warlords.</li>
+    <li>Applies to units in allied or attached armies, as long as at least one Tactician is present among their ranks.</li>
+  </ul>
+
+  <p><strong>Tactician Allocation Rule</strong></p>
+  <ul>
+    <li>Each Tactician supports 100 troops, with a minimum of 1 Tactician for armies smaller than 100 units.</li>
+    <li>For full effect, 1 Tactician is needed per 100 troops, even if not all troops have bonus effects.</li>
+    <li><strong>Example:</strong> 100 Naginata, 100 Bushi, and 200 Ashihei → 4 Tacticians required for full effect.</li>
+    <li>Tacticians do not adjust per turn (e.g., 1 Tactician for Cavalry Charge or 2 for Infantry Combat is incorrect—you need enough for the entire army).</li>
+  </ul>
+
+  <p><strong>Additional Damage Bonus Calculation</strong></p>
+  <ul>
+    <li>Each Tactician adds <code>0.7 + 0.05 × (level - 1)</code> bonus damage to units with special damage effects.</li>
+    <li>Affects units such as: Bushi vs Ashihei, Lancers vs Cavalry, Masters vs Specials, Fanatics, Karasus, and Cavalry types during charges.</li>
+  </ul>
+
+  <p><strong>Exceptions:</strong></p>
+  <ul>
+    <li>Does not affect Kami or Warrior Monks’ bonus vs Dark Units.</li>
+    <li>Does not affect ranged units.</li>
+  </ul>
+
+  <p><strong>Bonus Application Example:</strong></p>
+  <ul>
+    <li><strong>Ashihei + Ashihei Captains:</strong> All Ashihei get +5 damage.</li>
+    <li><strong>Naginata + Tacticians:</strong> Bonus applies when fighting Cavalry only.</li>
+    <li><strong>Naginata + Tacticians vs Bushi:</strong> No benefit given.</li>
+  </ul>
+
+  <p><strong>Level Averaging:</strong></p>
+  <ul>
+    <li>Different-level Tacticians average their levels (rounded down).</li>
+    <li><strong>Example:</strong> 10 Level 1 + 10 Level 3 = 20 Level 2 Tacticians.</li>
+  </ul>
+</Admonition>
+
+### Samurai Skills  
+They can be affected by the Samurai ability:  
+- <Link to="../../../samurais/knowledge-skills#special-knowledge">Special Knowledge</Link>
+
+### Stats by level
+
+<UnitStatsTable
+  baseStats={{
+    attack: 0,
+    defense: 0,
+    armor: 5,
+    health: 40,
+    healthPerLevel: 3.556,
+    counter: 0,
+  }}
+  requirements={{
+    1: 'Academy(6), Circle of Sages(3)',
+    2: 'Academy(10), Circle of Sages(5)',
+    3: 'Academy(13), Circle of Sages(7)',
+    4: 'Academy(16), Circle of Sages(9)',
+    5: 'Academy(19), Circle of Sages(11)',
+    6: 'Academy(22), Circle of Sages(13)',
+    7: 'Academy(24), Circle of Sages(15)',
+    8: 'Academy(26), Circle of Sages(17)',
+    9: 'Academy(28), Circle of Sages(19)',
+    10: 'Academy(30), Circle of Sages(21)',
+  }}
+/>
+
+> <Link to="../../#attributes">More information about unit attributes</Link>

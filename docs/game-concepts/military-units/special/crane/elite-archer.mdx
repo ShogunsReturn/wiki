@@ -1,0 +1,81 @@
+---
+sidebar_position: 1
+---
+
+import UnitStatsTable from '@site/src/components/UnitStatsTable';
+import Link from '@docusaurus/Link';
+import Admonition from '@theme/Admonition';
+
+# Elite Archer
+
+## Overview
+
+The Elite Crane Archers are the fastest and most precise marksmen in the empire.
+They wield longbows, which they consider an extension of their very soul.
+For generations, their arrows have defended the borders of the Crane Clan with unmatched skill and precision.
+
+---
+
+## Key Features
+
+### Cost
+- Rice: 60  
+- Wood: 60  
+- Iron: 0  
+- Gold: 70  
+- Population: 1
+
+### Maintenance
+- Meat: 1.4 /h  
+- Gold: 1.2 /h
+
+### Training duration
+- 6 Hours
+
+### Honor requirement
+- 15
+
+### Unit type
+- <Link to="../../#ranged-infantry">Ranged Infantry</Link> with range of <strong>4</strong>
+
+### Trait
+- <Link to="../../#ranged-units">Ranged Unit</Link>
+
+<Admonition type="tip" title="Special Effect – Extended Range">
+  The Elite Crane Archers possess an extraordinary <strong>range of 4</strong>, surpassing the standard <strong>range of 3</strong> found in common archers.
+</Admonition>
+
+### Samurai Skills  
+They can be affected by the Samurai abilities:  
+- <Link to="../../../samurais/knowledge-skills#special-knowledge">Special Knowledge</Link>  
+- <Link to="../../../samurais/reasoning-skills#archer">Archer</Link>
+
+### Stats by level
+
+<UnitStatsTable
+  baseStats={{
+    attack: 6,
+    attackPerLevel: 0.556,
+    defense: 7,
+    defensePerLevel: 1.112,
+    armor: 0,
+    health: 35,
+    healthPerLevel: 2.223,
+    counter: 6,
+    counterPerLevel: 1.223,
+  }}
+  requirements={{
+    1: 'Academy(1), Archery(4)',
+    2: 'Academy(2), Archery(8)',
+    3: 'Academy(4), Archery(12)',
+    4: 'Academy(7), Archery(15)',
+    5: 'Academy(9), Archery(17)',
+    6: 'Academy(11), Archery(20)',
+    7: 'Academy(15), Archery(22)',
+    8: 'Academy(18), Archery(25)',
+    9: 'Academy(21), Archery(27)',
+    10: 'Academy(27), Archery(29)',
+  }}
+/>
+
+> <Link to="../../#attributes">More information about unit attributes</Link>

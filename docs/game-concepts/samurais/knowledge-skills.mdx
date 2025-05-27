@@ -1,0 +1,15 @@
+---
+sidebar_position: 1
+---
+
+import SamuraiAbilitiesSection from '@site/src/components/SamuraiAbilitiesSection';
+import SamuraiAbilitiesTable from '@site/src/components/SamuraiAbilitiesTable.jsx';
+import samuraiAbilities from '@site/src/data/samurai_abilities.json';
+
+# Knowledge-Related Skills
+
+<SamuraiAbilitiesSection
+  title="knowledge"
+  skills={samuraiAbilities.knowledge}
+  typeOrder={['economy', 'politics', 'military', 'general']}
+/>

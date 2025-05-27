@@ -1,0 +1,94 @@
+import PoliticsTable from '@site/src/components/PoliticsTable';
+import PoliticItems from '@site/src/components/PoliticItems';
+
+# Special Politics
+
+<PoliticsTable category="specials" />
+
+---
+
+### Assembly of leaders
+- Leaders' representatives gather to rank and choose the new **Shogun**.
+- **Cost** depends on time since the last assembly.
+- Summoning grants **10 Imperial Favors**; the **Emperor** is in your debt.
+- Only **one player** may activate an assembly at a time.
+- **Cost, activation, and cooldown times** are fixed and cannot be reduced.
+- **Glory** is awarded based on the **base cost**, not what was actually paid.
+
+---
+
+### Imperial Lands
+- **Gain additional land from the Emperor** for **5 days**, expanding your **available hectares**.  
+- The **Emperor grants up to 100 extra building areas** from his forests.  
+- At the end of the period, the Emperor **reclaims his land**.  
+- **If the period ends and you exceed your allowed areas**, you will pay **20 gold coins per excess area per hour**.  
+- To **avoid rental fees**, you can:  
+  - **Recover unused areas**  
+  - **Destroy buildings**  
+  - **Reactivate the Emperor's Lands** to extend its duration  
+- **Ministers cannot help obtain additional areas.**
+
+---
+
+### Imperial State
+- **Reduces overpopulation penalties and corruption** in your province by **at least 40%**.  
+- The **effect lasts for 5 real-time days** (not in-game days).  
+- You can **activate it multiple times** to extend its duration.  
+- **Ministers cannot enhance this effect.**  
+
+---
+
+### Imperial Militia
+- The **Emperor will assign troops** to support your cause.  
+- You can **choose from different formations**, each with:  
+  - **Different requirements**  
+  - **Different unit types and numbers**  
+  - **The same cost**  
+- **Select the militia** that best suits your playstyle.  
+- The units will be **at their highest unlocked level** or **level 1** if not yet unlocked.  
+- **Ministers cannot increase the number of units received.**
+
+#### Basic Militia
+- [Ashihei](/docs/game-concepts/military-units/basic/ashihei.mdx) → 1500  
+- [Ashihei with Yari](/docs/game-concepts/military-units/basic/ashihei-yari.mdx) → 500  
+- [Ashihei with Ishi](/docs/game-concepts/military-units/basic/ashihei-ishi.mdx) → 1000  
+> **Requirement:** [Dojo](/docs/game-concepts/buildings/military/dojo.mdx)(2)
+
+#### Dark Militia
+- [Undead](/docs/game-concepts/military-units/summoned/undead.mdx) → 1800  
+- [Jigoku Shugenja](/docs/game-concepts/military-units/dark/jigoku-shugenja.mdx) → 200  
+> **Requirements:** [Dojo](/docs/game-concepts/buildings/military/dojo.mdx)(2), [Dark Sanctuary](/docs/game-concepts/buildings/military/dark-sanctuary.mdx)(7)
+
+#### Special Militia
+- [Bushi](/docs/game-concepts/military-units/basic/bushi.mdx) → 350  
+- [Archer](/docs/game-concepts/military-units/basic/archer.mdx) → 200  
+- [Heavy Cavalry](/docs/game-concepts/military-units/basic/heavy-cavalry.mdx) → 100  
+- [Bow Cavalry](/docs/game-concepts/military-units/basic/bow-cavalry.mdx) → 50  
+> **Requirement:** [Dojo](/docs/game-concepts/buildings/military/dojo.mdx)(12)
+
+#### Magic Militia
+- [Monk](/docs/game-concepts/military-units/magic/monk.mdx) → 200  
+- [Fire Shugenja](/docs/game-concepts/military-units/magic/fire-shugenja.mdx) → 50  
+- [Earth Shugenja](/docs/game-concepts/military-units/magic/earth-shugenja.mdx) → 100  
+- [Air Shugenja](/docs/game-concepts/military-units/magic/air-shugenja.mdx) → 75  
+- [Water Shugenja](/docs/game-concepts/military-units/magic/water-shugenja.mdx) → 100  
+> **Requirement:** [Dojo](/docs/game-concepts/buildings/military/dojo.mdx)(2), [Temple](/docs/game-concepts/buildings/military/temple.mdx)(7)
+
+---
+
+### Imperial Help
+- The **Emperor will send resources** to your province:  
+  - **6,000 gold coins**  
+  - **12,000 food units**  
+  - **4,000 wood units**  
+  - **2,500 iron units**  
+- **Each market level increases the received amount by +10%.**  
+- **Ministers cannot increase the amount of resources obtained.**
+
+---
+
+### Oath
+- **Permanently change your faction.**  
+{/* - **Jigoku faction** is included in this policy, but:  
+  - It must first be **unlocked in the talent tree**.  
+  - Costs **50 Imperial Favors** instead of **30**, which is required for other factions. */}

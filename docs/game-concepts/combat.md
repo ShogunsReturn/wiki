@@ -20,9 +20,9 @@ Battles are engagements between armies for control of a province.
    - **Counterattack** reflects a percentage of the received damage based on the unit’s counterattack value.  
 
 - **Unit Effectiveness**:
-   - Different unit types have varying effectiveness against others. For details, refer to the [**Military Units**](military-units/index.md) section.  
+   - Different unit types have varying effectiveness against others. For details, refer to the [**Military Units**](military-units) section.  
 
-- **Stamina and Fatigue** *(in development)*:
+- **Stamina and Fatigue**:
    - Units lose **stamina** during battles, reducing their damage output over time.  
    - Fatigue from movement does not carry over to future battles.  
    - Certain political actions or samurai abilities can mitigate stamina loss.  --> 
@@ -58,12 +58,12 @@ Battles are engagements between armies for control of a province.
 
 Battles last up to a maximum of **16 turns**, with each turn activating specific unit types:  
 
-1. **Preliminary Turns (1-4)**: Units with special abilities (e.g., saboteurs, [raiders](military-units/special/ronin/raider.md), assassins) act.  
-2. **Elite Archers' Turn (5)**: Units with special abilities and elite archers act.  
-3. **Archery Turn (6)**: Elite archers and regular archers attack.  
-4. **Hondas' Turn (7)**: All ranged units attack.  
-5. **Cavalry Turn (8)**: Cavalry charge occurs.  
-6. **Infantry Turns (9-16)**: All infantry units act.
+1. **Preliminary Turns (1-4)**: Units with special abilities (e.g., [Infiltrator](military-units/special/snake/infiltrator.mdx), [Ambusher](military-units/special/ronin/ambusher.mdx), [Shinobi](military-units/special/snake/shinobi.mdx)) act.  
+2. **Elite Archers' Turn (5)**: Units with special abilities and [Elite Archers](military-units/special/crane/elite-archer.mdx) act.  
+3. **Archery Turn (6)**: Elite archers and regular archers attack (e.g., [Archer](military-units/basic/archer.mdx), [Bow Cavalry](military-units/basic/bow-cavalry.mdx)).  
+4. **Ishis' Turn (7)**: All ranged units attack (e.g., [Ashihei with Ishi](military-units/basic/ashihei-ishi.mdx)).  
+5. **Cavalry Turn (8)**: Cavalry charge occurs (e.g., [Light Cavalry](military-units/basic/light-cavalry.mdx), [Heavy Cavalry](military-units/basic/heavy-cavalry.mdx)).  
+6. **Infantry Turns (9-16)**: All infantry units act (e.g., [Bushi](military-units/basic/bushi.mdx), [Nodachi](military-units/basic/nodachi.mdx), [Kenshinzen](military-units/special/crane/kenshinzen.mdx)).
 
 ---
 
@@ -83,27 +83,27 @@ Battles last up to a maximum of **16 turns**, with each turn activating specific
 
 ## Effects of Different Unit Types
 
-1. **Infantry** (e.g., Ashigarus, Ashigarus with Spears, Bushi, Naginata, Nodachi):  
+1. **Infantry** (e.g., Ashiheis, Ashiheis with Yari, Bushi, Naginata, Nodachi):  
    - Their damage affects only enemy infantry.  
    - They provide cover for archers and rear units as long as their numbers meet or exceed those behind them.  
    :::info Example  
      - **Attacking:** 200 archers require **200 infantry** to protect them.  
      - **Defending:** 200 archers require **160 infantry** to protect them (80% coverage).  
    :::
-   - **Bushis** gain a +5 damage bonus against Ashigarus.  
+   - **Bushis** gain a +5 damage bonus against Ashiheis.  
 
-2. **Projectile Units** (e.g., Archers, Slingers, Mounted Archers):  
+2. **Projectile Units** (e.g., Archers, Ashihei with Ishi, Mounted Archers):  
    - Spread their damage evenly across all enemy units.  
    - Begin attacking before infantry or cavalry.  
    - After several turns, their damage decreases once both sides engage in melee.  
    - Mounted archers cannot be damaged by regular infantry.  
 
-3. **Lancers** (e.g., Ashigarus with Spears, Gakis, Naginatas):  
+3. **Lancers** (e.g., Ashiheis with Yari, Gakis, Naginatas):  
    - Always positioned at the front line and counted as double for damage distribution in melee.  
    - Special bonus against cavalry:  
-     - Ashigarus with spears: +(3 + 2 × (level - 1))  
-     - Naginatas: +(10 + 3 × (level - 1))  
-     - Gakis: +(1 × level).  
+     - Ashiheis with Yari: `+(3 + 2 × (level - 1))`  
+     - Naginatas: `+(10 + 3 × (level - 1))`  
+     - Gakis: `+(1 × level)`.  
    - Bonus is applied throughout the battle and doubled during the cavalry charge turn.
 
 4. **Cavalry** (e.g., Light, Heavy):  

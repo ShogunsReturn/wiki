@@ -4,7 +4,7 @@
 
 There are five types of orders:
 
-## Movement *(in development)*
+## Movement
 
 Orders an army to move between two provinces.  
 - The army will **not engage in combat** upon reaching its destination.  
@@ -43,7 +43,7 @@ When attacking a province, your army must fight both the defending armies and th
 
 ### Can You Attack Any Player?
 No. You can only attack players with **similar or higher glory** than your own.  
-:::info Attack restriction *(in development)*
+:::info Attack restriction
 You cannot attack a player if your glory exceeds theirs by more than **2.5 times**.
 :::
 ---

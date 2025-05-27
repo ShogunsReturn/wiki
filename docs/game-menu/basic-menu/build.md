@@ -27,7 +27,7 @@ Click on the building you want to construct. A **popup window** will appear, dis
    - **Destroy**:  
      When you destroy buildings or downgrade their levels, you lose the benefits they provide but regain the areas they occupied.
 
-### Technology Tree *(in development)*
+### Technology Tree
 - In the top-left corner, there is a button to open the Technology Tree.
 - The Technology Tree shows which buildings must be constructed to unlock different game menus.
 

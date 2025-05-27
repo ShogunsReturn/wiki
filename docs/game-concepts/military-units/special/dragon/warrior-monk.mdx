@@ -1,0 +1,89 @@
+---
+sidebar_position: 1
+---
+
+import UnitStatsTable from '@site/src/components/UnitStatsTable';
+import Link from '@docusaurus/Link';
+import Admonition from '@theme/Admonition';
+
+# Warrior Monk
+
+## Overview
+
+The Mystic Dragon Warrior Monks are devout servants of the Kami, living in the mountains, where they train in both martial and spiritual arts.
+Clad in sacred Kesa robes, they enter battle wielding Yari spears, using their divine power to inflict devastating damage on inhuman creatures.
+
+---
+
+## Key Features
+
+### Cost
+- Rice: 60  
+- Wood: 10  
+- Iron: 0  
+- Gold: 20  
+- Population: 1
+
+### Maintenance
+- Meat: 1.2 /h  
+- Gold: 0.5 /h
+
+### Training duration
+- 12 Hours
+
+### Honor requirement
+- 20
+
+### Unit type
+- <Link to="../../#melee-infantry">Melee Infantry</Link>
+
+### Trait
+- Special Effect
+
+<Admonition type="tip" title="Special Effect – Divine Judgment">
+  <ul>
+    <li>Deals additional damage to dark units equal to their base attack.</li>
+    <li>Ignores infantry cover and evasion mechanics, meaning they can strike even behind defensive lines, affecting:</li>
+      <ul>
+        <li>Dokumono behind Gakis</li>
+        <li>Jigoku Shugenjas behind Undead</li>
+        <li>Yatagarasu and other protected dark units</li>
+      </ul>
+    <li>Due to their rigorous training against the Jigoku hordes, Warrior Monks cannot be tormented.</li>
+  </ul>
+</Admonition>
+
+### Samurai Skills  
+They can be affected by the Samurai abilities:  
+- <Link to="../../../samurais/knowledge-skills#special-knowledge">Special Knowledge</Link>  
+- <Link to="../../../samurais/charisma-skills#exemplary-soldier">Exemplary Soldier</Link>
+
+### Stats by level
+
+<UnitStatsTable
+  baseStats={{
+    attack: 7,
+    attackPerLevel: 0.778,
+    defense: 7,
+    defensePerLevel: 0.778,
+    armor: 5,
+    armorPerLevel: 0.334,
+    health: 45,
+    healthPerLevel: 3.556,
+    counter: 0,
+  }}
+  requirements={{
+    1: 'Academy(1), Dojo(4)',
+    2: 'Academy(2), Dojo(8)',
+    3: 'Academy(4), Dojo(12)',
+    4: 'Academy(7), Dojo(15)',
+    5: 'Academy(9), Dojo(17)',
+    6: 'Academy(11), Dojo(20)',
+    7: 'Academy(15), Dojo(22)',
+    8: 'Academy(18), Dojo(25)',
+    9: 'Academy(21), Dojo(27)',
+    10: 'Academy(27), Dojo(29)',
+  }}
+/>
+
+> <Link to="../../#attributes">More information about unit attributes</Link>

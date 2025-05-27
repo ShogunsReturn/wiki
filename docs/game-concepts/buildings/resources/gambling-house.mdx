@@ -1,0 +1,19 @@
+---
+sidebar_label: Gambling House
+---
+
+import Link from '@docusaurus/Link';
+import CostByLevelTable from '@site/src/components/CostByLevelTable';
+import playerBuildings from '@site/src/data/player_buildings.json';
+
+# Gambling House *(in development)*
+
+- The gambling house is a <Link to="/docs/game-concepts/buildings#types-of-buildings">Level building</Link>, so we can only increase it one level at a time and its construction has a maximum limit.
+- The gambling house unlocks the **Betting Menu**, where you can train sumos and bet on their victories in championships.
+- Each additional level of the gambling house increases the **amount of gold that can be bet**. For each level, you can bet an extra **5000 gold**.
+- At **Level 2**, you can **view the fitness** of the sumos.
+- From **Level 3** onwards, the amounts spent on training the sumos will yield an **additional 10% per level**.
+
+**Cost Table by Level:**
+
+<CostByLevelTable building={playerBuildings["Gambling House"]} />

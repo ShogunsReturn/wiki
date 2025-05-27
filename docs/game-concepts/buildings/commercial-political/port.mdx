@@ -1,0 +1,29 @@
+import Link from '@docusaurus/Link';
+import CostByLevelTable from '@site/src/components/CostByLevelTable';
+import playerBuildings from '@site/src/data/player_buildings.json';
+
+# Port
+
+- The port is a <Link to="/docs/game-concepts/buildings#types-of-buildings">Level building</Link>, so we can only increase one level at a time.
+- The port is a building that provides a fixed income of Resources.
+- In the first levels it only provides meat, but later we will get gold, wood, iron and even population.
+- There is no limit on the levels of this building.
+- Additionally, the first level allows you to move armies from one island to another.
+
+### Resources provided by the port
+
+- <code>200 × level</code> in <Link to="/docs/game-concepts/resources#meat">meat</Link>.
+- From level 5: <code>100 × (level-4)</code> in <Link to="/docs/game-concepts/resources#gold">gold</Link>.
+- From level 10: <code>50 × (level-9)</code> in <Link to="/docs/game-concepts/resources#wood">wood</Link>.
+- From level 15: <code>25 × (level-14)</code> in <Link to="/docs/game-concepts/resources#iron">iron</Link>.
+- From level 20: <code>5 × (level-19)</code> in <Link to="/docs/game-concepts/population">population</Link>.
+
+**Cost Table by Level:**
+
+<CostByLevelTable building={playerBuildings["Port"]} />
+
+---
+
+### *In Development*
+
+- Each additional port level increases the level of the following Craft Items: Fishing Nets and Kimonos.

@@ -1,0 +1,71 @@
+---
+sidebar_position: 8
+---
+
+import UnitStatsTable from '@site/src/components/UnitStatsTable';
+import Link from '@docusaurus/Link';
+
+# Light Cavalry
+
+## Overview
+
+Light cavalry units are trained in the art of horseback riding and the use of light weapons. Their speed and maneuverability make them highly effective against light infantry but vulnerable to heavy units and those with bonuses against cavalry, such as <Link to="./ashihei-ishi">Ashihei with Ishi</Link> and <Link to="./naginata">Naginata</Link>.
+
+---
+
+## Key Features
+
+### Cost
+- Rice: 145
+- Wood: 0
+- Iron: 30
+- Gold: 35
+- Population: 1
+
+### Maintenance
+- Meat: 3.0 /h
+- Gold: 1.2 /h
+
+### Training duration
+- 4 Hours
+
+### Honor requirement
+- -100
+
+### Unit type
+- <Link to="../#melee-cavalry">Melee Cavalry</Link>
+
+### Samurai Skills  
+They can be affected by the Samurai abilities:  
+- <Link to="../../samurais/reasoning-skills#horseman">Horseman</Link>  
+- <Link to="../../samurais/charisma-skills#divine-fury">Divine Fury</Link>
+
+### Stats by level
+
+<UnitStatsTable
+  baseStats={{
+    attack: 7,
+    attackPerLevel: 1.223,
+    defense: 6,
+    defensePerLevel: 0.889,
+    armor: 10,
+    armorPerLevel: 0.667,
+    health: 60,
+    healthPerLevel: 4.445,
+    counter: 0,
+  }}
+  requirements={{
+    1: 'Stable(1)',
+    2: 'Stable(2)',
+    3: 'Stable(3)',
+    4: 'Stable(5)',
+    5: 'Stable(7)',
+    6: 'Stable(9)',
+    7: 'Stable(11)',
+    8: 'Stable(14)',
+    9: 'Stable(18)',
+    10: 'Stable(24)',
+  }}
+/>
+
+> <Link to="../#attributes">More information about unit attributes</Link>

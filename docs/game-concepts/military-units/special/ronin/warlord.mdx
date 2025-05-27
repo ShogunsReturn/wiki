@@ -1,0 +1,116 @@
+---
+sidebar_position: 3
+---
+
+import UnitStatsTable from '@site/src/components/UnitStatsTable';
+import Link from '@docusaurus/Link';
+import Admonition from '@theme/Admonition';
+
+# Warlord
+
+## Overview
+
+The Ronin Warlords are renowned battlefield leaders, highly skilled in strategy and tactics.
+Their commanding presence inspires troops under their command, raising their morale.
+However, their death in battle can lead to a complete collapse of their forces.
+
+---
+
+## Key Features
+
+### Cost
+- Rice: 20  
+- Wood: 0  
+- Iron: 40  
+- Gold: 200  
+- Population: 1
+
+### Maintenance
+- Meat: 1.6 /h  
+- Gold: 2.0 /h
+
+### Training duration
+- 10 Hours
+
+### Honor requirement
+- 10
+
+### Unit type
+- <Link to="../../index.md#melee-infantry">Melee Infantry</Link>
+
+### Trait
+- Special Effect
+
+<Admonition type="tip" title="Special Effect – Strategic Leadership">
+  <ul>
+    <li>Each Warlord increases the damage of all friendly units by:</li>
+      <ul>
+        <li><code>+0.5 + 0.05 × (level - 1)</code> per unit</li>
+      </ul>
+    <li>Each Warlord affects up to 100 units (including himself).</li>
+    <li>Maximum bonus is capped at <code>5 + (level - 1)</code>.</li>
+    <li>If a Warlord is present in an allied army, their bonus applies to associated armies as well, provided there is at least one Warlord per army.</li>
+    <li>Does not affect summoned animals.</li>
+    <li>If Warlords, Ashihei Captains, or Tacticians of different levels are present, their levels are averaged (rounded down).</li>
+  </ul>
+</Admonition>
+
+<Admonition type="note" title="Scaling Considerations">
+  <ul>
+    <li>If the total units exceed the number covered by Warlords (<code>Warlords × 100</code>), the bonus is divided accordingly.</li>
+    <li><strong>Example:</strong></li>
+      <ul>
+        <li>990 units and 10 Warlords = <strong>+2.5</strong> bonus</li>
+        <li>1000 units and 20 Warlords = <strong>+5</strong> bonus (full)</li>
+        <li>If an army has twice the number of units needed, the bonus is halved</li>
+      </ul>
+    <li>If Warlords, Ashihei Captains, or Tacticians of different levels are present in the same army, their <strong>average level is used (rounded down)</strong>.</li>
+  </ul>
+</Admonition>
+
+<Admonition type="info" title="Examples">
+  <ul>
+    <li><strong>990 Units and 10 Warlords</strong>: +5 bonus (meets ratio)</li>
+    <li><strong>1980 Units and 20 Warlords</strong>: +5 bonus (capped)</li>
+    <li><strong>1990 Units and 10 Warlords</strong>: +2.5 bonus (insufficient coverage)</li>
+    <li><strong>99 Units and 1 Warlord</strong>: +0.5 bonus</li>
+    <li><strong>98 Units and 2 Warlords</strong>: still +0.5 bonus (only 1 needed)</li>
+    <li><strong>495 Units and 5 Warlords</strong>: +2.5 bonus</li>
+    <li><strong>490 Units and 10 Warlords</strong>: still +2.5 (excess doesn't help)</li>
+  </ul>
+</Admonition>
+
+### Samurai Skills  
+They can be affected by the Samurai abilities:  
+- <Link to="../../../samurais/knowledge-skills#special-knowledge">Special Knowledge</Link>  
+- <Link to="../../../samurais/charisma-skills#exemplary-soldier">Exemplary Soldier</Link>
+
+### Stats by level
+
+<UnitStatsTable
+  baseStats={{
+    attack: 10,
+    defense: 9,
+    armor: 15,
+    health: 84,
+    counter: 0,
+    attackPerLevel: 0.889,
+    defensePerLevel: 1.112,
+    armorPerLevel: 3.334,
+    healthPerLevel: 4.667
+  }}
+  requirements={{
+    1: 'Academy(3), Blacksmith(4)',
+    2: 'Academy(5), Blacksmith(8)',
+    3: 'Academy(8), Blacksmith(12)',
+    4: 'Academy(12), Blacksmith(15)',
+    5: 'Academy(14), Blacksmith(17)',
+    6: 'Academy(17), Blacksmith(20)',
+    7: 'Academy(20), Blacksmith(22)',
+    8: 'Academy(23), Blacksmith(25)',
+    9: 'Academy(25), Blacksmith(27)',
+    10: 'Academy(29), Blacksmith(29)',
+  }}
+/>
+
+> <Link to="../../index.md#attributes">More information about unit attributes</Link>

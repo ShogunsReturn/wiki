@@ -12,7 +12,7 @@ Population is the foundation of your province’s economy for two main reasons:
 
 Additionally:  
 - A larger population allows you to recruit more military units (as male villagers are required to form warriors).  
-- Some political actions ([Good Relations](./politics/army-policies.md#good-relations), **People's Rebellion**) become stronger with a larger population.  
+- Some political actions ([Good Relations](/docs/game-concepts/politics/army-politics#good-relations), [People's Rebellion](/docs/game-concepts/politics/army-politics#rebellion-of-the-people)) become stronger with a larger population.  
 - A larger population helps protect your resources from potential theft.
 
 ---
@@ -45,8 +45,8 @@ If you have a current population of **100 villagers and 10 houses**:
 
 ### Factors That Increase Population
 - **Positive honor**: Every 2 honor points above 0 attract 1 villager/hour.  
-- **Abilities and attributes of magistrates** (e.g., [Popular Leader](./samurais/charisma-skills.md#politics-minister), [Civil Leader](./samurais/charisma-skills.md#economy-minister)).  
-- **Political actions** (e.g., **Lotus Festival**, [Power of the People](./politics/resources-policies.md#power-of-the-people)) and having a [port](./buildings/commercial-political/port.md) at level 20 or higher.  
+- **Abilities and attributes of magistrates** (e.g., [Popular Leader](./samurais/charisma-skills#politics-minister), [Civil Leader](./samurais/charisma-skills#economy-minister)).  
+- **Political actions** (e.g., **Lotus Festival**, [Power of the People](./politics/resources-politics#power-of-the-people)) and having a [port](./buildings/commercial-political/port) at level 20 or higher.  
 - **Disbanding units** from your armies.  
 - Being a member of the **leading clan** in the game (+20 villagers/hour). *(in development)*
 - **Personal titles**:  
@@ -62,7 +62,7 @@ If you have a current population of **100 villagers and 10 houses**:
    - For every 20 villagers above 1,000, you lose 1 villager/hour.  
    - Additional losses occur for every 20 villagers above 2,000, 3,000, and so on.  
 - **Losing honor** through:  
-   - Dishonorable political actions ([Exemplary Punishment](./politics/resources-policies.md#exemplary-punishment), **Promise of Power**, etc.).  
+   - Dishonorable political actions ([Exemplary Punishment](./politics/resources-politics#exemplary-punishment), **Promise of Power**, etc.).  
    - Applying excessive taxes (above 15%).  
    - Betrayals by your ninjas.  
    - Using dark units in your armies.
@@ -83,5 +83,5 @@ Each unit of population incurs a maintenance cost of **1 food/hour** and require
 Workers are units you can assign to resource gathering and construction tasks.  
 - Workers consist of:  
   - Your population (both men and women).  
-  - [Ashigaru](../game-concepts/military-units/index.md#traits-and-abilities) stationed in your province.  
-  - [Temporary workers](./politics/resources-policies.md#temporal-villagers) from political actions. 
+  - [Ashihei](/docs/game-concepts/military-units#traits-and-abilities) stationed in your province.  
+  - [Temporary workers](./politics/resources-politics#temporal-villagers) from political actions. 

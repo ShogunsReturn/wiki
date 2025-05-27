@@ -1,0 +1,22 @@
+import Link from '@docusaurus/Link';
+import CostByLevelTable from '@site/src/components/CostByLevelTable';
+import playerBuildings from '@site/src/data/player_buildings.json';
+
+# Watchtower
+
+- Watchtowers are a <Link to="/docs/game-concepts/buildings#types-of-buildings">Quantity building</Link>, so we can build several at the same time and they have no limit.
+- Each additional watchtower allows you to see an enemy attack or movement 4 minutes beforehand.
+- Each watchtower costs 10 gold/hour.
+
+The cost of each watchtower is higher the more we have.
+
+**Cost Table:**
+
+<CostByLevelTable building={playerBuildings["Watchtowers"]} />
+
+---
+
+### *In Development*
+
+- Watchtowers make it difficult for enemy ninjas to carry out Ninja Missions in our province. The more Watchtowers there are, the more difficult it will be.
+- Each watchtower adds +1 to the difficulty of ninja actions in your province (this added difficulty can be reduced by the ninja minister of subterfuge's skill Misdirection Techniques).

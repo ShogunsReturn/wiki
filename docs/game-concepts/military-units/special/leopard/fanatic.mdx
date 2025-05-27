@@ -1,0 +1,86 @@
+---
+sidebar_position: 1
+---
+
+import UnitStatsTable from '@site/src/components/UnitStatsTable';
+import Link from '@docusaurus/Link';
+import Admonition from '@theme/Admonition';
+
+# Fanatic
+
+## Overview
+
+The Leopard Fanatics are warriors driven by the pursuit of an honorable death on the battlefield.
+Their sole purpose is to charge headfirst into enemy lines, seeking to inflict as many casualties as possible, fully aware that their fate is glory through sacrifice.
+
+---
+
+## Key Features
+
+### Cost
+- Rice: 90  
+- Wood: 0  
+- Iron: 15  
+- Gold: 70  
+- Population: 1
+
+### Maintenance
+- Meat: 2.5 /h  
+- Gold: 1.2 /h
+
+### Training duration
+- 7 Hours
+
+### Honor requirement
+- 5
+
+### Unit type
+- <Link to="../../#melee-infantry">Melee Infantry</Link>
+
+### Trait
+- Special Effect
+
+<Admonition type="tip" title="Special Effect – Reckless Charge">
+  <ul>
+    <li>Leopard Fanatics always fight in the front line.</li>
+    <li>They charge one turn earlier than other melee infantry, dealing <strong>double damage</strong> (×2 bonus).</li>
+    <li>Their aggressive nature comes at a cost—they <strong>take 3× normal damage</strong>.</li>
+    <li>They also absorb damage that would otherwise be taken by other infantry units.</li>
+  </ul>
+</Admonition>
+
+### Samurai Skills  
+They can be affected by the Samurai abilities:  
+- <Link to="../../../samurais/knowledge-skills#special-knowledge">Special Knowledge</Link>  
+- <Link to="../../../samurais/charisma-skills#exemplary-soldier">Exemplary Soldier</Link>
+
+### Stats by level
+
+<UnitStatsTable
+  baseStats={{
+    attack: 15,
+    attackPerLevel: 1.778,
+    defense: 12,
+    defensePerLevel: 1.223,
+    armor: 15,
+    armorPerLevel: 1,
+    health: 55,
+    healthPerLevel: 3.778,
+    counter: 6,
+    counterPerLevel: 2,
+  }}
+  requirements={{
+    1: 'Academy(1), Dojo(4)',
+    2: 'Academy(2), Dojo(8)',
+    3: 'Academy(4), Dojo(12)',
+    4: 'Academy(7), Dojo(16)',
+    5: 'Academy(9), Dojo(20)',
+    6: 'Academy(11), Dojo(23)',
+    7: 'Academy(15), Dojo(28)',
+    8: 'Academy(18), Dojo(31)',
+    9: 'Academy(21), Dojo(33)',
+    10: 'Academy(27), Dojo(35)',
+  }}
+/>
+
+> <Link to="../../#attributes">More information about unit attributes</Link>

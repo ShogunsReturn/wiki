@@ -1,0 +1,15 @@
+import Link from '@docusaurus/Link';
+import CostByLevelTable from '@site/src/components/CostByLevelTable';
+import playerBuildings from '@site/src/data/player_buildings.json';
+
+# Temple
+
+- The Temple is a <Link to="/docs/game-concepts/buildings#types-of-buildings">Level building</Link>, so we can only increase one level at a time and its construction has a maximum limit.
+- The Temple unlocks the creation of <Link to="/docs/game-concepts/military-units#magic-units">magic units</Link> and certain <Link to="/docs/game-concepts/military-units#dark-units">dark units</Link>.
+- Each additional Temple level increases the level of certain <Link to="/docs/game-concepts/military-units">military units</Link>.
+- Each additional Temple level increases the level of the following crafted items: Origami Ornaments and Shadow Idols.
+- The Temple will allow you to have more training stations. Every three levels provide an additional station in addition to the initial one.
+
+**Cost Table by Level:**
+
+<CostByLevelTable building={playerBuildings["Temple"]} />

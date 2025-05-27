@@ -1,0 +1,13 @@
+import Link from '@docusaurus/Link';
+import CostByLevelTable from '@site/src/components/CostByLevelTable';
+import playerBuildings from '@site/src/data/player_buildings.json';
+
+# Stable
+
+- The Stable is a <Link to="/docs/game-concepts/buildings#types-of-buildings">Level building</Link>, so we can only increase it one level at a time and its construction has a maximum limit.
+- The Stable unlocks the creation of <Link to="/docs/game-concepts/military-units#melee-cavalry">cavalry units</Link>.
+- Each additional level of the Stable increases the level of certain <Link to="/docs/game-concepts/military-units">military units</Link>.
+
+**Cost Table by Level:**
+
+<CostByLevelTable building={playerBuildings["Stable"]} />

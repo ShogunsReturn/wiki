@@ -1,0 +1,107 @@
+---
+sidebar_position: 2
+---
+
+import UnitStatsTable from '@site/src/components/UnitStatsTable';
+import Link from '@docusaurus/Link';
+import Admonition from '@theme/Admonition';
+
+# Ashihei Captain
+
+## Overview
+
+The Ronin Ashihei Captains are battle-hardened peasant warriors, promoted for their bravery and dedication on the battlefield.
+Their role is to organize and lead the otherwise undisciplined Ashihei troops, maximizing their combat effectiveness.
+
+---
+
+## Key Features
+
+### Cost
+- Rice: 50  
+- Wood: 20  
+- Iron: 10  
+- Gold: 150  
+- Population: 1
+
+### Maintenance
+- Meat: 1.6 /h  
+- Gold: 1.8 /h
+
+### Training duration
+- 8 Hours
+
+### Honor requirement
+- 5
+
+### Unit type
+- <Link to="../../index.md#melee-infantry">Melee Infantry</Link>
+
+### Trait
+- Special Effect
+
+<Admonition type="tip" title="Special Effect – Ashihei Commanders">
+  <ul>
+    <li>Each Ashihei Captain boosts Ashihei (and Ambusher) units by:</li>
+      <ul>
+        <li><code>+0.2 + 0.05 × (level - 1)</code> damage per unit</li>
+        <li><code>+2 + 0.5 × (level - 1)</code> health per unit</li>
+      </ul>
+    <li>One captain affects up to 50 Ashihei troops.</li>
+    <li>The number of effective captains is capped at <strong>total Ashihei ÷ 50</strong>.</li>
+    <li>Maximum bonus:</li>
+      <ul>
+        <li>+2 damage</li>
+        <li>+20 health</li>
+      </ul>
+    <li>Applies to allied Ashihei units in shared battles.</li>
+    <li>If multiple captains, generals, or Tacticians of different levels are present, their level is averaged and rounded down.</li>
+  </ul>
+</Admonition>
+
+<Admonition type="info" title="Examples">
+  <ul>
+    <li><strong>490 Ashihei and 10 Captains</strong>: Full bonus of +2 damage and +20 health.</li>
+    <li><strong>980 Ashihei and 20 Captains</strong>: Still capped at +2/+20.</li>
+    <li><strong>990 Ashihei and 10 Captains</strong>: Bonus is +1 damage and +10 health.</li>
+    <li><strong>49 Ashihei and 1 Captain</strong>: +0.2 damage and +2 health.</li>
+    <li><strong>48 Ashihei and 2 Captains</strong>: Still +0.2/+2.</li>
+    <li><strong>245 Ashihei and 5 Captains</strong>: +1 damage and +10 health.</li>
+    <li><strong>240 Ashihei and 10 Captains</strong>: Still +1/+10 (only 5 are effective).</li>
+  </ul>
+</Admonition>
+
+### Samurai Skills  
+They can be affected by the Samurai abilities:  
+- <Link to="../../../samurais/knowledge-skills#special-knowledge">Special Knowledge</Link>  
+- <Link to="../../../samurais/charisma-skills#exemplary-soldier">Exemplary Soldier</Link>
+
+### Stats by level
+
+<UnitStatsTable
+  baseStats={{
+    attack: 11,
+    defense: 7,
+    armor: 12,
+    health: 84,
+    counter: 0,
+    attackPerLevel: 1.112,
+    defensePerLevel: 0.889,
+    armorPerLevel: 2.667,
+    healthPerLevel: 4.445
+  }}
+  requirements={{
+    1: 'Academy(3), Blacksmith(4)',
+    2: 'Academy(5), Blacksmith(8)',
+    3: 'Academy(8), Blacksmith(12)',
+    4: 'Academy(12), Blacksmith(15)',
+    5: 'Academy(14), Blacksmith(17)',
+    6: 'Academy(17), Blacksmith(20)',
+    7: 'Academy(20), Blacksmith(22)',
+    8: 'Academy(23), Blacksmith(25)',
+    9: 'Academy(25), Blacksmith(27)',
+    10: 'Academy(29), Blacksmith(29)',
+  }}
+/>
+
+> <Link to="../../index.md#attributes">More information about unit attributes</Link>

@@ -1,0 +1,76 @@
+---
+sidebar_position: 6
+---
+
+import UnitStatsTable from '@site/src/components/UnitStatsTable';
+import Link from '@docusaurus/Link';
+import Admonition from '@theme/Admonition';
+
+# Bushi
+
+## Overview
+
+Bushi undergo extensive training in the use of steel weapons and advanced infantry strategies. They form the core melee combat unit in close-quarters engagements.
+
+---
+
+## Key Features
+
+### Cost
+- Rice: 100
+- Wood: 0
+- Iron: 25
+- Gold: 30
+- Population: 1
+
+### Maintenance
+- Meat: 1.8 /h
+- Gold: 1.0 /h
+
+### Training duration
+- 4 Hours
+
+### Honor requirement
+- -100
+
+### Unit type
+- <Link to="../#melee-infantry">Melee Infantry</Link>
+
+<Admonition type="tip" title="Special Effect – Supremacy of Steel">
+  +5 damage bonus against Ashihei units.
+</Admonition>
+
+### Samurai Skills  
+They can be affected by the Samurai abilities:  
+- <Link to="../../samurais/charisma-skills#exemplary-soldier">Exemplary Soldier</Link>  
+- <Link to="../../samurais/charisma-skills#divine-fury">Divine Fury</Link>
+
+### Stats by level
+
+<UnitStatsTable
+  baseStats={{
+    attack: 7,
+    attackPerLevel: 1.334,
+    defense: 9,
+    defensePerLevel: 1,
+    armor: 0,
+    armorPerLevel: 0.778,
+    health: 60,
+    healthPerLevel: 2.445,
+    counter: 0,
+  }}
+  requirements={{
+    1: 'Dojo(6)',
+    2: 'Dojo(7)',
+    3: 'Dojo(8)',
+    4: 'Dojo(10)',
+    5: 'Dojo(12)',
+    6: 'Dojo(14)',
+    7: 'Dojo(16)',
+    8: 'Dojo(19)',
+    9: 'Dojo(23)',
+    10: 'Dojo(29)',
+  }}
+/>
+
+> <Link to="../#attributes">More information about unit attributes</Link>

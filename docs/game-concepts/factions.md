@@ -21,9 +21,9 @@ In battle they trust the honor and precision of their troops, they depend excess
 
 ### Units
 
-- Elite Archer
-- Kenshinzen
-- Yojimbo
+- [Elite Archer](military-units/special/crane/elite-archer.mdx)
+- [Kenshinzen](military-units/special/crane/kenshinzen.mdx)
+- [Yojimbo](military-units/special/crane/yojimbo.mdx)
 
 ## Tiger
 > The disciplined Tiger.
@@ -41,9 +41,9 @@ In battle discipline and order are the key to victory. If everyone does what the
 
 ### Units
 
-- Veteran
-- Master
-- Strategist
+- [Veteran](military-units/special/tiger/veteran.mdx)
+- [Master](military-units/special/tiger/master.mdx)
+- [Tactician](military-units/special/tiger/tactician.mdx)
 
 ## Leopard
 > The fierce Leopard.
@@ -60,9 +60,9 @@ In battle they trust their brute strength and aggressiveness. They charge the en
 
 ### Units
 
-- Fanatic
-- Vanguard
-- Berserker
+- [Fanatic](military-units/special/leopard/fanatic.mdx)
+- [Vanguard](military-units/special/leopard/vanguard.mdx)
+- [Berserker](military-units/special/leopard/berserker.mdx)
 
 ## Snake
 > The Snake manipulators.
@@ -81,9 +81,9 @@ In battle, despite not being very numerous, they use sabotage and murder tricks 
 
 ### Units
 
-- Saboteur
-- Assassin
-- Tormentor
+- [Infiltrator](military-units/special/snake/infiltrator.mdx)
+- [Shinobi](military-units/special/snake/shinobi.mdx)
+- [Agonizer](military-units/special/snake/agonizer.mdx)
 
 ## Dragon
 > The Dragon mystics.
@@ -100,9 +100,9 @@ They plan an attack slowly and well in advance, then execute it like a play, eac
 
 ### Units
 
-- Warrior monk
-- Nature shugenja
-- Dragon
+- [Warrior monk](military-units/special/dragon/warrior-monk.mdx)
+- [Nature shugenja](military-units/special/dragon/nature-shugenja.mdx)
+- [Dragon](military-units/special/dragon/dragon.mdx)
 
 ## Ronin
 > The Ronin rebels.
@@ -111,19 +111,19 @@ The samurai called ronin are those who do not cultivate any type of tradition li
 
 Each ronin army can be made up of units of very different types, since most of them are made up of soldiers who previously fought in other factions, which is why the ronin armies do not follow a fixed pattern of action in battles. They use their cunning and insight to achieve victories with armies that are often inferior.
 
-It is a faction oriented towards the Ashigaru and the people.
+It is a faction oriented towards the Ashihei and the people.
 
 ### Advantages
 
 - The costs of buildings are cheaper - 20%
 - The honor requirements are reduced by half
-- Ashigaru better prepared for battle + 25%
+- Ashihei better prepared for battle + 25%
 
 ### Units
 
-- [Raider](military-units/special/ronin/raider.md)
-- [Ashigaru Leader](military-units/special/ronin/ashigaru-leader.md)
-- [General](military-units/special/ronin/general.md)
+- [Ambusher](military-units/special/ronin/ambusher.mdx)
+- [Ashihei Captain](military-units/special/ronin/ashihei-captain.mdx)
+- [Warlord](military-units/special/ronin/warlord.mdx)
 
 ## Jigoku *(in development)*
 > The scary Jigoku.
@@ -141,11 +141,11 @@ The fallen of Jigoku were brilliant samurai who fell to the temptation of the po
 
 ### Units
 
-- Infected Goblin
-- Arcane Tengu
-- War Tower
+- Dokukai
+- Yatagarasu
+- Battle Tower
 
 ---
 
 ## Change Faction
-Throughout the game the player can change his faction through political action **Oath** (permanent change). By changing the faction, the player loses the advantages of his previous faction and wins those of the faction he acquires. You don't have to lose a faction's own units if you maintain honor requirements on the exchange. Its cost is 30 imperial favors except for the jigoku faction that requires 50.
+Throughout the game the player can change his faction through political action [Oath](/docs/game-concepts/politics/special-politics.mdx) (permanent change). By changing the faction, the player loses the advantages of his previous faction and wins those of the faction he acquires. You don't have to lose a faction's own units if you maintain honor requirements on the exchange. Its cost is 30 imperial favors except for the jigoku faction that requires 50.

@@ -1,0 +1,13 @@
+import Link from '@docusaurus/Link';
+import CostByLevelTable from '@site/src/components/CostByLevelTable';
+import playerBuildings from '@site/src/data/player_buildings.json';
+
+# Blacksmith
+
+- The Blacksmith is a <Link to="/docs/game-concepts/buildings#types-of-buildings">Level building</Link>, so we can only increase one level at a time and its construction has a maximum limit.
+- By building more levels of the Blacksmith you will be able to recruit certain military units that are also of a higher level, although some have another building as an additional requirement. These are: **Naginata**, **Nodachi**, **Heavy Rider**, **Karasu**, **Crane Kenshinzen**, **Tiger Master**, **Leopard Berserker**, and **Jigoku War Tower**.
+- Similarly, the Blacksmith unlocks the <Link to="/docs/game-concepts/politics/army-policies#time-of-war">Time of War Policy</Link> and the samurai skills <Link to="/docs/game-concepts/samurais/picardy-skills#army-general">Great Endurance</Link> and <Link to="/docs/game-concepts/samurais/reasoning-skills#war-minister">Loyal Warriors</Link>.
+
+**Cost Table by Level:**
+
+<CostByLevelTable building={playerBuildings['Blacksmith']} />

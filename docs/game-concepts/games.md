@@ -33,7 +33,7 @@ The political actions of Oath and Impersonate will not be available.
 The ranking is determined by the number of recognized subjects of each faction overall.
 The faction that obtains X points of imperial respect wins. (The number may vary, depending on the game)
 
-### Limited Game *(in development)*
+### Limited Game
 
 :::info Objective
 Become Shogun on the day the game ends

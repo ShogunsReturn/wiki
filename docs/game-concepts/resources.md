@@ -6,19 +6,19 @@ The Basic resources are: **Food**, **Wood**, **Iron** and **Gold**. In addition 
 
 ## Food
 
-Food is a resource used to cover the maintenance costs of villagers and troops, as well as to pay for the construction of certain [buildings](../game-concepts/buildings/index.md) and [military units](./military-units/index.md). There are two ways to produce food: **rice harvesting** and **meat gathering**.
+Food is a resource used to cover the maintenance costs of villagers and troops, as well as to pay for the construction of certain [buildings](../game-concepts/buildings/index.md) and [military units](./military-units). There are two ways to produce food: **rice harvesting** and **meat gathering**.
 
 ### Rice
 
-- The number of effective workers in rice harvesting is limited by the number of [fields](./buildings/resources/fields.md).  
-- Rice production is lower than meat production but has the advantage of being storable in the [warehouse](./buildings/resources/warehouse.md).  
-- Since rice production is lower, it is better to build [farms](./buildings/resources/farms.md) to feed your population and [fields](./buildings/resources/fields.md) to store food and cover building and unit costs.  
+- The number of effective workers in rice harvesting is limited by the number of [fields](./buildings/resources/fields).  
+- Rice production is lower than meat production but has the advantage of being storable in the [warehouse](./buildings/resources/warehouse).  
+- Since rice production is lower, it is better to build [farms](./buildings/resources/farms) to feed your population and [fields](./buildings/resources/fields) to store food and cover building and unit costs.  
 
 However, if there are not enough farms, the harvested rice will be used to cover maintenance expenses.
 
 ### Meat
 
-- The number of effective workers in meat gathering is limited by the number of [farms](./buildings/resources/farms.md).  
+- The number of effective workers in meat gathering is limited by the number of [farms](./buildings/resources/farms).  
 - Unlike rice, **meat cannot be stored**, so its production only serves to cover maintenance costs.  
 - Meat production is higher than rice production, making it an efficient way to meet immediate food requirements.  
 
@@ -28,7 +28,7 @@ To properly balance meat production:
 - Avoid assigning more workers than necessary to meat gathering, as excess meat cannot be saved.
 :::
 :::tip Other Sources of Food
-- Another way to obtain **Food** is by upgrading the **[Port](./buildings/commercial-political/port.md) levels**.
+- Another way to obtain **Food** is by upgrading the **[Port](./buildings/commercial-political/port) levels**.
 :::
 
 ---
@@ -60,7 +60,7 @@ The total number of workers that can gather wood depends on the forest's size. A
 - Certain [political actions](./politics/politics.md) and [Economy Minister abilities](./samurais/samurais.md#samurai-skills) can increase the forest's regeneration rate.
 
 :::tip Other Sources of Wood
-- Another way to obtain **Wood** is by upgrading the **[Port](./buildings/commercial-political/port.md) levels**.
+- Another way to obtain **Wood** is by upgrading the **[Port](./buildings/commercial-political/port) levels**.
 :::
 
 ---
@@ -71,18 +71,18 @@ To gather iron, you must construct mines. Iron is a vital resource required to c
 - The more mines you build, the greater your iron production capacity.
 
 :::tip Other Sources of Iron
-- Another way to obtain **Iron** is by upgrading the **[Port](./buildings/commercial-political/port.md) levels**.
+- Another way to obtain **Iron** is by upgrading the **[Port](./buildings/commercial-political/port) levels**.
 :::
 
 ---
 
 ## Gold
 
-**Gold** is a critical resource used to cover various maintenance costs and expenses. It is primarily produced through **taxes on the population**, with each unit of population generating **1 gold/hour**. Additional sources of gold include upgrading the [**market**](./buildings/commercial-political/market.md) and [**port levels**](./buildings/commercial-political/port.md).
+**Gold** is a critical resource used to cover various maintenance costs and expenses. It is primarily produced through **taxes on the population**, with each unit of population generating **1 gold/hour**. Additional sources of gold include upgrading the [**market**](./buildings/commercial-political/market) and [**port levels**](./buildings/commercial-political/port).
 
 ### Usage
 
-- All [military units](./military-units/index.md), [samurai](./samurais/samurais.md), ninjas on espionage missions, [watchtower guards](./buildings/ninjutsu/watchtower.md), [armies](./armies.md), and other elements require hourly gold maintenance.  
+- All [military units](./military-units), [samurai](./samurais/samurais.md), ninjas on espionage missions, [watchtower guards](./buildings/ninjutsu/watchtower), [armies](./armies.md), and other elements require hourly gold maintenance.  
 - Recruiting units will convert tax-paying villagers into soldiers who draw salaries, so managing the gold balance carefully is crucial.
 
 ### Corruption
@@ -94,7 +94,7 @@ Storing large amounts of gold leads to losses due to corruption.
 
 With neutral honor, every **200 gold coins above 7,500** results in a **5 gold/hour penalty**.
 
-The [Imperial State](./politics/special-policies.md#imperial-state) political action reduces corruption by **50%**.
+The [Imperial State](./politics/special-politics#imperial-state) political action reduces corruption by **50%**.
 
 ### Popular Revolts
 

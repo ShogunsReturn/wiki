@@ -7,17 +7,17 @@ Just like gold or food, **Imperial Favors** are another **valuable resource** us
 Only **Political Actions** and the **most powerful Military Units** require this resource, but their effects can **significantly impact the game**.  
 
 ### Political Actions Requiring Imperial Favors:  
-- [Imperial Lands](./politics/special-policies.md#imperial-lands) – Expands available building areas for **5 days**. Costs **20 Favors**.  
-- [Imperial State](./politics/special-policies.md#imperial-state) – Reduces **overpopulation penalties** and **corruption** for **5 days**. Costs **15 Favors**.  
-- [Imperial Militia](./politics/special-policies.md#imperial-militia) – Summons an **army under your command**. Costs **25 Favors**.  
-- **Imperial Expert** *(in development)* – Brings an **expert Samurai Magistrate** to your province. Costs **20 Favors**.  
-- [Imperial Help](./politics/special-policies.md#imperial-help) – Grants a **large shipment of a chosen resource**. Costs **10 Favors**.  
+- [Imperial Lands](/docs/game-concepts/politics/special-politics#imperial-lands) – Expands available building areas for **5 days**. Costs **20 Favors**.  
+- [Imperial State](/docs/game-concepts/politics/special-politics#imperial-state) – Reduces **overpopulation penalties** and **corruption** for **5 days**. Costs **15 Favors**.  
+- [Imperial Militia](/docs/game-concepts/politics/special-politics#imperial-militia) – Summons an **army under your command**. Costs **25 Favors**.  
+- [Imperial Expert](/docs/game-concepts/politics/special-politics#imperial-expert) – Brings an **expert Samurai Magistrate** to your province. Costs **20 Favors**.  
+- [Imperial Help](/docs/game-concepts/politics/special-politics#imperial-help) – Grants a **large shipment of a chosen resource**. Costs **10 Favors**.  
 - **Imperial Manager** *(in development)* – Unlocks the **Imperial Manager** submenu for **5 days**, allowing for faster information management. Costs **15 Favors**.  
-- [Oath](./politics/special-policies.md#oath) – Permanently **changes your faction**. Costs **30 Favors** (or **50** if switching to the **Jigoku faction**).  
+- [Oath](/docs/game-concepts/politics/special-politics#oath) – Permanently **changes your faction**. Costs **30 Favors** (or **50** if switching to the **Jigoku faction**).  
 
 ### Military Units Requiring Imperial Favors:  
-- [Oni](./military-units/dark/oni.md) – A **dark unit** with **high attack and resilience**. Costs **5 Favors** per unit.  
-- [Kami](./military-units/magic/kami.md) – A **powerful unit** with **strong defense and a bonus against dark units**. Costs **5 Favors** per unit.  
+- [Oni](./military-units/dark/oni) – A **dark unit** with **high attack and resilience**. Costs **5 Favors** per unit.  
+- [Kami](./military-units/magic/kami) – A **powerful unit** with **strong defense and a bonus against dark units**. Costs **5 Favors** per unit.  
 
 ---
 

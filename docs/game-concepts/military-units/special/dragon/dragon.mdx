@@ -1,0 +1,73 @@
+---
+sidebar_position: 3
+---
+
+import UnitStatsTable from '@site/src/components/UnitStatsTable';
+import Link from '@docusaurus/Link';
+
+# Dragon
+
+## Overview
+
+Dragons are legendary creatures summoned by the Dragon Monks.
+In battle, they descend from the skies, striking fear into their helpless enemies as they witness the spectral arrival of these mighty beasts.
+
+---
+
+## Key Features
+
+### Cost
+- Rice: 400  
+- Wood: 0  
+- Iron: 50  
+- Gold: 120  
+- Population: 1
+
+### Maintenance
+- Meat: 5.0 /h  
+- Gold: 1.7 /h
+
+### Training duration
+- 7 Hours
+
+### Honor requirement
+- 35
+
+### Unit type
+- <Link to="../../#melee-cavalry">Melee Cavalry</Link>
+
+### Samurai Skills  
+They can be affected by the Samurai abilities:  
+- <Link to="../../../samurais/knowledge-skills#special-knowledge">Special Knowledge</Link>  
+- <Link to="../../../samurais/reasoning-skills#horseman">Horseman</Link>
+
+### Stats by level
+
+<UnitStatsTable
+  baseStats={{
+    attack: 20,
+    attackPerLevel: 2.334,
+    defense: 20,
+    defensePerLevel: 2.223,
+    armor: 18,
+    armorPerLevel: 1.223,
+    health: 175,
+    healthPerLevel: 13.445,
+    counter: 9,
+    counterPerLevel: 2.445,
+  }}
+  requirements={{
+    1: 'Academy(6), Stable(4)',
+    2: 'Academy(10), Stable(8)',
+    3: 'Academy(13), Stable(12)',
+    4: 'Academy(16), Stable(15)',
+    5: 'Academy(19), Stable(17)',
+    6: 'Academy(22), Stable(20)',
+    7: 'Academy(24), Stable(22)',
+    8: 'Academy(26), Stable(25)',
+    9: 'Academy(28), Stable(27)',
+    10: 'Academy(30), Stable(29)',
+  }}
+/>
+
+> <Link to="../../#attributes">More information about unit attributes</Link>

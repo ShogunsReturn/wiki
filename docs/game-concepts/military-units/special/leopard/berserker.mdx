@@ -1,0 +1,85 @@
+---
+sidebar_position: 3
+---
+
+import UnitStatsTable from '@site/src/components/UnitStatsTable';
+import Link from '@docusaurus/Link';
+import Admonition from '@theme/Admonition';
+
+# Berserker
+
+## Overview
+
+The Leopard Berserkers are ferocious warriors who unleash their full fury in a single battle.
+Once engaged in combat, they give in to their bloodlust, ignoring pain even when pierced by enemy arrows.
+As they near death, they raise their fist, letting out a fearsome war cry before making one final, devastating strike against their enemies.
+
+---
+
+## Key Features
+
+### Cost
+- Rice: 110  
+- Wood: 0  
+- Iron: 120  
+- Gold: 30  
+- Population: 1
+
+### Maintenance
+- Meat: 3.2 /h  
+- Gold: 1.8 /h
+
+### Training duration
+- 7 Hours
+
+### Honor requirement
+- -100
+
+### Unit type
+- <Link to="../../#melee-infantry">Melee Infantry</Link>
+
+### Trait
+- Special Effect
+
+<Admonition type="tip" title="Special Effect – Last Stand">
+  <ul>
+    <li>Before dying in battle, if melee infantry combat is ongoing, the Berserker delivers a final strike.</li>
+    <li>Deals <strong>50 base damage + 2.5 per level</strong> to enemy units.</li>
+  </ul>
+</Admonition>
+
+### Samurai Skills  
+They can be affected by the Samurai abilities:  
+- <Link to="../../../samurais/knowledge-skills#special-knowledge">Special Knowledge</Link>  
+- <Link to="../../../samurais/charisma-skills#exemplary-soldier">Exemplary Soldier</Link>
+
+### Stats by level
+
+<UnitStatsTable
+  baseStats={{
+    attack: 24,
+    attackPerLevel: 2.889,
+    defense: 18,
+    defensePerLevel: 2.223,
+    armor: 24,
+    armorPerLevel: 3.112,
+    health: 90,
+    healthPerLevel: 5.556,
+    counter: 30,
+    counterPerLevel: 2.334,
+  }}
+  requirements={{
+    1: 'Academy(6), Blacksmith(4)',
+    2: 'Academy(10), Blacksmith(8)',
+    3: 'Academy(13), Blacksmith(12)',
+    4: 'Academy(16), Blacksmith(15)',
+    5: 'Academy(19), Blacksmith(17)',
+    6: 'Academy(22), Blacksmith(20)',
+    7: 'Academy(24), Blacksmith(22)',
+    8: 'Academy(26), Blacksmith(25)',
+    9: 'Academy(28), Blacksmith(27)',
+    10: 'Academy(30), Blacksmith(29)',
+  }}
+/>
+
+> <Link to="../../#attributes">More information about unit attributes</Link>

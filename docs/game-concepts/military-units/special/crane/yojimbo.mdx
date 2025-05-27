@@ -1,0 +1,91 @@
+---
+sidebar_position: 3
+---
+
+import UnitStatsTable from '@site/src/components/UnitStatsTable';
+import Link from '@docusaurus/Link';
+import Admonition from '@theme/Admonition';
+
+# Yojimbo
+
+## Overview
+
+The Crane Yojimbo are elite warriors dedicated to a single purpose: protecting their leaders in battle and defending key objectives from enemy attacks. 
+A Yojimbo will give their life without hesitation to shield their charge.
+
+---
+
+## Key Features
+
+### Cost
+- Rice: 75  
+- Wood: 0  
+- Iron: 30  
+- Gold: 90  
+- Population: 1
+
+### Maintenance
+- Meat: 1.6 /h  
+- Gold: 1.5 /h
+
+### Training duration
+- 9 Hours
+
+### Honor requirement
+- 30
+
+### Unit type
+- <Link to="../../#melee-infantry">Melee Infantry</Link>
+
+### Trait
+- Special Effect
+
+<Admonition type="tip" title="Special Effect – Guardian of the Rearguard">
+  The Yojimbo is a protector unit for <Link to="../../#rear-units"><strong>rear-line units</strong></Link>.
+  While classified as <strong>rear-line</strong>, the Yojimbo also takes damage but <strong>absorbs 5 times</strong> the proportional damage they would normally receive.
+  Damage absorption is not negated; instead, the Yojimbo endures it with superior resilience.
+
+  <p><strong>Practical Uses:</strong></p>
+  <ul>
+    <li><strong>Counters assassins</strong> targeting key units.</li>
+    <li><strong>Deflects projectiles</strong> from special units they are protecting.</li>
+  </ul>
+
+  <p><strong>Combat Timing:</strong> Yojimbo enter combat <Link to="../../../combat#combat-turns"><strong>3 turns</strong></Link> after the rest of the infantry.</p>
+</Admonition>
+
+### Samurai Skills  
+They can be affected by the Samurai abilities:  
+- <Link to="../../../samurais/knowledge-skills#special-knowledge">Special Knowledge</Link>  
+- <Link to="../../../samurais/charisma-skills#exemplary-soldier">Exemplary Soldier</Link>
+
+### Stats by level
+
+<UnitStatsTable
+  baseStats={{
+    attack: 7,
+    attackPerLevel: 0.778,
+    defense: 10,
+    defensePerLevel: 1.223,
+    armor: 35,
+    armorPerLevel: 3.556,
+    health: 85,
+    healthPerLevel: 4.889,
+    counter: 10,
+    counterPerLevel: 1.112,
+  }}
+  requirements={{
+    1: 'Academy(6), Dojo(4)',
+    2: 'Academy(10), Dojo(8)',
+    3: 'Academy(13), Dojo(12)',
+    4: 'Academy(16), Dojo(16)',
+    5: 'Academy(19), Dojo(20)',
+    6: 'Academy(22), Dojo(23)',
+    7: 'Academy(24), Dojo(28)',
+    8: 'Academy(26), Dojo(31)',
+    9: 'Academy(28), Dojo(33)',
+    10: 'Academy(30), Dojo(35)',
+  }}
+/>
+
+> <Link to="../../#attributes">More information about unit attributes</Link>

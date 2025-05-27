@@ -1,0 +1,76 @@
+---
+sidebar_position: 9
+---
+
+import UnitStatsTable from '@site/src/components/UnitStatsTable';
+import Link from '@docusaurus/Link';
+
+# Bow Cavalry
+
+## Overview
+
+### **Mounted Archer**  
+
+Mounted Archers are highly trained warriors skilled in both **horseback riding** and **Kyūdō**, the art of archery. Their **versatility in battle** allows them to combine the effectiveness of **ranged combat** with the **mobility of their mounts**.  
+
+They are **deadly projectile troops**, capable of **harassing enemy forces** from a distance while **avoiding direct melee combat** against infantry. Their agility on horseback allows them to **outmaneuver slower enemies** while striking with precision from afar.
+
+---
+
+## Key Features
+
+### Cost
+- Rice: 140
+- Wood: 55
+- Iron: 0
+- Gold: 70
+- Population: 1
+
+### Maintenance
+- Meat: 3.4 /h
+- Gold: 1.5 /h
+
+### Training duration
+- 6 Hours 30 Minutes
+
+### Honor requirement
+- -100
+
+### Unit type
+- <Link to="../#ranged-cavalry">Ranged Cavalry</Link>
+
+### Samurai Skills  
+They can be affected by the Samurai abilities:  
+- <Link to="../../samurais/reasoning-skills#horseman">Horseman</Link>
+- <Link to="../../samurais/reasoning-skills#archer">Archer</Link>
+- <Link to="../../samurais/charisma-skills#divine-fury">Divine Fury</Link>
+
+### Stats by level
+
+<UnitStatsTable
+  baseStats={{
+    attack: 5,
+    attackPerLevel: 0.667,
+    defense: 6,
+    defensePerLevel: 0.778,
+    armor: 3,
+    armorPerLevel: 0.445,
+    health: 70,
+    healthPerLevel: 2.889,
+    counter: 0,
+  }}
+  requirements={{
+    1: 'Stable(6), Archery(6)',
+    2: 'Stable(10), Archery(10)',
+    3: 'Stable(13), Archery(13)',
+    4: 'Stable(16), Archery(16)',
+    5: 'Stable(19), Archery(19)',
+    6: 'Stable(21), Archery(21)',
+    7: 'Stable(23), Archery(23)',
+    8: 'Stable(26), Archery(26)',
+    9: 'Stable(28), Archery(28)',
+    10: 'Stable(30), Archery(30)',
+  }}
+/>
+
+> <Link to="../#attributes">More information about unit attributes</Link>

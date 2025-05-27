@@ -1,6 +1,6 @@
 # Buildings
 
-Building construction is a fundamental aspect of Shogun's Return. Buildings unlock various game menus and allow players to specialize in different playstyles. You can command building construction from the [Build Menu](../../game-menu/basic-menu/build.md).
+Building construction is a fundamental aspect of Shogun's Return. Buildings unlock various game menus and allow players to specialize in different playstyles. You can command building construction from the [Build Menu](../../game-menu/basic-menu/build).
 
 ## Types of buildings
 Buildings are categorized into Quantity or Level types:
@@ -16,14 +16,14 @@ To build each building or level it up we must be able to pay its cost and have b
 
 ## Buildings
 
-| Resources                                      | Commercial/Political                                                | Military                                      | Ninjutsu                                      |
-| ---------------------------------------------- | ------------------------------------------------------------------- | --------------------------------------------- | --------------------------------------------- |
-| [Castle](resources/castle.md)                  | [Port](commercial-political/port.md)                                | [Dojo](military/dojo.md)                      | [Watchtower](ninjutsu/watchtower.md)          |
-| [Houses](resources/houses.md)                  | [Market](commercial-political/market.md)                            | [Blacksmith](military/blacksmith.md)          | [Ninja Dojo*](ninjutsu/ninja-dojo.md)         |
-| [Fields](resources/fields.md)                  | [Library](commercial-political/library.md)                          | [Archery](military/archery.md)                | [Thieves Room*](ninjutsu/thieves-room.md)     |
-| [Farms](resources/farms.md)                    | [Magistrates Council](commercial-political/magistrates-council.md) | [Stable](military/stable.md)                  | [Assassins Room*](ninjutsu/assassins-room.md) |
-| [Mines](resources/mines.md)                    | [Circle of Sages](commercial-political/circle-of-sages.md)          | [Temple](military/temple.md)                 |                                               |
-| [Warehouse](resources/warehouse.md)            |                                                                     | [Dark Sanctuary](military/dark-sanctuary.md) |                                               |
-| [Gambling House*](resources/gambling-house.md) |                                                                     | [Academy](military/academy.md)                |                                               |
+| Resources                                                                 | Commercial/Political                                                                          | Military                                                                | Ninjutsu                                                                 |
+| ------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------- | ------------------------------------------------------------------------ |
+| [Castle](/docs/game-concepts/buildings/resources/castle)                  | [Port](/docs/game-concepts/buildings/commercial-political/port)                               | [Dojo](/docs/game-concepts/buildings/military/dojo)                     | [Watchtower](/docs/game-concepts/buildings/ninjutsu/watchtower)          |
+| [Houses](/docs/game-concepts/buildings/resources/houses)                  | [Market](/docs/game-concepts/buildings/commercial-political/market)                           | [Blacksmith](/docs/game-concepts/buildings/military/blacksmith)         | [Ninja Dojo*](/docs/game-concepts/buildings/ninjutsu/ninja-dojo)         |
+| [Fields](/docs/game-concepts/buildings/resources/fields)                  | [Library](/docs/game-concepts/buildings/commercial-political/library)                         | [Archery](/docs/game-concepts/buildings/military/archery)               | [Thieves Room*](/docs/game-concepts/buildings/ninjutsu/thieves-room)     |
+| [Farms](/docs/game-concepts/buildings/resources/farms)                    | [Magistrates Council](/docs/game-concepts/buildings/commercial-political/magistrates-council) | [Stable](/docs/game-concepts/buildings/military/stable)                 | [Assassins Room*](/docs/game-concepts/buildings/ninjutsu/assassins-room) |
+| [Mines](/docs/game-concepts/buildings/resources/mines)                    | [Circle of Sages](/docs/game-concepts/buildings/commercial-political/circle-of-sages)         | [Temple](/docs/game-concepts/buildings/military/temple)                 |                                                                          |
+| [Warehouse](/docs/game-concepts/buildings/resources/warehouse)            |                                                                                               | [Dark Sanctuary](/docs/game-concepts/buildings/military/dark-sanctuary) |                                                                          |
+| [Gambling House*](/docs/game-concepts/buildings/resources/gambling-house) |                                                                                               | [Academy](/docs/game-concepts/buildings/military/academy)               |                                                                          |
 
 > *Buildings marked with **\*** are in development*

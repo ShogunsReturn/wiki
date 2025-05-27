@@ -9,7 +9,7 @@ The build menu is the **first option** we find when displaying the **Basic Menus
 From this menu we can manage all aspects of the game related to Resources and Population. The build menu has **four submenus**:
 - Distribution
 - Management
-- Hierarchy *(in development)*
+- Hierarchy
 - Favors *(in development)*
 
 ## Distribution Submenu
@@ -54,7 +54,7 @@ The **fourth column** indicates the **storage limit** of the resources. The stor
 The **fifth column** provides some additional information: the **meat balance** and the **forest recovery**. For construction, this column displays a button you can click to see a detailed view of the **ongoing constructions**. From here, you can pause or cancel these constructions.
 
 ### Available Workers
-Finally at the bottom of the submenu we find a summary of the workers we currently have. Men, women, ashigarus and seasonal workers. Remember that ashigarus work like villagers and seasonal workers, except for crafting.
+Finally at the bottom of the submenu we find a summary of the workers we currently have. Men, women, ashiheis and seasonal workers. Remember that ashiheis work like villagers and seasonal workers, except for crafting.
 
 ## Management Submenu
 This is the **second submenu** of the resources menu.
@@ -70,7 +70,7 @@ It has 6 tabs that show the following information:
 - **Population:** Actions or events affecting the **growth or decline of your population**, as well as construction-related aspects.
 - **Glory and honor:** Actions or events affecting the **increase or decrease of honor and glory**.  
 
-## Hierarchy Submenu *(in development)*
+## Hierarchy Submenu
 This is the **third submenu** in the resources menu.
 
 ### Current Lord
@@ -81,7 +81,7 @@ In Shogun's Return you can be conquered by other players. When you are conquered
 :::
 
 ### Vassals
-From here you can adjust the taxes you want to impose on each of your vassals and view the amount of resources you get from them. You can also activate the option for the ashigaru you have in your province to help your vassal as workers. In addition, from this menu you can see the % of the glory gained from your vassals that will be directed to you ("Vassal Glory").
+From here you can adjust the taxes you want to impose on each of your vassals and view the amount of resources you get from them. You can also activate the option for the ashihei you have in your province to help your vassal as workers. In addition, from this menu you can see the % of the glory gained from your vassals that will be directed to you ("Vassal Glory").
 
 :::tip
 By attacking other players you can conquer them and make them your vassals, on whom you can impose taxes. To keep a player as a vassal you must maintain an army of your own or an ally in his province. However, if you ever have a glory higher than three times that of the vassal, he will be automatically released.

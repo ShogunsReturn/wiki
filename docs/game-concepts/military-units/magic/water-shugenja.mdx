@@ -1,0 +1,79 @@
+---
+sidebar_position: 5
+---
+
+import UnitStatsTable from '@site/src/components/UnitStatsTable';
+import Link from '@docusaurus/Link';
+import Admonition from '@theme/Admonition';
+
+# Water Shugenja
+
+## Overview
+
+**The so-called Water Shugenja** invoke the power to control **tides and the currents of seas and rivers** through their chants. Once their ritual is complete, an ever-growing torrent of water will **sweep the enemy toward defeat**.  
+
+---
+
+## Key Features
+
+### Cost
+- Rice: 100  
+- Wood: 0  
+- Iron: 40  
+- Gold: 80  
+- Population: 1
+
+### Maintenance
+- Meat: 2.0 /h  
+- Gold: 1.7 /h
+
+### Training duration
+- 10 Hours
+
+### Honor requirement
+- 40
+
+### Unit type
+- <Link to="../#rear-units">Rear Unit</Link>
+
+### Trait
+- <Link to="../#magical-units">Magical Unit</Link>
+
+<Admonition type="tip" title="Magic Effect – Tidal Wrath">
+  <ul>
+    <li><strong>The Water Shugenja's spell takes longer to cast</strong> than the Fire Shugenja's spell.</li>
+    <li>Once the spell is completed, <strong>each Water Shugenja deals 200 damage per turn</strong>.</li>
+    <li>This effect begins on <strong>Turn 10</strong> (two turns after the infantry enters combat) and <strong>continues until the end of the battle</strong>.</li>
+  </ul>
+</Admonition>
+
+### Samurai Skills  
+They can be affected by the Samurai ability:  
+- <Link to="../../samurais/knowledge-skills#arcane-knowledge">Arcane Knowledge</Link>
+
+### Stats by level
+
+<UnitStatsTable
+  baseStats={{
+    attack: 0,
+    defense: 0,
+    armor: 0,
+    health: 28,
+    healthPerLevel: 2.556,
+    counter: 0,
+  }}
+  requirements={{
+    1: 'Temple(2)',
+    2: 'Temple(3)',
+    3: 'Temple(4)',
+    4: 'Temple(6)',
+    5: 'Temple(8)',
+    6: 'Temple(11)',
+    7: 'Temple(14)',
+    8: 'Temple(17)',
+    9: 'Temple(20)',
+    10: 'Temple(25)',
+  }}
+/>
+
+> <Link to="../#attributes">More information about unit attributes</Link>

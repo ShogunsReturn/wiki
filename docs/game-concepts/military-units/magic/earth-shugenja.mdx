@@ -1,0 +1,84 @@
+---
+sidebar_position: 3
+---
+
+import UnitStatsTable from '@site/src/components/UnitStatsTable';
+import Link from '@docusaurus/Link';
+import Admonition from '@theme/Admonition';
+import EarthShugenjaArmorTable from '@site/src/components/EarthShugenjaArmorTable';
+
+# Earth Shugenja
+
+## Overview
+
+**The so-called Earth Shugenja** invoke the power to **control sand and stone** through their **ritual chants**. In battle, they **create stone and sand walls** that **protect armies** from incoming attacks.
+
+---
+
+## Key Features
+
+### Cost
+- Rice: 100  
+- Wood: 20  
+- Iron: 40  
+- Gold: 100  
+- Population: 1
+
+### Maintenance
+- Meat: 2.0 /h  
+- Gold: 2.2 /h
+
+### Training duration
+- 9 Hours
+
+### Honor requirement
+- 20
+
+### Unit type
+- <Link to="../#rear-units">Rear Unit</Link>
+
+### Trait
+- <Link to="../#magical-units">Magical Unit</Link>
+
+<Admonition type="tip" title="Magic Effect – Unyielding Bastion">
+  <ul>
+    <li><strong>All Earth Shugenja (both allied and own) increase unit armor</strong>, improving the <strong>percentage of damage avoided</strong>.</li>
+    <li><strong>More Earth Shugenja provide greater protection</strong>, but <strong>each additional Shugenja contributes less</strong> to the overall effect.</li>
+    <li><strong>Each level increases their effect by +10%</strong>, meaning a <strong>Level 10 Shugenja</strong> counts as <strong>1.9 Shugenja</strong> in terms of protection.</li>
+  </ul>
+
+  <p><strong>Estimated Armor Increase by Earth Shugenja Count:</strong></p>
+  <EarthShugenjaArmorTable />
+</Admonition>
+
+### Samurai Skills  
+They can be affected by the Samurai ability:  
+- <Link to="../../samurais/knowledge-skills#arcane-knowledge">Arcane Knowledge</Link>
+
+### Stats by level
+
+<UnitStatsTable
+  baseStats={{
+    attack: 0,
+    defense: 0,
+    armor: 25,
+    armorPerLevel: 1.334,
+    health: 28,
+    healthPerLevel: 2.667,
+    counter: 0,
+  }}
+  requirements={{
+    1: 'Temple(9)',
+    2: 'Temple(10)',
+    3: 'Temple(11)',
+    4: 'Temple(13)',
+    5: 'Temple(15)',
+    6: 'Temple(18)',
+    7: 'Temple(21)',
+    8: 'Temple(24)',
+    9: 'Temple(27)',
+    10: 'Temple(32)',
+  }}
+/>
+
+> <Link to="../#attributes">More information about unit attributes</Link>

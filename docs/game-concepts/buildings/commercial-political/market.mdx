@@ -1,0 +1,27 @@
+import Link from '@docusaurus/Link';
+import CostByLevelTable from '@site/src/components/CostByLevelTable';
+import playerBuildings from '@site/src/data/player_buildings.json';
+
+# Market
+
+- The market is a <Link to="/docs/game-concepts/buildings#types-of-buildings">Level building</Link>, so we can only increase it by one level at a time and there is a maximum limit for building it.
+- Each market level produces an income of **50 gold/h**.
+
+**Cost Table by Level:**
+
+<CostByLevelTable building={playerBuildings["Market"]} />
+
+---
+
+### *In Development*
+
+- The market unlocks the Trade Menu, where you can buy, sell, and ship resources, as well as craft items.
+- At market level 2, the resource shipping submenu is unlocked.
+- At market level 3, the crafting submenu is unlocked.
+- Each additional market level reduces the taxes you pay when making offers. Level 1: 150 gold, Level 2: 100 gold, Level 3: 50 gold, Level 4: 25 gold, Level 5 or higher: 10 gold
+- Each additional market level increases the amount of resources you can ship. The maximum amount of resources you can ship is 2000×(level-1), except at level 1, which is 1000.
+- The market level limits how much you can get in a day. The base manageable resources are double what you can send, and can be increased up to a maximum of three times as much by your trading activity.
+- A unit of food takes up 1 sack, a unit of gold takes up 2 sacks, a unit of wood takes up 3 sacks, and a unit of iron takes up 4 sacks. Thus, 600 units of food take up the same sacks as 300 units of gold, 200 units of wood, or 150 units of iron.
+- Each time you receive resources, the corresponding sacks will be subtracted from the number of manageable sacks, while making shipments will increase the number of manageable sacks available by 75% of the corresponding sacks according to the resource sent.
+- Each additional market level increases the number of merchants. The number of merchants is 1 + market level / 2.
+- Each additional market level increases the level of the following Crafted Items: Geisha Parasols, Stone Lamps, Fans, and Warrior Statues.

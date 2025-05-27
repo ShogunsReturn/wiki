@@ -1,0 +1,83 @@
+---
+sidebar_position: 1
+---
+
+import UnitStatsTable from '@site/src/components/UnitStatsTable';
+import Link from '@docusaurus/Link';
+import Admonition from '@theme/Admonition';
+
+# Infiltrator
+
+## Overview
+
+The Serpent Infiltrators are warriors marked with intricate tattoos, possessing exceptional ninjutsu skills.
+Their primary role is to inflict casualties before the battle even begins, ambushing enemy camps and setting deadly traps.
+
+---
+
+## Key Features
+
+### Cost
+- Rice: 40  
+- Wood: 35  
+- Iron: 0  
+- Gold: 70  
+- Population: 1
+
+### Maintenance
+- Meat: 1.8 /h  
+- Gold: 1.4 /h
+
+### Training duration
+- 9 Hours
+
+### Honor requirement
+- -10
+
+### Unit type
+- <Link to="../../#rear-units">Rear Units</Link>
+
+### Trait
+- Special Effect
+
+<Admonition type="tip" title="Special Effect – Pre-Battle Ambush">
+  <ul>
+    <li>Infiltrators strike before archers act (turns 3 and 4), meaning before the actual battle begins.</li>
+    <li>They damage all enemy units equally by setting traps that last for two turns.</li>
+    <li>After completing their mission, Infiltrators retreat to the third row, avoiding direct combat. They can still be killed in battle despite not actively fighting.</li>
+  </ul>
+</Admonition>
+
+### Samurai Skills  
+They can be affected by the Samurai ability:  
+- <Link to="../../../samurais/knowledge-skills#special-knowledge">Special Knowledge</Link>
+
+### Stats by level
+
+<UnitStatsTable
+  baseStats={{
+    attack: 25,
+    attackPerLevel: 2.556,
+    defense: 18,
+    defensePerLevel: 1.889,
+    armor: 10,
+    armorPerLevel: 0,
+    health: 50,
+    healthPerLevel: 3.667,
+    counter: 0,
+  }}
+  requirements={{
+    1: 'Academy(1), Thieves Room(4)',
+    2: 'Academy(2), Thieves Room(8)',
+    3: 'Academy(4), Thieves Room(12)',
+    4: 'Academy(7), Thieves Room(15)',
+    5: 'Academy(9), Thieves Room(17)',
+    6: 'Academy(11), Thieves Room(20)',
+    7: 'Academy(15), Thieves Room(22)',
+    8: 'Academy(18), Thieves Room(25)',
+    9: 'Academy(21), Thieves Room(27)',
+    10: 'Academy(27), Thieves Room(29)',
+  }}
+/>
+
+> <Link to="../../#attributes">More information about unit attributes</Link>

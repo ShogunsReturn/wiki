@@ -1,0 +1,13 @@
+import Link from '@docusaurus/Link';
+import CostByLevelTable from '@site/src/components/CostByLevelTable';
+import playerBuildings from '@site/src/data/player_buildings.json';
+
+# Archery
+
+- Archery is a <Link to="/docs/game-concepts/buildings#types-of-buildings">Level building</Link>, so we can only increase it by one level at a time and there is a maximum limit for its construction.
+- Archery unlocks the creation of <Link to="/docs/game-concepts/military-units#ranged-units">ranged attack units</Link>.
+- Each additional level of Archery increases the level of certain military units.
+
+**Cost Table by Level:**
+
+<CostByLevelTable building={playerBuildings['Archery']} />

@@ -1,0 +1,85 @@
+---
+sidebar_position: 2
+---
+
+import UnitStatsTable from '@site/src/components/UnitStatsTable';
+import Link from '@docusaurus/Link';
+import Admonition from '@theme/Admonition';
+
+# Fire Shugenja
+
+## Overview
+
+**The so-called Fire Shugenja** are **arcane sorceresses** who, through their **ritual chants**, invoke the **power of flames**. When their lengthy rituals conclude, the **sky turns red**, and **panic spreads** among enemy ranks due to the **devastating effects** they unleash.  
+
+---
+
+## Key Features
+
+### Cost
+- Rice: 100  
+- Wood: 0  
+- Iron: 50  
+- Gold: 80  
+- Population: 1
+
+### Maintenance
+- Meat: 2.0 /h  
+- Gold: 1.9 /h
+
+### Training duration
+- 10 Hours
+
+### Honor requirement
+- 50
+
+### Unit type
+- <Link to="../#rear-units">Rear Unit</Link>
+
+### Trait
+- <Link to="../#magical-units">Magical Unit</Link>
+
+<Admonition type="tip" title="Magic Effect – Infernal Conflagration">
+  <ul>
+    <li>The <strong>Fire Shugenja attacks twice per battle</strong>:</li>
+      <ul>
+        <li><strong>First attack:</strong> 2 turns after infantry → <strong>Deals 250 damage</strong>.</li>
+        <li><strong>Second attack:</strong> 4 turns later → <strong>Deals 300 damage</strong>.</li>
+        <li>Each level increases damage by <strong>+10%</strong>.</li>
+      </ul>
+    <li><strong>Fire magic bypasses armor</strong> and <strong>distributes damage among all enemy units</strong>.</li>
+    <li>Fire Shugenja <strong>negate Water Shugenja damage</strong> during the turns they attack by absorbing an amount equal to the damage they deal.</li>
+  </ul>
+</Admonition>
+
+### Samurai Skills  
+They can be affected by the Samurai ability:  
+- <Link to="../../samurais/knowledge-skills#arcane-knowledge">Arcane Knowledge</Link>
+
+### Stats by level
+
+<UnitStatsTable
+  baseStats={{
+    attack: 0,
+    defense: 0,
+    armor: 0,
+    health: 28,
+    healthPerLevel: 2.223,
+    counter: 48,
+    counterPerLevel: 1.334,
+  }}
+  requirements={{
+    1: 'Temple(12)',
+    2: 'Temple(13)',
+    3: 'Temple(14)',
+    4: 'Temple(16)',
+    5: 'Temple(18)',
+    6: 'Temple(21)',
+    7: 'Temple(24)',
+    8: 'Temple(27)',
+    9: 'Temple(30)',
+    10: 'Temple(35)',
+  }}
+/>
+
+> <Link to="../#attributes">More information about unit attributes</Link>

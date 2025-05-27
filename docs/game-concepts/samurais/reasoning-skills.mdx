@@ -1,0 +1,15 @@
+---
+sidebar_position: 2
+---
+
+import SamuraiAbilitiesSection from '@site/src/components/SamuraiAbilitiesSection';
+import SamuraiAbilitiesTable from '@site/src/components/SamuraiAbilitiesTable.jsx';
+import samuraiAbilities from '@site/src/data/samurai_abilities.json';
+
+# Reasoning-Related Skills
+
+<SamuraiAbilitiesSection
+  title="reasoning"
+  skills={samuraiAbilities.reasoning}
+  typeOrder={['economy', 'politics', 'military', 'general']}
+/>

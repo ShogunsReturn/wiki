@@ -1,0 +1,85 @@
+---
+sidebar_position: 2
+---
+
+import UnitStatsTable from '@site/src/components/UnitStatsTable';
+import Link from '@docusaurus/Link';
+import Admonition from '@theme/Admonition';
+
+# Nature Shugenja
+
+## Overview
+
+The Dragon Nature Shugenja are mystical sorceresses with the ability to sense and communicate with nature.
+They can call upon the creatures of the land, summoning them to fight under their command in battle.
+
+---
+
+## Key Features
+
+### Cost
+- Rice: 120  
+- Wood: 30  
+- Iron: 0  
+- Gold: 110  
+- Population: 1
+
+### Maintenance
+- Meat: 2.4 /h  
+- Gold: 1.4 /h
+
+### Training duration
+- 9 Hours
+
+### Honor requirement
+- 30
+
+### Unit type
+- <Link to="../../#rear-units">Rear Units</Link>
+
+### Trait
+- <Link to="../../#magical-units">Magical Unit</Link>
+
+<Admonition type="tip" title="Special Effect – Summon Nature’s Beasts">
+  <ul>
+    <li>The Nature Shugenja summons animals to the battlefield, with the following quantities per Shugenja:</li>
+    <ul>
+      <li><strong>Eagles:</strong> 2.2 per Shugenja – Function as cavalry, with high evasion against attacks.</li>
+      <li><strong>Bears:</strong> 1.3 per Shugenja – Slow but tanky, attacking one turn after infantry.</li>
+      <li><strong>Wolves:</strong> 1.6 per Shugenja – Function as melee infantry.</li>
+    </ul>
+    <li>Summoned creatures match the <strong>level of the summoning Shugenja</strong>.</li>
+  </ul>
+</Admonition>
+
+### Samurai Skills  
+They can be affected by the Samurai abilities:  
+- <Link to="../../../samurais/knowledge-skills#arcane-knowledge">Arcane Knowledge</Link>  
+- <Link to="../../../samurais/knowledge-skills#special-knowledge">Special Knowledge</Link>
+
+### Stats by level
+
+<UnitStatsTable
+  baseStats={{
+    attack: 0,
+    defense: 0,
+    armor: 0,
+    health: 50,
+    healthPerLevel: 2,
+    counter: 0,
+  }}
+  requirements={{
+    1: 'Academy(3), Temple(4)',
+    2: 'Academy(5), Temple(8)',
+    3: 'Academy(8), Temple(12)',
+    4: 'Academy(12), Temple(15)',
+    5: 'Academy(14), Temple(17)',
+    6: 'Academy(17), Temple(20)',
+    7: 'Academy(20), Temple(22)',
+    8: 'Academy(23), Temple(25)',
+    9: 'Academy(25), Temple(27)',
+    10: 'Academy(29), Temple(29)',
+  }}
+/>
+
+> <Link to="../../#attributes">More information about unit attributes</Link>

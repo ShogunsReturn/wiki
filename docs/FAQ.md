@@ -129,9 +129,9 @@ No. Example: You have 3 armies A, B and C. C is associated with B (main B). If y
 
 It is only possible to associate with an army that leads a previous association or that is alone.
 
-### I have seen that the ashigarus of a province work as if they were villagers. However, my lord has ashigarus in my province andthey do not work. Why?
+### I have seen that the ashiheis of a province work as if they were villagers. However, my lord has ashiheis in my province andthey do not work. Why?
 
-The lord can decide if he wants his ashigarus to work or not in the provinces of his subjects. You can still negotiate with him to do so 😉
+The lord can decide if he wants his ashiheis to work or not in the provinces of his subjects. You can still negotiate with him to do so 😉
 
 ### What does it mean to lead an attack? And a defense? Who is the leader in each case?
 Leading an attack or a defense is necessary for some policies. Example: Studying the terrain The next battle you lead as an attacker, the traps will not have an effect on your troops. Remember that traps do not activate when you free yourself.
@@ -267,7 +267,7 @@ Yes. When you join a game you always have the option to choose which faction you
 
 ### Which faction is better?
 
-There is no faction that is better than the others at everything. Snakes are very good at ninjutsu and dark. Dragons gather resources much better than the rest and their magic units are more durable. If you are looking for defense, Tigers are your choice and if you are looking for attack, Leopards will do a good job. Cranes collect much more gold from their villagers. And Ronin have the cheapest buildings of all and better ashigarus. As you can see, each faction is good at something and you can achieve great things with all of them.
+There is no faction that is better than the others at everything. Snakes are very good at ninjutsu and dark. Dragons gather resources much better than the rest and their magic units are more durable. If you are looking for defense, Tigers are your choice and if you are looking for attack, Leopards will do a good job. Cranes collect much more gold from their villagers. And Ronin have the cheapest buildings of all and better ashiheis. As you can see, each faction is good at something and you can achieve great things with all of them.
 
 ### If I choose a faction, do I have to play the game for which it is intended?
 
