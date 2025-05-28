@@ -7,6 +7,7 @@ import goldIcon from '@site/static/icons/gold.webp';
 import honorIcon from '@site/static/icons/honor.webp';
 import populationIcon from '@site/static/icons/population.webp';
 import favorsIcon from '@site/static/icons/imperial_favors.webp';
+import reqIcon from '@site/static/icons/advanced.webp';
 import { formatTime } from '@site/src/utils/utils.js';
 
 const defaultCosts = [0, 0, 0, 0, 0, 0];
@@ -87,14 +88,30 @@ const PoliticsTable = ({ category }) => {
   return (
     <section>
       <div className="overflow-x-auto">
-        <table className="table-auto w-full border border-gray-300 text-sm">
+        <table className="table-auto w-fit border border-gray-300 text-sm">
           <thead className="bg-gray-100">
             <tr>
               <th rowSpan="2">Name</th>
               <th colSpan={costIndexes.length}>Cost</th>
               {showMaintenance && <th colSpan={maintenanceIndexes.length}>Maintenance</th>}
-              <th rowSpan="2">Requirement</th>
-              <th rowSpan="2">Honor</th>
+              <th rowSpan="2">
+                <img
+                  src={reqIcon}
+                  className={`w-6 h-6 bg-amber-900 rounded mx-auto`}
+                  style={{ minWidth: '24px', minHeight: '24px', maxWidth: '24px', maxHeight: '24px' }}
+                  title="Requirement"
+                  alt="Requirement"
+                />
+              </th>
+              <th rowSpan="2">
+                <img
+                  src={honorIcon}
+                  className={`w-6 h-6 bg-gray-800 rounded mx-auto`}
+                  style={{ minWidth: '24px', minHeight: '24px', maxWidth: '24px', maxHeight: '24px' }}
+                  title="Honor Requirement"
+                  alt="Honor Requirement"
+                />
+              </th>
               <th rowSpan="2">Activation</th>
               <th rowSpan="2">Cooldown</th>
               <th rowSpan="2">Duration</th>

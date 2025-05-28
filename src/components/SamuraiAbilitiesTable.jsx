@@ -2,6 +2,7 @@ import goldIcon from '@site/static/icons/gold.webp';
 import riceIcon from '@site/static/icons/rice.webp';
 import woodIcon from '@site/static/icons/wood.webp';
 import ironIcon from '@site/static/icons/iron.webp';
+import reqIcon from '@site/static/icons/advanced.webp';
 import { formatTime } from '@site/src/utils/utils.js';
 
 const costIcons = [
@@ -47,7 +48,15 @@ const SamuraiAbilitiesTable = ({ skills }) => {
                 />
               </th>
             ))}
-            <th>Requirement</th>
+            <th>
+              <img
+                src={reqIcon}
+                className={`w-6 h-6 bg-amber-900 rounded mx-auto`}
+                style={{ minWidth: '24px', minHeight: '24px', maxWidth: '24px', maxHeight: '24px' }}
+                title="Requirement"
+                alt="Requirement"
+              />
+            </th>
             <th>Learning Time</th>
           </tr>
         </thead>

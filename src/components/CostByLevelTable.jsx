@@ -1,3 +1,21 @@
+import riceIcon from '@site/static/icons/rice.webp';
+import woodIcon from '@site/static/icons/wood.webp';
+import ironIcon from '@site/static/icons/iron.webp';
+import goldIcon from '@site/static/icons/gold.webp';
+import manHoursIcon from '@site/static/icons/man_hours.webp';
+import reqIcon from '@site/static/icons/advanced.webp';
+import areasIcon from '@site/static/icons/areas.webp';
+
+const costIcons = [
+  { key: 'Rice', icon: riceIcon, bg: 'bg-red-600' },
+  { key: 'Wood', icon: woodIcon, bg: 'bg-green-600' },
+  { key: 'Iron', icon: ironIcon, bg: 'bg-gray-500' },
+  { key: 'Gold', icon: goldIcon, bg: 'bg-yellow-500' },
+  { key: 'Areas', icon: areasIcon, bg: 'bg-amber-900' },
+  { key: 'Man hours', icon: manHoursIcon, bg: 'bg-blue-600' },
+  { key: 'Requirement', icon: reqIcon, bg: 'bg-amber-900' },
+];
+
 export default function CostByLevelTable({ building }) {
   const isQuantity = building.quantifiable === true;
   const costs = Array.isArray(building.costs) ? building.costs : [];
@@ -13,13 +31,17 @@ export default function CostByLevelTable({ building }) {
         <thead>
           <tr>
             <th>{isQuantity ? 'Quantity' : 'Level'}</th>
-            <th>Rice</th>
-            <th>Wood</th>
-            <th>Iron</th>
-            <th>Gold</th>
-            <th>Areas</th>
-            <th>Man Hours</th>
-            <th>Requirement</th>
+            {costIcons.map((iconObj) => (
+              <th key={`cost-head-${iconObj.key}`}>
+                <img
+                  src={iconObj.icon}
+                  className={`w-6 h-6 ${iconObj.bg} rounded mx-auto`}
+                  style={{ minWidth: '24px', minHeight: '24px', maxWidth: '24px', maxHeight: '24px' }}
+                  title={iconObj.key}
+                  alt={iconObj.key}
+                />
+              </th>
+            ))}
             {!isQuantity && <th>Max Level</th>}
           </tr>
         </thead>
