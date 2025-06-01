@@ -100,7 +100,7 @@ Morale represents the state of mind of your troops.
   - **Shugenjas** (magical, nature, or Jigoku): Their abilities are not affected by morale.  
   - **Monks**: The amount of healing done by monks is increased by **2% per morale point**.  
   - **Torment Resistance**: Each morale point reduces torment effects by **5%**. Armies with higher morale are harder to torment. Magical units have double the resistance to torment.  
-  - **Unaffected Abilities**: Tacticians, Agonizers, Ashihei Captain, and generals are unaffected by morale in terms of their abilities. However, Ashihei Captain and generals do gain the morale bonus for their own damage.  
+  - **Unaffected Abilities**: Tacticians, Agonizers, Ashihei Captain, and Warlords are unaffected by morale in terms of their abilities. However, Ashihei Captain and Warlords do gain the morale bonus for their own damage.  
 
 - **Gaining or Losing Morale**:  
   - **Victory**: Each victory increases morale by 1 point, up to a maximum of 5. For defensive victories, the attack must involve more units than the defending army's glory.  
