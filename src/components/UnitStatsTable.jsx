@@ -44,13 +44,28 @@ function getBaseStats(unit) {
 }
 
 function getRequirements(unit) {
-  const building = unit.requirements?.building?.[0];
-  const levels = unit.requirements?.levels?.[0]?.split(',') ?? [];
-  const result = {};
-  levels.forEach((lvl, i) => {
-    result[i + 1] = `${building}(${lvl})`;
-  });
-  return result;
+  const buildings = unit.requirements?.building ?? [];
+  const levelsList = unit.requirements?.levels ?? [];
+
+  const maxLevels = Math.max(...levelsList.map(str => str.split(',').length));
+  const reqs = {};
+
+  for (let i = 0; i < maxLevels; i++) {
+    const reqParts = [];
+
+    for (let j = 0; j < buildings.length; j++) {
+      const levelString = levelsList[j] ?? '';
+      const levelArray = levelString.split(',');
+
+      if (levelArray[i]) {
+        reqParts.push(`${buildings[j]}(${levelArray[i]})`);
+      }
+    }
+
+    reqs[i + 1] = reqParts.join(', ');
+  }
+
+  return reqs;
 }
 
 export default function UnitStatsTable({ unitName }) {
